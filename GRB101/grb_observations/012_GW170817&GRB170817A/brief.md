@@ -28,6 +28,12 @@ Methods:
     - the diviation of the speed of gravity from the speed of light: $\Delta v/v_{EM} \approx v_{EM} \Delta t/D$
       - with different $\Delta t$ resulting in upper and lower limits.
 
+    - the limits on Lorentz invariance violation
+      - the effective field theory
+
+    - the confirmation on the Equivalence princeple
+      - shapiro delay
+
 Conlutions:
 
 - The joint event set a **stringent limits on fundamental physics** and **probed the central engine of SGRBs** in ways that have not been possible with EM data alone.

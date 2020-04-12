@@ -180,7 +180,7 @@ $$
 
 The intergalactic medium dispersion has negligible impact on the gamma-ray photon speed, with an expected propagation delay many orders of magnitude smaller than our errors on $v_{GW}$
 
->Upper limit and lower bound of the fractional speed difference are obtained.The intergalactic medium dispersion has negligible impact on the speed difference.
+>Upper limit and lower bound??? of the fractional speed difference are obtained.The intergalactic medium dispersion has negligible impact on the speed difference.
 
 <div id="sect4.2"></div>
 
@@ -202,6 +202,41 @@ For ease of comparison with the many existing sensitivities to the d = 4 gravity
 >对引力波分参数的限制结果以及与已有工作的对比。
 
 <img src='./table1.png'>
+
+<div id="sect4.3"></div>
+
+### 4.3 Test of the Equivalence Principle
+
+<font color=blue>Probing whether EM radiation and GWs are affected by background gravitational potentials in the same way is a test of the equivalence principle.</font> One way to achieve this is to use the **Shapiro effect**, <font color=blue>which predicts that the propagation time of massless particles in curved spacetime,i.e., through gravitational fields, is slightly increased with respect to the flat spacetime case.</font> We will consider the following simple parametrized form of the Shapiro delay:
+> 可以用Shpiro（Shapiro延迟形式如下）关系来测试引力场对经过的电磁辐射和引力波产生的影响是否是一样的。这实际上也是对等效原理的验证。
+
+$$
+\delta t_S = \frac{1+\gamma}{c^3}\int_{r_e}^{r_0} U(r(l))dl
+\tag{3}
+$$
+
+where $r_e$ and $r_0$ denote emission and observation positions, respectively, $U(r)$ is the gravatational potential, and the integral is computed along the wave path. $\gamma$ parametrizes a deviation from the <font color=blue>Einstein-Maxwell theory, which minimally couples classical electromagnetism to general relativity</font>. We allow for different values of $\gamma$ for the propagation of EM and GWs ($\gamma_{EM}$ and $\gamma_{GW}$, respectively, with $\gamma_{EM}$ = $\gamma_{GW}= 1$ in the Einstein-Maxwell theory).
+>式子表示一个无质粒子在相同起始点的条件下途经弯曲时空（有引力场）相比途径平直时空（无引力场）所需时间的增加量。$\gamma$在Einstein-Maxwell理论中对于EM和GW都为1，这里假设$\gamma_{EM}$和$\gamma_{GW}$不同，即可利用两者的时间差来限制$\gamma_{EM}$ - $\gamma_{GW}$的大小，从而验证GW和EM波受引力场的影响是一样的。
+
+While obtaining the best bound on the difference betweenthe Shapiro time delays requires modeling the potential $U(r)$ along the entire line of sight, we determine a conservative bound on $\gamma_{EM}$ - $\gamma_{GW}$ by considering only the effect of the Milky Way outside a sphere of 100 kpc, and by using a Keplerian potential with a mass of 2.5 x 10$^{11} M_{sun}$. Using the same time bounds as Equation (1) we find
+
+$$
+-2.6 \times 10^{-7} \le \gamma_{GW} - \gamma_{EM} \le 1.2 \times 10^{-6}
+\tag{4}
+$$
+>为了简化计算，只近似考虑银河系在距离中心100kpc以外的地方产生的影响，并取质量为2.5 x 10$^{11} M_{sun}$。
+
+The best absolute bound on $\gamma_{EM}$ is $\gamma_{EM} -1 = (2.1 \pm 2.3) \times 10^{-5}$ from the measurement of the Shapiro delay (at radio wavelengths)with the Cassini spacecraft.
+
+<div id="sect5"></div>
+
+## 5. Astrophysical Implications
+
+The joint GW–GRB detection provides us with unprecedented information about the central engine of SGRBs. The elay between the GW and the GRB trigger times allows us toexamine some basic GRB physics. <font color=red>This delay could be intrinsic to the central engine, reflecting the time elapsed from the moment the binary components come into contact to the formation of a remnant BH and the resulting jet.</font> This interpretation includes the case of a relatively long-lived massive NS remnant, which has been suggested to survive from seconds to minutes after merger. The delay could also be due to the propagation time of the relativistic jet, including the time it takes for the jet to break out of the dense gaseous environment produced by non-relativistic merger ejecta and/or the emitting region to become transparent to gamma-rays.
+>两种解释GW和EM之间延迟的猜测：<br />1.中心引擎导致延迟，即引力波发出的时间早于喷流形成的时间。<br />2.相对论喷流突破包层物质需要时间，以及/或辐射区域变为伽玛射线薄所需的时间。
+
+We first discuss the implications that the time delay between the GW and EM emission has on the physical properties of the emitting region when considering the jet propagation and transparency scenarios. Here we assume that the entire delay is due to the expansion of the emitting region and neglect any intrinsic delays between the moment of binary coalescence and the launching of the resulting jet, thus placing limits on the physical properties of the system. Then we consider the impactof SGRB emission from an NS merger on the EOS of dense matter.
+>这里先只考虑第二种解释中的情景，即延迟仅来自于暴周介质而非并合过程，讨论这种情况造成的时间延迟会对辐射区域的物理性质有何反映。<br />之后考虑双中子星并合产生SGRB对致密物质的状态方程有何影响。
 
 <div id="sect7"></div>
 

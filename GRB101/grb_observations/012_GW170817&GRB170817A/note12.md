@@ -1,6 +1,6 @@
 # Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A
 
-Author: LIGO Scientiﬁc Collaboration and Virgo Collaboration, Fermi Gamma-ray Burst Monitor, and INTEGRAL 
+Author: LIGO Scientiﬁc Collaboration and Virgo Collaboration, Fermi Gamma-ray Burst Monitor, and INTEGRAL
 
 <div id="menu"></div>
 
@@ -23,18 +23,18 @@ Author: LIGO Scientiﬁc Collaboration and Virgo Collaboration, Fermi Gamma-ray 
 &emsp;[6.2 Implications of the Dimness on the Central Engine](#sect6.2)
 &emsp;[6.3  Observational Bias Against Low-luminosity GRBs](#sect6.3)
 &emsp;[6.4 Predicted Detection Rates](#sect6.4)
-&emsp;[6.5 Limits on Precursor and Extended Emission ](#sect6.5)
+&emsp;[6.5 Limits on Precursor and Extended Emission](#sect6.5)
 [7.Conclusion](#sect7)
 
 <div id="abstract"></div>
 
-## Abstract 
+## Abstract
 
-On 2017 August 17, the gravitational-wave event GW170817 was observed by the Advanced LIGO and Virgo detectors, and the gamma-ray burst(GRB)GRB 170817A was observed independently by the Fermi Gamma-ray Burst Monitor, and <font color=purple>the Anti-Coincidence Shield for the Spectrometer</font> for the International Gamma-Ray Astrophysics Laboratory. 
+On 2017 August 17, the gravitational-wave event GW170817 was observed by the Advanced LIGO and Virgo detectors, and the gamma-ray burst(GRB)GRB 170817A was observed independently by the Fermi Gamma-ray Burst Monitor, and <font color=purple>the Anti-Coincidence Shield for the Spectrometer</font> for the International Gamma-Ray Astrophysics Laboratory.
 
-The probability of the near-simultaneous temporal and spatial observation of GRB 170817A and GW170817 occurring by chance is 5.0 x 10e-8. We therefore confirm binary neutron star mergers as a progenitor of short GRBs. The association of GW170817 and GRB 170817A provides new insight into fundamental physics and the origin of short GRBs. 
+The probability of the near-simultaneous temporal and spatial observation of GRB 170817A and GW170817 occurring by chance is 5.0 x 10e-8. We therefore confirm binary neutron star mergers as a progenitor of short GRBs. The association of GW170817 and GRB 170817A provides new insight into fundamental physics and the origin of short GRBs.
 
-We use the observed time delay of (+1.74 ± 0.05)s between GRB 170817A and GW170817 to:(i) constrain the difference between the speed of gravity and the speed of light to be between -3 x 10e-15 and +7 x 10e-16 times the speed of light,(ii) place new bounds on the violation of Lorentz invariance,(iii) present a new test of the equivalence principle by constraining the Shapiro delay between gravitational and electromagnetic radiation. We also use the time delay to constrain the size and bulk Lorentz factor of the region emitting the gamma-rays. 
+We use the observed time delay of (+1.74 ± 0.05)s between GRB 170817A and GW170817 to:(i) constrain the difference between the speed of gravity and the speed of light to be between -3 x 10e-15 and +7 x 10e-16 times the speed of light,(ii) place new bounds on the violation of Lorentz invariance,(iii) present a new test of the equivalence principle by constraining the Shapiro delay between gravitational and electromagnetic radiation. We also use the time delay to constrain the size and bulk Lorentz factor of the region emitting the gamma-rays.
 
 GRB 170817A is the closest short GRB with a known distance, but is between 2 and 6 orders of magnitude less energetic than other bursts with measured redshift. A new generation of gamma-ray detectors,and subthreshold searches in existing detectors, will be essential to detect similar short bursts at greater distances.
 
@@ -65,7 +65,6 @@ In Section 2 we describe the independent observations of GW170817 by the LIGO–
 |Sect.6|implications of the comparative dimness of GRB 170817A and the expectation rates for joint BNS–SGRB detections|
 |sect.7|conclusion|
 
-
 <div id="sect2"></div>
 
 ## 2. Observational Results
@@ -77,7 +76,7 @@ The observations of GW170817 and of GRB 170817A are described in detail in Abbot
 
 ### 2.1 LIGO–Virgo Observation of GW17081
 
-<font color=red>GW170817 is a GW signal from the inspiral of two low-mass compact objects and is the ﬁrst GW observation consistent with a BNS coalescence.</font> GW170817 was ﬁrst observed by a <font color=purple>low-latency</font> search on 2017 August 17 at 12:41:04 UTC as a single-detector trigger in the LIGO-Hanford detector. The temporal proximity of GRB 170817A was immediately identiﬁed by automatic comparison of the Fermi-GBM Gamma-ray Coordinates Network notice to the GW trigger. Rapid ofﬂine re-analysis of data from the LIGO/Virgo network conﬁrmed the presence of a signiﬁcant coincident signal in the LIGO GW detectors with a combined signal-to-noise ratio (S/N) of 32.4. <font color=red>The combination of observations from the LIGO and Virgo detectors allowed a precise sky position localization to an area of 28 deg^2 at 90% probability</font> shown in green in Figure 1. A time-frequency representation of the LIGO data containing GW170817 is shown in the bottom panel of Figure 2. The GPS time of the merger of GW170817 is $T_0^{GW} = 1187008882.430_{-0.002}^{+0.002}s$. <font color=red>At the observed signal strength,the false alarm rate of the all-sky search for compact-object mergers is **less than 1 in 80,000 years**.</font> The ofﬂine searches target binaries with (detector frame) total mass 2–500 $M_{sun}$. Signals are required to be coincident in time and mass in the LIGO detectors, but Virgo data are not used in the signiﬁcance estimates of the all-sky ofﬂine search. 
+<font color=red>GW170817 is a GW signal from the inspiral of two low-mass compact objects and is the ﬁrst GW observation consistent with a BNS coalescence.</font> GW170817 was ﬁrst observed by a <font color=purple>low-latency</font> search on 2017 August 17 at 12:41:04 UTC as a single-detector trigger in the LIGO-Hanford detector. The temporal proximity of GRB 170817A was immediately identiﬁed by automatic comparison of the Fermi-GBM Gamma-ray Coordinates Network notice to the GW trigger. Rapid ofﬂine re-analysis of data from the LIGO/Virgo network conﬁrmed the presence of a signiﬁcant coincident signal in the LIGO GW detectors with a combined signal-to-noise ratio (S/N) of 32.4. <font color=red>The combination of observations from the LIGO and Virgo detectors allowed a precise sky position localization to an area of 28 deg^2 at 90% probability</font> shown in green in Figure 1. A time-frequency representation of the LIGO data containing GW170817 is shown in the bottom panel of Figure 2. The GPS time of the merger of GW170817 is $T_0^{GW} = 1187008882.430_{-0.002}^{+0.002}s$. <font color=red>At the observed signal strength,the false alarm rate of the all-sky search for compact-object mergers is **less than 1 in 80,000 years**.</font> The ofﬂine searches target binaries with (detector frame) total mass 2–500 $M_{sun}$. Signals are required to be coincident in time and mass in the LIGO detectors, but Virgo data are not used in the signiﬁcance estimates of the all-sky ofﬂine search.
 >1.Localization from LIGO and VIRGO: area of 28 deg$^2$ at 90% probability<br />2.False alarm rate: less than 1 in 80,000 years.
 
 <img src='./fig1.png'>
@@ -98,9 +97,9 @@ The detection of GW170817 triggered a campaign of EM follow-up observations whic
 The GW data constrain the <font color=blue>inclination angle $\Theta_{JN}$ between the total angular momentum of the system and the line of sight to be anti-aligned</font>, with cos$\Theta_{JN} \le -0.54$. As the binary system component masses are comparable, the NS spins have little impact on the total angular momentum which is aligned with the orbital angular momentum within a few degrees. <font color=red>For discussions in this Letter we will assume that the orbital and total angular momenta are aligned.</font> The SGRB jet is expected to be perpendicular to the accretion disk of the central engine if powered by neutrino annihilation or aligned with the magnetic pole of the rotating central object, <font color=red>hence we assume the SGRB jet is aligned with the system rotation axis.</font> This yields a jet viewing angle $\zeta = min(\Theta_{JN}, 180\degree - \Theta_{JN}) \le 56\degree$. <font color=blue>As the distance measurement is correlated with $\Theta_{JN}$</font> , <font color=red>the known distance to NGC 4993 further constrains the viewing angle to $\zeta \le 36\degree$ or $\zeta \le 28\degree$ depending on the assumed value of the Hubble constant</font>, with smaller values of the Hubble constant giving smaller misalignment angles.
 >1.The inclination angle $\Theta_{JN}$ is constrained as cos$\Theta_{JN} \le -0.54$.<br />2.It is assumed that the orbital and total angular momenta are aligned since the component masses are comparable.<br />3.The SGRB jet is assumed to be aligned with the system rotation axis.<br />4.Thus the jet viewing angle can be constrained with the known distance: $\zeta \le 36\degree$ or $\zeta \le 28\degree$ depending on the Hubble constant.
 
-### 2.2 Fermi-GBM Observation of GRB 170817A 
+### 2.2 Fermi-GBM Observation of GRB 170817A
 
-GRB 170817A was autonomously detected in-orbit by the GBM ﬂight software in a process known as “triggering.” Goldstein et al. (2017) showed the signal exceeds 5σ in three (of twelve) GBM NaI detectors. <font color=red>The GBM detection showed two apparently distinct components. The triggering pulse, that lasts about half a second and falls within the usual observer distributions for GBM SGRBs, is shorter and spectrally harder than the subsequent softer, weaker emission that lasts a few seconds</font>. Summed GBM lightcurves from the relevant detectors in two energy ranges, selected to show the two distinct components, are shown in the top two panels in Figure 2. The GBM time-tagged event data is binned to match the SPI-ACS temporal resolution (100 ms) and phase (matching bin edges) to allow for an easier comparison between the gamma-ray instruments. 
+GRB 170817A was autonomously detected in-orbit by the GBM ﬂight software in a process known as “triggering.” Goldstein et al. (2017) showed the signal exceeds 5σ in three (of twelve) GBM NaI detectors. <font color=red>The GBM detection showed two apparently distinct components. The triggering pulse, that lasts about half a second and falls within the usual observer distributions for GBM SGRBs, is shorter and spectrally harder than the subsequent softer, weaker emission that lasts a few seconds</font>. Summed GBM lightcurves from the relevant detectors in two energy ranges, selected to show the two distinct components, are shown in the top two panels in Figure 2. The GBM time-tagged event data is binned to match the SPI-ACS temporal resolution (100 ms) and phase (matching bin edges) to allow for an easier comparison between the gamma-ray instruments.
 >The GBM detection showed two apparently distinct components: triggering pulse of half a second followed by a softer emission of a few seconds.
 
 <img src='./fig2.png'>
@@ -116,13 +115,13 @@ coherent search over all GBM detectors (NaI and BGO) and <font color=blue>was or
 >The final GBM localization of GRB 170817A: ∼350 deg^2 for 50% credible regions and ~1100 deg^2 for 90% credible regions.
 
 Fitting the main pulse in the GBM data with a parameterized function commonly used for GRB pulses indicates a gamma-ray emission onset of 0.310±0.048 s before $T_0^{GBM}$ , where $T_0^{GBM}$ is defined as the time of the GBM trigger . Based on the position of the optical transient, the signal arrives at Fermi 3.176 ms before it arrives at geocenter. <font color=purple>With this correction we find that the start of the gamma-ray emission relative to the $T_0^{GW}$ is ( +1.74 $\pm$ 0.05 ) s</font> . In this Letter all derived gamma-ray results use 68% confidence levels.
->The start of the gamma-ray emission relative to the $T_0^{GW}$ is (+1.74 $\pm$ 0.05) s 
+>The start of the gamma-ray emission relative to the $T_0^{GW}$ is (+1.74 $\pm$ 0.05) s
 
 The spectral analysis using the standard GBM catalog criteria uses data from the 256 ms time interval between $T_0^{GBM}$ - 0.192 s and $T_0^{GBM}$ + 0.064 s . <font color=red>A fit to the “Comptonized” function, a power law with a high-energy exponential cutoff, is preferred over both a simple power-law fit or models with more parameters.</font> The fit produces values of $E_{peak} = (215 ± 54)$ keV, and a poorly constrained power-law index $\alpha$ = 0.14 $\pm$ 0.59 . The average flux for this interval in the 10–1000 keV range is (5.5 $\pm$ 1.2) x 10$^{-7}$ erg / s cm$^2$ with a corresponding fluence of (1.4 $\pm$ 0.3) x 10$^{-7}$ erg / cm$^2$ . The shorter peak interval selection from $T_0^{GBM}$ - 0.128 s to $T_0^{GBM}$ - 0.064 s fit prefers the Comptonized function, yielding consistent parameters $E_{peak} = (229 ± 78)$ keV, $\alpha$ = 0.85 $\pm$ 1.38 , and peak energy flux in the 10–1000 keV of (7.3 $\pm$ 2.5) x 10$^{-7}$ erg / s cm$^2$ . <font color=red>These standard fits are used to compare GRB 170817A to the rest of the SGRBs detected by GBM and to place GRB 170817A in context with the population of SGRBs with known redshift.</font>
 > -0.192 s ~ +0.064 s - Comptonization - $E_{peak} = (215 ± 54)$ keV, $\alpha$ = 0.14 $\pm$ 0.59, average flux:(5.5 $\pm$ 1.2) x 10$^{-7}$, fluence: (1.4 $\pm$ 0.3) x 10$^{-7}$<br /> -0.128 s ~  -0.064 s - Comptonization - $E_{peak} = (229 ± 78)$ keV, $\alpha$ = 0.85 $\pm$ 1.38, peak energy flux: (7.3 $\pm$ 2.5) x 10$^{-7}$<br />These are used to  place GRB 170817A in the SGRBs pulation with known redshift.
 
 More detailed analysis included spectralfits to the twoapparently distinct components. <font color=red>The main emission episode,represented by the peak in Figure2, appears as a typical SGRB best fit by a power law</font> with an exponential cutoff with spectral index $\alpha = -0.62 \pm 0.40$ and $E_{peak}=(185 \pm 62)$ keV over a time interval $T_0^{GBM}$ - 0.320 s to $T_0^{GBM}$ + 0.256 s.The time-averaged flux is (3.1 $\pm$ 0.7) x 10$^{-7}$ erg / s cm$^2$.<font color=red>The tail emission that appears spectrally soft is best fit by a blackbody(BB)spectrum</font>,  with  temperature of $k_{B}T = (10.3 \pm 1.5) keV$  and a time-averaged flux of (0.53 $\pm$ 0.10) x 10$^{-7}$ erg / s cm$^2$,  with  selected  source interval $T_0^{GBM}$ + 0.832 s to $T_0^{GBM}$ + 1.984 s. However, this emission is too weak and near the lower energy detectionbound of GBM to completely rule out a non-thermal spectrum.
->-0.320 ~ +0.256s(main emission) - exponential cutoff PL - $\alpha = -0.62 \pm 0.40$, $E_{peak}=(185 \pm 62)$ keV, average flux: (3.1 $\pm$ 0.7) x 10$^{-7}$ <br />+0.832s ~ +1.984s - BB - $k_{B}T = (10.3 \pm 1.5) keV$,  average flux: (0.53 $\pm$ 0.10) x 10$^{-7}$ 
+>-0.320 ~ +0.256s(main emission) - exponential cutoff PL - $\alpha = -0.62 \pm 0.40$, $E_{peak}=(185 \pm 62)$ keV, average flux: (3.1 $\pm$ 0.7) x 10$^{-7}$ <br />+0.832s ~ +1.984s - BB - $k_{B}T = (10.3 \pm 1.5) keV$,  average flux: (0.53 $\pm$ 0.10) x 10$^{-7}$
 
 The temporal analysis yielded a $T_{90}$,defined as the time interval over which 90%  of  the  burst fluence  between50–300 keV is accumulated, of (2.0 $\pm$ 0.5)s  starting  at $T_0^{GBM}$ -0.192s . The duration extends beyond the main emission pulse due to the soft component. This analysis reports a 64 ms peak photon flux of (3.7 $\pm$ 0.9) photons/s cm$^2$ and occurs from $T_0^{GBM}$ +0.0s to $T_0^{GBM}$ +0.064s. The minimum variability timescale for GRB 170817A is (0.125 $\pm$ 0.064)s.
 >$T_{90}$ of (2.0 $\pm$ 0.5)s  starting  at $T_0^{GBM}$ -0.192s. <br />64 ms peak photon flux of (3.7 $\pm$ 0.9) photons/s cm$^2$ and occurs from +0.0s to +0.064s.
@@ -187,19 +186,34 @@ The intergalactic medium dispersion has negligible impact on the gamma-ray photo
 
 ### 4.2 Lorentz Invariance  Violation Limits
 
+Within a comprehensive effective field theory description of Lorentz  violation, <font color=blue>the relative group velocity of GWs and EM waves, is controlled by differences in coefficients for Lorentz violation in the gravitational sector and the photon sector at each mass dimension d</font>. We focus here on the non-birefringent, non-dispersive limit at mass dimension d = 4, as it yields by far the most impressive results. In this case, the difference in group velocities for the two sectors takesthe form:
 
+>在普朗克尺度下，相对论和标准模型应该可以合并为一个统一理论，而洛伦兹违反是这一统一理论的一种体现。洛伦兹违反可用有效场理论去解释，在这个理论下，引力波和电磁波的速度差异由理论中引力部分和光子部分的参数不同导致。在质量维数d=4下，该差异表示如下(<http://arxiv.org/abs/hep-th/0312310v2>)
+
+$$
+\delta v = - \sum_{lm,l\le2} Y_{lm}(\hat n)(\frac{1}{2}(-1)^{1+l} \overline S_{lm}^{(4)} - c_{(I)lm}^{(4)})
+\tag{2}
+$$
+
+<font color=blue>The result is presented in a spherical harmonic</font>, $Y_{lm}$, basis, $\overline S_{lm}^{(4)}$ and $c_{(I)lm}^{(4)}$ being spherical-basis coefficients for Lorentz violation in the gravitational and EM sectors, respectively. The direction $\hat n$ refers to the sky position.
+>可看出速度差异可由球谐函数即相关系数表示，反过来有了速度差异就可以限制这些系数，进而限制洛伦兹违反的有关理论。
+
+For ease of comparison with the many existing sensitivities to the d = 4 gravity-sector coefficients, an analysis in which the coefficients are constrained one at a time is useful, with all other coefficients,including the EM sector ones, set to zero. These results are presented in Table 1 along with the best constraints for each coefficient prior to this work. These results can be compared with the isotropic A, $\alpha_{LV} = 2$ Lorentz violation parametrization used by Abbott et al.(2017c)indispersive GW tests. The $\alpha_{LV} = 2$ limit of this parametrization is equivalent to the isotropic limit of the framework discussed above, with $\overline S_{lm}^{(4)} \rarr \sqrt{4\pi}A$. Constraints on A for $\alpha_{LV} = 2$ can be obtained from the first line of Table 1; these cannot be established within the analysis carried out in Abbott et al.(2017c).
+>对引力波分参数的限制结果以及与已有工作的对比。
+
+<img src='./table1.png'>
 
 <div id="sect7"></div>
 
 ## 7. Conclusion
 
-The joint observation of GW170817 and GRB 170817A conﬁrms the association of SGRBs with BNS mergers. <font color=red>With just one joint event, we have set stringent limits on fundamental physics and probed the central engine of SGRBs in ways that have not been possible with EM data alone</font>, demonstrating the importance of multi-messenger astronomy. 
+The joint observation of GW170817 and GRB 170817A conﬁrms the association of SGRBs with BNS mergers. <font color=red>With just one joint event, we have set stringent limits on fundamental physics and probed the central engine of SGRBs in ways that have not been possible with EM data alone</font>, demonstrating the importance of multi-messenger astronomy.
 >The joint event set a stringent limits on fundamental physics and probed the central engine of SGRBs in ways that have not been possible with EM data alone.
 
-<font color=red>The small time offset and independent localizations, though coarse, allowed an unambiguous association of these two events.</font> Because GRB 170817A occurred nearby, an autonomous trigger on-board GBM alerted follow-up observers to the presence of a counterpart to GW170817. At design sensitivity, however, Advanced LIGO and Virgo could in principle detect GW170817 beyond the distance that any active gamma-ray observatory would trigger on a burst like GRB 170817A. Subthreshold searches for SGRBs can extend the gamma-ray horizon and the detection of GRB 170817A provides motivation for further subthreshold search development. 
+<font color=red>The small time offset and independent localizations, though coarse, allowed an unambiguous association of these two events.</font> Because GRB 170817A occurred nearby, an autonomous trigger on-board GBM alerted follow-up observers to the presence of a counterpart to GW170817. At design sensitivity, however, Advanced LIGO and Virgo could in principle detect GW170817 beyond the distance that any active gamma-ray observatory would trigger on a burst like GRB 170817A. Subthreshold searches for SGRBs can extend the gamma-ray horizon and the detection of GRB 170817A provides motivation for further subthreshold search development.
 >subthreshold search???
 
-A joint detection at greater distance and for an SGRB with more typical energetics would allow tighter constraints on the temporal offset and the derived inferences. Should NS–BH binaries also be SGRB progenitors, only a joint detection between GW and EM can provide decisive evidence. 
+A joint detection at greater distance and for an SGRB with more typical energetics would allow tighter constraints on the temporal offset and the derived inferences. Should NS–BH binaries also be SGRB progenitors, only a joint detection between GW and EM can provide decisive evidence.
 >More precious and typical joint detection is needed for a tighter constraints and for the verification of the NS–BH binariy origin of SGRBs.
 
 In this Letter <font color=red>we propose several explanations for the observed dimness of GRB 170817A</font>. <font color=red>We suggest joint detections should be more common than previously predicted</font>, and future observations of multiple events should enable a study of the populations of mergers and their associated SGRBs, shedding light on the jet geometry and intrinsic brightness distribution. Furthermore, detections with multiple GW interferometers can provide more stringent constraints on the inclination angles of these systems. The joint detections of SGRBs arising from BNS and NS–BH mergers will constrain the fraction of SGRBs originating from each progenitor class.

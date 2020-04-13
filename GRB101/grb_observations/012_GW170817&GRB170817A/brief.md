@@ -34,6 +34,13 @@ Methods:
     - the confirmation on the Equivalence princeple
       - shapiro delay
 
+    - the size and lorentz factor of the emitting region from explaining the time delay
+      - the lag from merger time to the collision between two shells (internal origin)
+      - external origin
+      - photospheric: thermal radiation (flawed)
+
+    -  
+
 Conlutions:
 
 - The joint event set a **stringent limits on fundamental physics** and **probed the central engine of SGRBs** in ways that have not been possible with EM data alone.

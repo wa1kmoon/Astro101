@@ -236,7 +236,97 @@ The joint GW–GRB detection provides us with unprecedented information about th
 >两种解释GW和EM之间延迟的猜测：<br />1.中心引擎导致延迟，即引力波发出的时间早于喷流形成的时间。<br />2.相对论喷流突破包层物质需要时间，以及/或辐射区域变为伽玛射线薄所需的时间。
 
 We first discuss the implications that the time delay between the GW and EM emission has on the physical properties of the emitting region when considering the jet propagation and transparency scenarios. Here we assume that the entire delay is due to the expansion of the emitting region and neglect any intrinsic delays between the moment of binary coalescence and the launching of the resulting jet, thus placing limits on the physical properties of the system. Then we consider the impactof SGRB emission from an NS merger on the EOS of dense matter.
->这里先只考虑第二种解释中的情景，即延迟仅来自于暴周介质而非并合过程，讨论这种情况造成的时间延迟会对辐射区域的物理性质有何反映。<br />之后考虑双中子星并合产生SGRB对致密物质的状态方程有何影响。
+>这里先只考虑第二种解释中的情景，即延迟仅来自于暴周介质的作用而不考虑并合过程的影响，讨论这种情况造成的时间延迟会对辐射区域的物理性质有何反映。<br />之后考虑双中子星并合产生SGRB对致密物质的状态方程有何影响。
+
+<div id="sect5.1"></div>
+
+### 5.1 GRB Physics
+
+The main hard peak observed for GRB 170817A lasted roughly half a second. <font color=red>This peak is consistent with a single intrinsic emission episode as it is well described by a single pulse, showing no evidence for significant substructure(spikes).</font> This interpretation is consistent with the SPI-ACS observation of a single peak. The GBM detection of GRB 170817A also shows no evidence for photons with energy > 511 keV,<font color=purple>implying that the outflow does not require a high bulk Lorentz factor $\Gamma$ to overcome photon–photon absorption at the source.</font>
+>GRB 170817 的主峰可用一个单脉冲（single pulse）描述，显示内部瞬时辐射只有一个阶段而没有显著的次级结构。这与SPI-ACS的观测也相符。（哪10-50kev上观测到的软一点的次峰呢？？？）<br />GBM 没有发现511keV以上的光子，显示喷流不需要很高的体洛伦兹因子去克服源的光子-光子吸收。（???正负电子对湮灭倒是能产生511keV的伽玛光子，也就是说光子光子吸收会长生正负电子对，进而产生511keV光子？和体洛伦兹因子又有什么关系？）
+
+Explanations for the extreme energetics and short timescalesobserved in GRBs invoke a near instantaneous release of alarge amount of energy in a compact volume of space. This is commonly referred to as thefireball model, and it is the framework that we will assume forthe remainder of this section. The fireball model is largely independent of the burst progenitor and focuses on the dynamics of such a system after this sudden release of energy. The resulting pair-plasma is optically thick and quickly expands under its own pressure to produce a highly relativistic outflow that coasts asymptotically with a constant Lorentz factor $\Gamma$. Withinthefireball, kinetic energy is imparted to particles entrained in the outflow, although alternative models exist inwhich the energy outflow occurs mostly as Poynting flux. The observed gamma-ray pulses are attributed to shocks internal to this relativistic outflow,which convert some of their kinetic energy into the observed EM radiation. These shocks could produce the predominantly non-thermal emission observed in mostGRBs, although non-shock heating models have also been proposed. The overall multi-pulse duration of a burst is thought to reflect the time that the inner engine was active (e.g., producing inhomogeneities in the outflow represented as shells traveling with different bulk velocities) and the variability of individual pulses reflects the size of the shells producing the emission. Therefore, the values inferred from the data are independent of the inclination angle from the total angular momentum axis of the system, as long as the viewer is within the opening angle of the jet.
+>简单介绍GRB喷流模型。
+
+We can examine the implications of the observed delay between the GW and EM signals in the internal shock scenario if we consider two shells emitted at time $t_{GW} = 0$ and time $t_{GW} = \Delta t_{engine}$. If the Lorentz factor of the second shell,$\gamma_{2}$,is greater than the Lorentz factor of the first shell,$\gamma_{1}$, the shells will collide at time
+>假设中心源先后喷发出两个壳层，第一个壳层喷发的同时也是（强度最高的）引力波发出的时候，第二个壳层速度比地一个要快，当二者发生撞击时即释放出大量伽玛射线，由此导致GW与EM辐射的时间延迟为：
+
+$$
+t_{delay} = \frac{\Delta t_{engine}}{1-(\gamma_{1}/\gamma_{2})^2}
+\tag{5}
+$$
+
+which is valid if $\gamma_{2}, \gamma_{2} >> 1$. <font color=blue>If the shells have comparable masses, conservation of energy and momentum leads to a merged shell with Lorentz factor $\gamma_m = (\gamma_1\gamma_2)^{1/2}$.</font> The resulting pulse profile is determined by two timescales. <font color=blue>The rise time (which we equate to the minimum variability timescale) can be attributed to the light-crossing time of the individual emission regions</font> and is expressed as
+>两壳层相撞后融合，速度发生改变，观测自撞击产生的辐射的脉冲时长由两个时标决定：增强时标和衰减时标。增强时标可由光子穿过辐射区域的时间表示：
+
+$$
+\Delta t_{rise} \approx \frac{\delta R}{2c\gamma_m^2}
+\tag{6}
+$$
+
+where $\delta R$ is the thickness of the emitting region. <font color=blue>The decay time reflects angular effects, where off-axis emission is delayed and affected by a varying Doppler boost due to the curvature of the relativistic shell.</font> <font color=purple>This timescale is essentially the difference in light-travel time between photons emitted along the line of sight and photons emitted at an angle θ along a shell of radius R.</font> This timescale may be expressed as
+>衰减时标实际上反映的是观察角度的影响，可表示为：
+
+$$
+\Delta t_{decay} = \frac{R(1 - cos\Delta\theta)}{c} \approx \frac{R(\Delta\theta)^2}{2c} \approx \frac{R}{2c\gamma_m^2} > \Delta t_{rise}
+\tag{7}
+$$
+
+where we assume that the solid angle accessible to the observer is limited by relativistic beaming and thus given by $\theta \sim 1/\gamma$. At the same time, the distance that the first shell has traveled since ejection is $R_1 \approx 2c\gamma_1^2 t_{delay}$, leading to
+>同时，第一个壳层已经传播的距离为$R_1 \approx 2c\gamma_1^2 t_{delay}$，代入7式中的R，可得：
+
+$$
+\Delta t_{decay} \approx t_{delay}(\gamma_1 / \gamma_2) = \frac{\Delta t_{engine}}{1 - (\gamma_1 / \gamma_2)^2} \frac{\gamma_1}{\gamma_2}
+\tag{8}
+$$
+
+The conclusion is a linear correlation between the delay in the GW and EM signals and the resulting pulse duration, modulo the ratio of the Lorentz factors of  the two colliding shells.
+>结果得到衰减时标（近似为GRB的持续时标）和延迟时间之间具有线性关系，系数为两壳层的洛伦兹因子之比。<br />增强时标呢？？？相比与衰减时标可以忽略？？？
+
+The relative similarity between the gamma-ray duration T90 and the delay between the GW and the EM emission gives $\Delta t_{decay}/t_{delay} \sim 1$, pointing to an internal shock scenario in which the difference in the Lorentz factors of the colliding shells, $\Delta \gamma$, is much smaller than their typical values, i.e. $\Delta\gamma << \gamma$. <font color=red>This would imply that the jet was launched shortly after the time of the merger and points to a relatively short $\Delta t_{engine}$ time in which the central engine was active.</font> <font color=blue>Such a scenario would produce a collision that was  relatively **inefficient** at converting the internal energy of the shocks to radiation</font>, resulting in a significant isotropic equivalent kinetic energy remaining in the merged shell. <font color=red>This would lead to a very significant energy injection into the resulting afterglow,</font> producing latetime “refreshed shocks”, which are typically not observed in the X-ray (and optical) lightcurves of SGRBs.
+>由于GRB持续时间和延迟时间基本一致(???主峰不是只有半秒吗)，可得两壳层的洛伦兹因子很接近，而这表明喷流在并合之后很短的时间内就形成了，这将导致壳层碰撞过程中不会有效得将内能转化成辐射，结果大部分转化成动能并注入到余辉中。但这在短暴中并不多见。
+
+<font color=red>Some of these energetics constraints can be alleviated if we exclude the soft thermal emission from the gamma-ray duration estimate.</font> In this case, the prompt non-thermal emission of $\Delta t_{decay} \approx 0.5s $ would be due to internal shocks and the soft thermal emission would be attributed to a separate component. In this case we obtain $\Delta t_{decay} / t_{delay} \approx 0.3$, impling $\gamma_2 \approx 3\gamma_1$. These energetics considerations may suggest that the initial hard pulse and the subsequent thermal emission observed by GBM may indeed be distinct components.
+>如果把热辐射的持续时间从gamma-ray持续时间中排除（？？？前提是热辐射和非热辐射不是同时的，怎么保证？还是假设？），则有$\Delta t_{decay} \approx 0.5 s$。这样，$\gamma_2 \approx 3\gamma_1$。可能表明GBM观测到的一开始的主峰和后面的热辐射的确是来自不同的成分。（？？？热成分和非热成分来源不同不是很正常吗，另外这个结果又是怎么表明的？）
+
+Within the context of the internal shock model, if we assume the entire (1.74 $\pm$ 0.05)s delay between the GW and the EM emission is due to jet propagation time and use a Lorentz factor of $\gamma$ < 100 for the first shell, we can estimate an upper limit  to  the  radius  of  the  relativistic  outflow  to  be $R \sim 5 \times 10^{14} cm$ or $\sim 30 au$. The minimum variability time-scale $\Delta t_{rise} = \Delta t_{min} \sim 0.125$s.(Goldstein et al.2017) yields an  upper  limit on the size of the emitting region of $\delta R \sim 4 \times 10^{13} cm$, or $\sim 3 au$. The ratio of the two is independent of the unknown  Lorentz factor and is of order $\delta R / R \sim 10\%$.
+>在以上的条件下，若取延迟时间为1.74s,第一壳层的洛伦兹因子小于100, 则可得一个喷流到达半径的上限$R \sim 5 \times 10^{14}$ cm; 再另 $\Delta t_{rise} = \Delta t_{min} \sim 0.125$s，可得辐射区域厚度上限为$\delta R \sim 4 \times 10^{13}$ cm。两者之比约为10%。
+
+The single-pulsed nature of the gamma-ray emission, as well as  the  observed $\Delta t_{decay}/t_{delay} \sim 1$,  also  leaves  open  the possibility that the GBM signal is entirely of an external shock origin. In this scenario, the relativistic outflow converts its internal energy to radiation due to its interaction with an external medium, such as the interstellar matter.  If we associate the duration of the main pulse with the deceleration time, i.e., the timescale over which the jet is significantly decelerated by interstellar matter of constan tdensity n, in the external shock scenario
+>另一种情况，如果GBM观测到的是来自外激波的辐射，那么喷流在暴周介质中的减速时标为
+
+$$
+t_{dec} = [3 E_{k,iso} / (4 \pi \gamma^{8} n m_p c^5)]^{1/3} =T_{obs}
+\tag{9}
+$$
+
+Ek,iso is the kinetic energy of the jet calculated assuming a gamma-ray production efficiency of 20%,$m_p = 1.67 \times 10^{-27}$ kg is the proton mass,c is the speed of light, and Tobs is the approximate duration of the main peak. We can thus estimate the Lorentz factor of the jet in the external shock scenatrio to be
+>由此可进一步估算外激波情形中喷流的洛伦兹因子：
+
+$$
+\gamma \approx 310 (\frac{E_{k,iso}}{2 \times 10^{47} erg})^{1/8} (\frac{n}{0.1cm^{-3}}^{-1/8})(\frac{T_{obs}}{0.5 s})^{-3/8}
+\tag{10}
+$$
+
+The deceleration radius represents the upper limit of efficient energy extraction (even for internal shocks)and can be expressed as
+>另外也可得到喷流减速半径：
+
+$$
+R_{dec} = 2\gamma^2 c T_{obs}\gamma
+\tag{11}
+$$
+
+Therefore, the deceleration radius and associated Lorentz factoralso serve as upper limits to the radius and Lorentz factor of theemitting region in the internal shock scenario.
+>这里得到的减速半径和洛伦兹因子也可作为内激波情景的辐射区域的半径和洛伦兹因子的上限。
+
+...式12 到 式16 的内容
+>也讨论了因为火球的光球层对伽玛射线由光学厚转化成光学薄的过程导致的延迟。但光球层主要是产生黑体辐射，而黑体辐射是在主峰之后的，如果说黑体辐射这一波辐射是因为变光学薄而出来的，那之前的辐射是怎么出来的？文章本身也提到：
+
+The  primary  challenge  of  this interpretation is in explaining the nature of the hard non-thermal emission preceding the BB component. If both components are the result of the same expanding fireball, the photospheric emission is expected to occur earlier than or at the same time as the non-thermal emission. This requirement can be reconciled with the GBM data if the thermal component was subdominant and indistinguishable during the initial hard non-thermal pulse.
+
+>可能的解释就是光学薄在主峰就已经发生了，只不过那个时候的黑体成分相比非热成分可以忽略。
+
+除此之外文章还提到了一些机制，如黑体辐射来自于cacoon，或者延迟是因为相对论性喷流突破'sub-relativistic dense ejecta'需要时间导致的，但这个情景下，如果采用典型的抛射物质量，则得到的突破时间爱要短于实际观测到的延迟。而如果降低喷流动能，有可能导致喷流突破失败。
 
 <div id="sect7"></div>
 

@@ -287,10 +287,10 @@ The relative similarity between the gamma-ray duration T90 and the delay between
 >由于GRB持续时间和延迟时间基本一致(???主峰不是只有半秒吗)，可得两壳层的洛伦兹因子很接近，而这表明喷流在并合之后很短的时间内就形成了，这将导致壳层碰撞过程中不会有效得将内能转化成辐射，结果大部分转化成动能并注入到余辉中。但这在短暴中并不多见。
 
 <font color=red>Some of these energetics constraints can be alleviated if we exclude the soft thermal emission from the gamma-ray duration estimate.</font> In this case, the prompt non-thermal emission of $\Delta t_{decay} \approx 0.5s $ would be due to internal shocks and the soft thermal emission would be attributed to a separate component. In this case we obtain $\Delta t_{decay} / t_{delay} \approx 0.3$, impling $\gamma_2 \approx 3\gamma_1$. These energetics considerations may suggest that the initial hard pulse and the subsequent thermal emission observed by GBM may indeed be distinct components.
->如果把热辐射的持续时间从gamma-ray持续时间中排除（？？？前提是热辐射和非热辐射不是同时的，怎么保证？还是假设？），则有$\Delta t_{decay} \approx 0.5 s$。这样，$\gamma_2 \approx 3\gamma_1$。可能表明GBM观测到的一开始的主峰和后面的热辐射的确是来自不同的成分。（？？？热成分和非热成分来源不同不是很正常吗，另外这个结果又是怎么表明的？）
+>如果把热辐射的持续时间从gamma-ray持续时间中排除（？？？前提是热辐射和非热辐射不是同时的，怎么保证？还是假设？），则有$\Delta t_{decay} \approx 0.5$ s。这样，$\gamma_2 \approx 3\gamma_1$。可能表明GBM观测到的一开始的主峰和后面的热辐射的确是来自不同的成分。（？？？热成分和非热成分来源不同不是很正常吗，另外这个结果又是怎么表明的？）
 
 Within the context of the internal shock model, if we assume the entire (1.74 $\pm$ 0.05)s delay between the GW and the EM emission is due to jet propagation time and use a Lorentz factor of $\gamma$ < 100 for the first shell, we can estimate an upper limit  to  the  radius  of  the  relativistic  outflow  to  be $R \sim 5 \times 10^{14} cm$ or $\sim 30 au$. The minimum variability time-scale $\Delta t_{rise} = \Delta t_{min} \sim 0.125$s.(Goldstein et al.2017) yields an  upper  limit on the size of the emitting region of $\delta R \sim 4 \times 10^{13} cm$, or $\sim 3 au$. The ratio of the two is independent of the unknown  Lorentz factor and is of order $\delta R / R \sim 10\%$.
->在以上的条件下，若取延迟时间为1.74s,第一壳层的洛伦兹因子小于100, 则可得一个喷流到达半径的上限$R \sim 5 \times 10^{14}$ cm; 再另 $\Delta t_{rise} = \Delta t_{min} \sim 0.125$s，可得辐射区域厚度上限为$\delta R \sim 4 \times 10^{13}$ cm。两者之比约为10%。
+>在以上的条件下，若取延迟时间为1.74s,第一壳层的洛伦兹因子小于100, 则可得一个喷流到达半径的上限$R \sim 5 \times 10^{14}$ cm （如果用6式计算的话相应的洛伦兹因子约为70）; 再令 $\Delta t_{rise} = \Delta t_{min} \sim 0.125$s，可得辐射区域厚度上限为$\delta R \sim 4 \times 10^{13}$ cm。两者之比约为10%。
 
 The single-pulsed nature of the gamma-ray emission, as well as  the  observed $\Delta t_{decay}/t_{delay} \sim 1$,  also  leaves  open  the possibility that the GBM signal is entirely of an external shock origin. In this scenario, the relativistic outflow converts its internal energy to radiation due to its interaction with an external medium, such as the interstellar matter.  If we associate the duration of the main pulse with the deceleration time, i.e., the timescale over which the jet is significantly decelerated by interstellar matter of constan tdensity n, in the external shock scenario
 >另一种情况，如果GBM观测到的是来自外激波的辐射，那么喷流在暴周介质中的减速时标为
@@ -343,6 +343,77 @@ The  primary  challenge  of  this interpretation is in explaining the nature of 
 由于物质喷射，初始双星的质量一定要比并合产物的质量高，因此，考虑第一种情形（形成黑洞），对于一个准确的EOS，由GW信号给出的置信范围理论上应该位于其划定的$M_B$ > $M_B^{Static}$/$M_B^{Uniform}$的区域里**才能形成黑洞**。由图可见，MS1和SHT描述的情形不大可能形成一个黑洞，而对于H4, LS220, SFHo和SLy这些状态方程，在两类spin priors下均有$M_B$ > $M_B^{Uniform}$，并合结果要么是形成一个黑洞要么形成一个寿命（由较差旋转和/或吸积决定）不长的残骸。
 
 考虑到如果要兼容第二种情形（并合形成毫秒磁星），并合残骸的寿命必须足够长才能驱动GRB。但就目前的研究还无法排除H4, LS220,SFHo,以及SLy中的哪一个。
+
+<div id="sect6"></div>
+
+## 6. Gamma-ray Energetics of GRB 170817A and their Implications
+
+Using the measured gamma-ray energy spectrum and the distance to the host galaxy identified by the associated optical transient, we compare the energetics of GRB 170817A to those of other SGRBs at known redshifts. Finding GRB 170817A to be subluminous, we discuss whether this dimness is an <font color=purple>expected observational bias for joint GW–GRB detections</font>,what insight it provides regarding the <font color=red>geometry of the gamma-ray emitting region</font>, what we can learn about the <font color=red>population of SGRBs</font>, update our <font color=red>joint detection estimates</font>, and set limits on gamma-ray precursor and extended emission.
+>GRB 170817A 相对其它红移已知的SGRB来说，亮度较低。我们讨论了<br />是否是GW-GRB联合观测的偏差导致亮度较低；<br />反映了辐射区域怎样的几何形态；<br />对短暴家族的理解有何帮助；<br />联合观测的探测概率；<br />伽玛涉嫌的前哨和后延辐射的限制。
+
+<div id="sect6.1"></div>
+
+### 6.1 Isotropic Luminousity and Energetics of GRB 170817A
+
+Using the “standard” spectral information from Goldstein et al.(2017) and the distance to the host galaxy NGC 4993 (42.9 $\pm 3.2$)Mpc, we calculate the energetics of GRB 170817A using the standard formalisms(Bloom et al.2001;Schaefer2007). GRBs are believed to be relativistically beamed and their emission collimated (Rhoads1999). Isotropic energetics are upper bounds on the true total energetics assuming the GRB is observed within the beaming angle of the brightest part of the jet.We estimate that the isotropic energy release in gamma-rays <font color=purple>$E_{iso} = (3.1 + 0.7) \times 10^{46}$ erg, and the isotropic peak luminos-ity,(1.6 $\pm$ 0.6) x 10$^{47}$ erg s$^{−1}$</font>,in the 1keV–10MeV energy band. These energetics are from the source interval—i.e.,the selected time range the analysis is run over—determined in the standard manner for GBM spectral catalog results, allowing us to compare GRB 170817A to other GRBs throughout thissection. The uncertainties on the inferred isotropic energetics values here include the uncertainty on the distance to the host galaxy. As a cross check, the isotropic luminosity is also estimated using a Bayesian approach proposed by Fan(2017).Assuming a flat prior on isotropic luminosity, we obtain Liso=$1.2_{-0.6}^{+0.7} \times 10^{47}$ erg/s, which is consistent with the standard GBM approach. This Bayesian approach can be used to combine future joint GW-GRB observations to provide a redshift-independent estimate of the GRB luminosity function.
+>GBM approach: the isotropic energy release in gamma-rays $E_{iso} = (3.1 + 0.7) \times 10^{46}$ erg, and the isotropic peak luminosity,(1.6 $\pm$ 0.6) x 10$^{47}$ erg s$^{−1}$, in the 1keV–10MeV energy band.<br />??? isotropic energy < peak luminousity?
+
+The two apparent components of GRB 170817A  are sufficiently different that using an average spectrum to estimate the fluence may produce an inaccurate total luminosity.Therefore, we also estimate Eiso using the “detailed” fits described in Goldstein et al.(2017). Separating the hard peak best fit by a Comptonized function (a power law with an exponential cutoff) and the softer tail best fit by a BB spectrum,we estimate $E_{iso,comp} = (4.0 \pm 1.0) \times 10^{46}$ erg, and $E_{iso,BB} = (1.3 \pm 0.3) \times 10^{46}$ erg, for a total of $E_{iso} = (5.3 \pm 1.0) \times 10^{46}$ erg.
+>把先后两个成分分开拟合，第一个成分（主峰）用康普顿散射模型为佳，得到$E_{iso,comp} = (4.0 \pm 1.0) \times 10^{46}$ erg；第二个成分（次峰）用黑体辐射模型为佳，得到$E_{iso,BB} = (1.3 \pm 0.3) \times 10^{46}$ erg。
+
+Compared to the distribution of GBM detected GRBs with measured redshift shown in Figure4,<font color=red>GRB 170817A is 2 orders of magnitude closer and 2 to 6 orders of magnitude less energetic than other SGRBs.</font> In particular, GRB 150101B was previously the weakest SGRB with a firm redshift association(z=0.134;Fong et al.2016), and its energetics(as measured by GBM) $E_{iso} = 2.3 \times 10^{49}$ erg, and $L_{iso} = 7.5 \times 10^{49}$ erg/s are 2-3 orders of magnitude higher. As this was the previous dimmest burst, the minimum luminosity cut of $5 \times 10^{49}$ erg/s used in Wanderman & Piran(2015) to fit a rate and an $L_{iso}$ distribution to existing observations appeared reasonable; however, with GRB 170817A, the lower bound on the isotropic energetics distributions needs to be revised, as discussed in Section 6.4.
+>图4显示了GBM探测到的红移已知的GRB的能量和亮度分布，可看出GRB 170817A是迄今位置红移最小，亮度最弱的GRB，提供了一个短暴各向同性能量的下限参考。
+
+<img src="./fig4.png">
+
+<div id="sect6.2"></div>
+
+### 6.2 Implications of the Dimness on the Central Engine
+
+The broad observed brightness distribution likely arises from a mixture of an intrinsic brightness distribution and geometric effects, which include the inclination angle of the system to Earth, the structure and width of the collimated jet itself, and the relativistic beaming angle $\theta_b$. We  consider several possibilities to explain why GRB 170817A is extremely dim(Figure5):(i)we viewed it from beyond the half-jet opening angle $\theta_j$ for a standard top-hat model, (ii)the structure of the jet is more complicated than a simple top-hat model, (iii)the observed emission for GRB 170817A originates from  a different mechanism than for most SGRBs, or (iv) it is due solely to the intrinsic luminosity distribution and not the geometry of the system.
+>GRB的能量/亮度既与中心引擎等固有因素相关，也与我们观测的视线与GRB喷流方向间的夹角以及一些几何因素有关。以下讨论四种理论解释为何GRB170817A这么暗：<br />1.我们观测它的视线与其喷流方向间的夹角大于喷流张角的一半（基于标准的“高帽”模型讨论）；<br />2.喷流的结构比简单的“高帽”模型更复杂；<br />3.观测到的GRB170817A的辐射相对于其他SGRN而言可能有不同的来源；<br />4.暴发体系或机制固有的亮度分布，与系统的几何结构不相关。
+
+<img src="./fig5.png">
+
+Scenario(i).Uniform top-hat jets(constant emissivity andLorentz factor, $\Gamma$ , within the jet aperture)with a sharp edge have been widely used to explain GRB properties, including jet breaks. The top-hat jet is the simplest possible model for calculating off-axis parameters as it captures the basic physics of the system, but it is unable to account for smooth profiles in the Lorentz factor and the emissivity. <font color=red>Here the observed energetics are significantly lower than they would be if we were within $\theta_j$.</font>
+>第一个情形，视线不在喷流张角的范围内。高帽喷流模型普遍用来解释GRB的各种性质，偏轴GRB的观测能量显著低于正轴观测。
+
+In the top-hat scenario, <font colot=red>off-axis values of physical quantities can be related to the on-axis values through the angle dependence of the relativistic Doppler factor</font>:
+>在高帽模型中，偏轴情形的一些物理量可以通过多普勒因子与对应的正轴情形的量联系起来：
+
+$$
+\delta_D(\theta) = [\Gamma(1 - \beta cos\theta)^{-1}] \approx / (1+\theta^2\Gamma^2)
+\tag{18}
+$$
+
+$$
+\frac{T_{90}(off-axis)}{T_{90}(on-axis)} = \frac{E_p (on - axis)}{E_p (off - axis)} = \frac{\delta_D(0)}{\delta_D(\theta_j - \zeta)} \triangleq b \approx 1 + \Gamma^2(\zeta - \theta_j)^2
+\tag{19}
+$$
+
+whereas $E_{\gamma,iso}(off-axis)$ scales  approximately $b^{-2}$ for a viewing angle $\zeta$ between $\theta_j$ and 2$\theta_j$. The duration in the on-axis scenario may be longer than inferred from the above equation, as the variable gamma-ray flux can be discerned above detector noise for a longer fraction of the total activity compared to emission viewed off-axis.
+>$\zeta$是viewing angle。若$\zeta$在$\theta$和2$\theta_j$之间，则$E_{\gamma,iso}(off-axis)$大约与$b^{-2}$成正比。
+
+<font color=red>We use the observed quantities for GRB 170817A,$E_p \approx 200$ keV, $E_{\gamma,iso} = 5.3 \times 10^{46}$ erg, and $T_{90} \approx 2$ s</font>, as values observed off-axis. If we <font color=red>assume that the on-axis values for GRB 170817A are consistent with typical values observed for SGRBs, we obtain $E_p = 6(b/30)$ MeV, $E_{\gamma,iso} = 5 \times 10^{49}(b/30)^2$ erg, and $T_{90} = 7 \times 10^{-2} (b/30)^{-1}$ s. In particular using a fiducial range on $E_{\gamma,iso}(on-axis)$ corresponding to <font color=purple>the two orders of magnitude spread shown in Figure4</font> we obtain $b \approx \Gamma^2 (\zeta - \theta_j)^2 \approx 30$ within a factor 3, which is a constraint on the values of $\Gamma$, $\zeta$ and $\theta_j$.
+>对于GRB 170817A， 取$E_p \approx 200$ keV, $E_{\gamma,iso} = 5.3 \times 10^{46}$ erg, and $T_{90} \approx 2$ s， 按式19有：$E_p = 6(b/30)$ MeV, $E_{\gamma,iso} = 5 \times 10^{49}(b/30)^2$ erg, and $T_{90} = 7 \times 10^{-2} (b/30)^{-1}$ s.<br />若从图4中的分布中给GRB 1708017A的正轴对应物理量取值（？？？），可得$b \approx \Gamma^2 (\zeta - \theta_j)^2 \approx 30$, 这可作为对$\Gamma$, $\zeta$和$\theta_j$的限制。
+
+If we assume a viewing angle of30 $\zeta \approx 30\degree$ and $\Gamma = 300$ the uncertainty on b yields $\zeta - \theta_j \backsimeq 1 \pm 0.5$ deg, a solid angle covering only 1% of a full sphere. <font color=purple>Hence this configuration would require a fine tuning of the line of sight.</font>However, if we assume $\Gamma = 30$ then the uncertainty on b yields $\zeta - \theta_j \backsimeq 10 \pm 4$ deg, a solid angle that covers 10% of a full sphere, which is plausible without too much fine tuning. This argument only weakly depends on the particular value $\zeta$, and <font color=purple>illustrates that for large $\Gamma$ a top-hat jet scenario is disfavored due to the sharp emission fall-off at the edges.</font>
+>如果取$\zeta \approx 30\degree$、 $\Gamma = 300$，则上面对b的估计值给出$\zeta - \theta_j \backsimeq 1 \pm 0.5$ deg，这仅仅对应1%的天区范围($1sr = (\frac{180}{\pi})^2$,全天约13131平方度)。这意味着我们观测者的视线必须精确地落在这里面（fine tuning ???）。而如果取$\Gamma = 30$，则有$\zeta - \theta_j \backsimeq 10 \pm 4$ deg，这对应10%的天区，相较而言对观测视线的限制要求要宽松一些。综合看，如果用高帽模型的情景解释（低能暴发），洛伦兹因子就不大可能很高。
+
+Scenario(ii). A more complex geometry involves astructured jet which provides a wider range of angles from which the observer could still detect emission, and therefore does not require a fine-tuned viewing angle.
+>第二种情形：喷流的结构较为复杂，这可能允许观察者在更大范围的偏离角内都可观测到辐射。
+
+Structured jet emission profiles include a uniform ultra-relativistic core surrounded by a <font color=purple>power-law decaying</font> wing where the energy and Lorentz factor depend on the distance from the jet axis， a Gaussian with a smooth edge and falloff outside the core, and a two-component jet with an ultra-relativistic narrow core and slightly slower outer jet, among other possibilities.
+>结构性喷流图像，例如喷流由中间的极端相对论的核加上周围的指数衰减（a power law decay）的‘翼’组成，‘翼’部分的能量和洛伦兹因子由距离喷流中轴的距离决定；或者具有高斯轮廓（a Gaussian with a smooth edge and falloff outside the core）；或由中间的狭窄高速核加上周围稍慢的外围喷流组成。
+
+Structured jets can naturally explain the broad observed energetics distribution. Because SGRBs involve relativistic velocities, radiation is strongly beamed into angle $\theta_b$. If the observed brightness depends on viewing geometry, i.e., is not uniform across the angle $\theta_j$, then the part of the beam that we observe may be off-axis to the brightest part of the jet but we may still be within $\theta_b$ of some dimmer part of the emitting region, though in this case we would expect the Γ factor to vary as well.
+>结构性喷流可以比较自然的解释观测到的较广的能量分布。我们知道由于辐射源具有相对论的速度，其电磁辐射会集中在一个夹角为$\theta_b$的beam内。对于GRB170817A这样看上去较弱的暴，可能是因为我们接受到的辐射所在的那个beam（$\theta_b$）在整个喷流中就处于比较暗弱的区域，距离明亮的区域比较远。
+
+Scenario(iii). Given the closeness of this burst it is possible that the observed emission is due to a different mechanism from other SGRBs, one that is intrinsically dim and thus undetectable  at  usual  SGRB  distances.  <font color=red>We believe  this explanation to be unlikely as the main emission episode of GRB 170817A is a typical SGRB(as measured by theobserved gamma-ray properties).</font> It is possible that the soft tail emission arises from a distinct mechanism. One explanation is “cocoon” emission from the relativistic jet shocking its surrounding non-relativistic material. We showed that “cocoon” emission could explain the thermal tailin Section5.1. A possible full model for GRB 170817A is off-axis emission from a top-hat jet providing the main emission episode,  with “cocoon” emission arising from the jet’s interaction with the surrounding torus that powers the main jet. The softer emission is near the detection limits of GBM and would not be detected to much greater distances, suggesting it may be a common property of SGRBs that is otherwise missed.
+>情形3：考虑到这个暴距离我们很近，有可能我们观测到的辐射源自一个与其他SGRB不同的机制，这种机制本身就比较暗以至于在通常短暴的距离上是探测不到的。但由于GRB170817A的主峰有很典型的SGRB的性质，所以这种解释也不足以让人信服。但是有可能该暴的较软的‘尾巴’辐射是‘茧’（外围相对论喷流冲进周围非相对论介质形成的茧状结构）发出的热辐射。结合前面的情形，完全可以认为主峰辐射是由偏轴‘高帽’喷流发出，而后面的弱辐射则由‘茧’发出。值得一提的是这类弱辐射的强度相对较低，如果发生得远一点我们可能就探测不到了。这也说明可能很多SGRB实际上也有这样的较弱的尾巴而没被探测到。
+
+Scenario(iv). If GRB 170817A is viewed within both the collimated jet and the beaming angle, and the emission is constant across the traditional top-hat jet, then GRB 170817A is intrinsically much dimmer by orders of magnitude compared to other observed GRBs. This would mean that top-hat jets have an intrinsic distribution covering 6 orders of magnitude,which is difficult to envision given the limited mass ranges in the merger of two NSs. A broader intrinsic luminosity distribution might be accommodated if we assume that at least some SGRBs arise from the merging of an NS with a BH. It is possible, for example, that the brightest events may arise from NS–BH mergers with optimal mass ratio and spin parameters.Another possibility is that this broad luminosity range could arise from other properties of the system, such as the magnetic field strength of the progenitors or the intrinsic jet-openingangle distribution.
+>情形4：也有可能GRB170817A就是在其喷的正轴上被我们观测到，它相对暗弱的亮度只是其内部机制的结果，即‘高帽’喷流的亮度分布横跨6个量级，而这在现有的对双中子星并合模型的质量限制下不大可能实现。有可能现在的亮度分布中那些很亮的事件实际上是NS-BH事件，有或者是系统其它性质如磁场强度或固有喷流张角分布（the intrinsic jet-openingangle distribution）。
 
 <div id="sect7"></div>
 

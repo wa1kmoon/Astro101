@@ -1,10 +1,8 @@
 # The Physics of Gamma-Ray Bursts &Relativistic Jets
 
-
 [1.Introduction](#sect1)
 [2.Raiative processes](#sect2)
 [3.Afterglow theory](#sect3)
-
 
 <div id='sect1'></div>
 

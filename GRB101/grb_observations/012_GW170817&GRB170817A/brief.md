@@ -12,7 +12,7 @@ Methods:
 
 1. GW170817
     - sky-location and signal offset time: EM follow-up observations (targeted searches???)
-    - Hubble flow velocity + Hubble canstants -> verification of GW distance 
+    - Hubble flow velocity + Hubble canstants -> verification of GW distance
     - GW data and known distance could constrain the inclination angle which could further constrain the jet viewing angle with two reasonable assumptions.
     - see the reference articles PhRvL, 119, 161101
 
@@ -49,4 +49,4 @@ Conlutions:
 
 - Explanations for the observed dimness of GRB170817A is proposed.
 
-- Joint detection could be more common than previously predicted. 
+- Joint detection could be more common than previously predicted.

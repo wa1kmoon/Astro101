@@ -465,6 +465,41 @@ Giantflares from the highly magnetized NSs known as magnetars can be detected ou
 
 ### 6.4 Predicted Detection Rates
 
+The intrinsic specific <font color=purple>volumetric SGRB rate</font> is often quoted to be around $10 Gpv^{-3}yr^{-1}$. However, unlike GW signals, SGRBs do not have a clear relationship between the observed distance and brightness. As discussed in the previous section, this can be due to intrinsic variations in SGRB luminosities, as well as structure in the jet. In this Section, <font color=red>we investigate the former scenario  presenting  the  implications  of  GW170817/GRB 170817A for future GW and SGRB observations in terms of a simple standard model for the SGRB luminosity distribution.</font> Similar interpretations for other, perhaps moreelaborate, models are straightforward.
+>SGRB的观测距离和其亮度之间并没有明显的联系，可能因为SGRB的内秉光度分布本就如此，也可能是喷流结构不明确导致认知偏差。这里我们在前一种情形的北京下，利用简单的SGRB光度分布标准模型来讨论GW170817/GRB 170817A这一事件对未来的GW，SGRB的观测有何助益。
+
+We model the SGRB luminosity function as a broken power law, with a logarithmic distribution
+
+$$
+\phi_0(L_{iso}) =
+\begin{cases}
+(\frac{L_{iso}}{L_b})^{-\alpha_L} &L_{iso}  < L_b \ ,\\
+(\frac{L_{iso}}{L_b})^{-\beta_L} &L_{iso}  >L_b \ .
+\end{cases}
+\tag{20}
+$$
+
+where $L_{iso}$ is the peak isotropic luminosity (in the source frame) between 1 keV and 10 MeV, and $\alpha_L$ and $\beta_L$ give the power law decay below and above the break at $L_b$. Here we follow Wanderman & Piran(2015) in using $L_b \simeq 2 \times 10^{52}$ erg/s, $\alpha_L \simeq 1$,  and $\beta_L \simeq 2$. The other important parameter is theminimum SGRB luminosity, which determines the lower cutoffof the luminosity distribution. This is poorly constrained as only nearby low luminosity SGRBs are observable. In Wanderman & Piran(2015)the minimum luminosity is taken to be $L_{min} = 5 \times 10^{49}$ erg/s, while other studies use values ranging from $1 \times 10^{49}$ to few $\times 10^{50}$ erg/s. We assume a threshold value for detectability in GBM of 2 photons cm$^{−2}$ s$^{−1}$ for the 64 ms peak photon flux in the 50–300 keV band, which is higher than the minimum detectability value to account for the sky-dependent sensitivity of GBM. Furthermore, we model the SGRB spectrum using the Band function with parameters taken from Wanderman & Piran(2015)(namely,$E_{peak} = 800$ keV, $\alpha_{Band} = -0.5$, and $\beta_{Band} = -2.25$). This spectrum is significantly harder than the one observed for GRB 170817A. The cumulative observed rate predicted for GBM by this base model is shown as a function of redshift in Figure6 by the purple solid curve.
+>采用简单的分段幂律函数作为光度分布函数，其中$L_{iso}$为1keV - 10MeV内的各向同性光度峰值，$L_b$为分段点。另外还有一重要参数是最小SGRB光度（作为光度分布的截断），但这个参数目前并不能准确确定（因为只有较近的低光度事件才能观测到）。<br />取$L_b \simeq 2 \times 10^{52}$ erg/s,$L_{min} = 5 \times 10^{49}$ erg/s， $\alpha_L \simeq 1$, $\beta_L \simeq 2$，并假设GBM在50-300keV内64ms的光子流量阈值为2 photons cm$^{−2}$ s$^{−1}$。另外我们使用Band谱作为SGRB光谱的模型，取其参数为$E_{peak} = 800$ keV, $\alpha_{Band} = -0.5$, and $\beta_{Band} = -2.25$。用这个基本模型得到的GBM累计观测率（做为红移的函数）显示为图6的紫色实线。<br />（？？？用这个光度函数和Band谱是怎么得到作为红移函数的累计观测率的：首先仪器观测到的（光子流量）只是某个波段的流量，Band谱可推算出其它波段的流量。其次，红移加上流量即可确定光度峰值，进而得到该红移下的不同光度事件的观测率。）
+
+As discussed in Section6.1,the inferred $L_{iso}$ is $(1.6 \pm 0.6) \times 10^{47}$ erg/s, which is significantly lower than any previously detected SGRB, and thus is in tension with this model. <font color=red>In particular, we must extend the lower limit of the luminosity downby a factor of at least 500.</font> At present, there is rather little information available about the low luminosity distribution due to the observational biases discussed in Section6.3 and, consequently, <font color=purple>there is a significant degeneracy between the minimum SGRB luminosity and the rate</font>(Wanderman & Piran2015).Let us consider the most straightforward extension of the above model and <font color=red>set $L_{min} = 1 \times 10^{47}$ erg/s while maintaining $\alpha_L = 1$.In order to retain the same prediction for high-luminosity SGRBs,this requires a 500-fold increase in the number of SGRBs, with the majority emitting at low luminosity.</font> The cumulative observed rate predicted for GBM by this simple extension is shown as a function of redshift in Figure6 by the red solid curve, and is comparable to the measured BNS merger rate shown in black. This simple extension would imply SGRBs are not beamed and that essentially all BNS mergers are accompanied by at least a subluminous SGRB.
+>考虑到GRB170817A的$L_{iso} = (1.6 \pm 0.6) \times 10^{47}$ erg/s(6.1节), 显著低于其它探测到的SGRB，所以应该对模型做一些修改。取$L_{min} = 1 \times 10^{47}$ erg/s， 同时为维持高光度的SGRB的探测率，就要求短暴的数量增加500倍（???）,其中大部分都为低光度。这样的模型预测的GBM累计观测率在图6中用红色实线表示，较接近于黑线表示的BNS并合率。这个结果可能说明SGRB并没有一个束状喷流，且所有BNS并合都会至少伴随一个亚亮的SGRB。（看起来也不是很合理）
+
+Therefore, to reduce this tension and explore other possible extensions, we introduce an additional power law break below $L_{bb} = 5 \times 10^{49}$ erg/s:
+>所以可以进一步扩展光度函数：再引进一个低于$L_{bb} = 5 \times 10^{49}$ erg/s（Wanderman&Piran工作中的$L_{min}$） 时的幂律函数：
+
+$$
+\phi_0(L_{iso}) =
+\begin{cases}
+(\frac{L_{iso}}{L_{bb}})^{-\gamma_L} (\frac{L_{bb}}{L_b})^{-\alpha_L} &L_{iso}  < L_{bb} \ ,\\
+(\frac{L_{iso}}{L_b})^{-\alpha_L} & L_{bb} < L_{iso} < L_b \ ,\\
+(\frac{L_{iso}}{L_b})^{-\beta_L} &L_{iso}  > L_b \ .
+\end{cases}
+\tag{21}
+$$
+
+and consider three values $\gamma_{L}$ = {1, 0.5, 0} for the power law index below this second break. We normalize these three cases to 40 triggered SGRBs per year for GBM, and the $\gamma_{L}$ = 1 case corresponds to the simple extension discussed above.  For reference, Figure6 shows the <font color=purple>local SGRB occurrence rate</font> for $L_{min} = 1 \times 10^{47}$ erg/s indicated by the red, blue, and green dotted curves, respectively, and the BNS merger rate $1540_{-1220}^{+3200}$ Gpc^{-3}yr^{-1} determined with the detection of GW170817(grey band, with the mean in black). The $\gamma_L = 1$ case produces the largest number ofsubluminous SGRBs, and leads to a sharp departure at redshift ∼0.005 <font color=purple>from volumetric detection to detection limited by the GBM sensitivity</font>.
+
 <div id="sect6.5"></div>
 
 ### 6.5 Limits on Precursor and Extended Emission

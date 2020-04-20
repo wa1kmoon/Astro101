@@ -212,7 +212,7 @@ $$
 
 - 这里基于观测数据，取$E_p \approx 200$ keV, $E_{\gamma,iso} = 5.3 \times 10^{46}$ erg，以及 $T_{90} \approx 2$ s。如果在上面$E_{\gamma,iso}$分布中取合适的值作为GRB 170817A的正轴对应量（大两个量级左右），则可给出b的近似取值$b \approx \Gamma^2 (\zeta - \theta_j)^2 \approx 30$, 这可作为对$\Gamma$, $\zeta$和$\theta_j$的限制。
 
-- 如果取$\zeta \approx 30\degree$、 $\Gamma = 300$，则上面对b的估计值给出$\zeta - \theta_j \backsimeq 1 \pm 0.5$ deg，这仅仅对应1%的天区范围($1sr = (\frac{180}{\pi})^2 degrees$,全天约13131平方度)。这意味着我们观测者的视线必须精确地落在这里面（require a fine tuning）。
+- 如果取$\zeta \approx 30\degree$、 $\Gamma = 300$，则上面对b的估计值给出$\zeta - \theta_j \backsimeq 1 \pm 0.5$ deg，这仅仅对应1%的天区范围($1sr = (\frac{180}{\pi})^2 degrees$,全天约41253平方度)。这意味着我们观测者的视线必须精确地落在这里面（require a fine tuning）。
 - 而如果取$\Gamma = 30$，则有$\zeta - \theta_j \backsimeq 10 \pm 4$ deg，这对应10%的天区，相较而言对观测视线的限制要求要宽松一些。
 - 综合看，如果洛伦兹因子比较大，就不适合用高帽喷流的模型去解释。
 

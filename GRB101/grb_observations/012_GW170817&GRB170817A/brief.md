@@ -1,4 +1,4 @@
-# Brief note of No.12
+# Brief note of article No.12
 
 Conclusions:
 

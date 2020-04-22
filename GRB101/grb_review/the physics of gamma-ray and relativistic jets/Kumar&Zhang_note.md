@@ -45,7 +45,6 @@ Suppose:
 
 ---
 
-
 $v$ : source moving speed (lab frame)
 
 $\nu'$ : the photon frequency in the observer frame
@@ -95,7 +94,7 @@ $$\nu=\frac{\nu'}{\Gamma(1-vcos\theta/c)} \equiv \nu'D \tag{4}$$
 
 ### 2.1.1 Relativistic beaming of photons
 
-For large $\Gamma$: 
+For large $\Gamma$:
 
 $$\theta \approx \theta' / \Gamma$$
 
@@ -151,7 +150,7 @@ where $\sigma_T = 8\pi q^4/(3m_e^2 c^4)$ is the Thomson cross section. Again, th
 
 ---
 
-The Larmor frequency of the electron (or its angular speed) is 
+The Larmor frequency of the electron (or its angular speed) is
 
 $$
 \omega_L = \frac{qB}{\gamma_e m_e c} \tag{16}
@@ -173,7 +172,7 @@ $$
 
 The inverse of this time is the characteristic frequency for synchrontron radiation:
 $$
-\omega_{syn} \sim \frac{qB\gamma_e^2}{m_e c} 
+\omega_{syn} \sim \frac{qB\gamma_e^2}{m_e c}
 \ \ \ \ and \ \ \ \  
 \nu_{syn} = \frac{\omega_{syn}}{2\pi} \sim \frac{qB\gamma_e^2}{2\pi m_e c}
 \tag{18}
@@ -181,7 +180,7 @@ $$
 
 A more precise treatment has an additional factor (3/2)sin$\alpha$; $\alpha$ is the pitch angle between the electron’s velocity and themagnetic field.
 
->This is to say each electron with a specific $\gamma_e$ has a correponding characteristic frequency $\nu_{syn}$ at which the flux from this electron peaks in its spectrum. 
+>This is to say each electron with a specific $\gamma_e$ has a correponding characteristic frequency $\nu_{syn}$ at which the flux from this electron peaks in its spectrum.
 
 The synchrotron spectrum peaks at $\sim \nu_{syn}$.**The spectrum below the peak scales as $P_{syn}(\nu) \propto \nu^{1/3}$, and it declines exponentially for frequency higher than $\nu_{syn}$**.
 
@@ -288,9 +287,9 @@ The minimum time required for acceleration of a charged particle of mass m while
 
 The particle should not lose more than half its energy to synchrotron radiation $t_L'$, otherwise it will ever  get accelerated to LF $\gamma$.
 
-> This means that we could wirte an inequality like: <br />radiation power x ($t_L'$) < half of the particle energy 
+> This means that we could wirte an inequality like: <br />radiation power x ($t_L'$) < half of the particle energy
 
-This implies that 
+This implies that
 $$
 \frac{4q^4 B^{'2} \gamma^2}{9m^2 c^3} t_L' < \frac{mc^2 \gamma}{2}
 $$
@@ -304,7 +303,6 @@ The left side of this equation is the synchrotron frequency of particle with LF 
 
 Synchrotron photons produced when a particle is passing through a region of muchhigher-than-average magnetic field can have energy larger than the limit de-scribed above, e.g. Kumar et al. (2012).
 
-
 ## 2.3 Inverse-Compton radiation
 
 When a photon of frequency $\nu$ is scattered by an electron of larger energy, the photon gains energy in this process on the average. If the electron LF is  $\sim \gamma_e$, and $h\nu' = h\nu \gamma_e \ll m_e c^2$, then the average frequency of scattered photon is $\nu_s \sim \nu \gamma_e^2$, which is that the frequency, thus the energy, of the incident photon boost by a factor of $\gamma_e^2$.
@@ -317,18 +315,18 @@ $$
 
 where $u_{\nu}d\nu$ is energy density in photons of frequency between $\nu$ and $\nu+d\nu$ (namely $u_{\gamma} = \int u_{\nu}d\nu$).
 
->Eq.27 indicates that $P_{ic}$ depends only on the environment and the electron energy ($P_{ic} \propto u_{\gamma}, \gamma_e^2$) under the reqired condition. 
+>Eq.27 indicates that $P_{ic}$ depends only on the environment and the electron energy ($P_{ic} \propto u_{\gamma}, \gamma_e^2$) under the reqired condition.
 
 We see from eaqutions (15) and (27) that the ratio of synchrtron and IC powers is $u_B/u_{\gamma}$; where $u_B = B^2 / 8 \pi$ is the energy in the magnetic field.
 
 Next we should introduce a particularly importance situation of IC radiation in the energetic radiative process. Consider the case when electrons first produce seed photons due to synchrotron radiation, and those seed photons are then IC scattered by the same electrons that produce them ealier, the seed photons would end up with a much larger energies. This process -- called synchrotron-self-Compton or SSC -- could be important for GRBs and other relativistic sources.
 
-The relative importance of synchrotron and IC processes for extracting energy from a population of energetic electrons is specified by the Comptom Y parameter ($Y \sim P_{ic}/P_{syn} \sim u_{\gamma}/u_{B}$). 
+The relative importance of synchrotron and IC processes for extracting energy from a population of energetic electrons is specified by the Comptom Y parameter ($Y \sim P_{ic}/P_{syn} \sim u_{\gamma}/u_{B}$).
 
 Energy density in photons for the synchrotron process is:
 $$
 u_{\gamma} = \int dr \int d\gamma_e \frac{P_{syn}}{c} \frac{dn_e}{d\gamma_e} = \frac{\sigma_T (\delta R)B^2}{6\pi} \int d\gamma_e \gamma_e^2 \frac{dn_e}{d\gamma_e}
-= \frac{\sigma_T (\delta R) n_e B^2}{6 \pi} <\gamma_e^2> 
+= \frac{\sigma_T (\delta R) n_e B^2}{6 \pi} <\gamma_e^2>
 \tag{28}
 $$
 
@@ -347,7 +345,7 @@ Y \sim P_{ic}/P_{syn} \sim \tau_e <\gamma_e^2>
 $$
 where $\tau_e = \sigma_T (\delta R)n_e$ is the optical depth of the source to Thomson scattering.
 
-### 2.3.1 IC spectrum 
+### 2.3.1 IC spectrum
 
 The spectrum of IC radiation is obtained by convolving electron distribution with the seed photon spectrum (Rybicki and Lightman, 1979):
 $$
@@ -355,13 +353,13 @@ f_{ic}(\nu_{ic}) \approx \frac{3\sigma(\delta R)}{4} \int d\nu \frac{\nu_{ic}}{\
 \tag{31}
 $$
 
-where 
+where
 $$
 F(x) \approx 2(1-x)/3
 \tag{32}
 $$
 
-For a $\delta-function$ seed photon spectrum (where photons have frequency $\nu_0$), and a power-law distribution of electrons with index $p$ which is cut off at the low energy end at $\gamma_m$, these equations give that the IC spectrum is proportional to $\nu_{ic}$ for $\nu_{ic} < 4\gamma_m^2 \nu_0$. Therefore, **the low energy part of IC spectrum can be significantly harder than the hardest possible part of IC spectrum when synchrotron-self-absorption is negligible**. 
+For a $\delta-function$ seed photon spectrum (where photons have frequency $\nu_0$), and a power-law distribution of electrons with index $p$ which is cut off at the low energy end at $\gamma_m$, these equations give that the IC spectrum is proportional to $\nu_{ic}$ for $\nu_{ic} < 4\gamma_m^2 \nu_0$. Therefore, **the low energy part of IC spectrum can be significantly harder than the hardest possible part of IC spectrum when synchrotron-self-absorption is negligible**.
 
 At higher photon energies, $\nu_{ic} > 4\gamma_m^2\nu_0$, the IC spectrum has an asymptotic power-law index $\nu_{ic}^{-(p-1)/2}$, same as the spectrum for the synchrotron process.
 
@@ -369,7 +367,7 @@ At higher photon energies, $\nu_{ic} > 4\gamma_m^2\nu_0$, the IC spectrum has an
 
 ### 2.3.2 IC in Klein-Nishina regime
 
-When photon energy in electron comoving frame approaches (or exceeds) $m_e c^2$, two effects become important. One of which is that the eletron recoil can no longer be ignored. The ohther effect is that the cross section is smaller than $\sigma_T$ and it decreases with increasing photon energy as $\sim \nu^{-1}$. 
+When photon energy in electron comoving frame approaches (or exceeds) $m_e c^2$, two effects become important. One of which is that the eletron recoil can no longer be ignored. The ohther effect is that the cross section is smaller than $\sigma_T$ and it decreases with increasing photon energy as $\sim \nu^{-1}$.
 
 One simple consequence of the recoil effect is that the energy of the scattered photon is limited to $\sim m_e c^2 \gamma_e /2$ (no longer $\sim \nu_0 \gamma_e^2$) which is obviouse  from energy conservation.
 
@@ -381,7 +379,7 @@ One simple consequence of the recoil effect is that the energy of the scattered 
 
 ### 3.1 Relativstic shocks: basic scalings
 
-This is a relativistic blastwave theory that describes interaction between the "fireball" -- which moves with Lorentz factor $\Gamma_0$ before before deceleration and has total "isotropic equivalent" energy E -- and the circumburst medium (CBM) described by the density profile, $n(R)=(A/m_p)R^{-k}$. 
+This is a relativistic blastwave theory that describes interaction between the "fireball" -- which moves with Lorentz factor $\Gamma_0$ before before deceleration and has total "isotropic equivalent" energy E -- and the circumburst medium (CBM) described by the density profile, $n(R)=(A/m_p)R^{-k}$.
 
 A power-law decaying multi-wavelength afterglow is predicted before the first observational detection of X-ray afterglow in 1997.
 
@@ -389,13 +387,17 @@ A relativistic shock theory was developed by Bland-ford and McKee (1976) in the 
 
  The self-similar nature of the blastwave solution naturallyexplains the power law behavior of the afterglow lightcurves.
 
- >1.Afterglow theory is a relativistic blastwave theory of the interaction between fireball and the CBM (which described by $n(R)=(A/m_p)R^{-k}$.).</bf >
- 2.The power-law decaying afterglow was indeed predicted before real observation.</bf >
- 3.A relativitic shock theory developed for AGN jets is well suited for interpreting GRB afterglows in optical, X-ray and radio bands.
+ >1.Afterglow theory is a relativistic blastwave theory of the interaction between fireball and the CBM (which described by $n(R)=(A/m_p)R^{-k}$.).<br />2.The power-law decaying afterglow was indeed predicted before real observation.<br />3.A relativitic shock theory developed for AGN jets is well suited for interpreting GRB afterglows in optical, X-ray and radio bands.
 
 The basic dynamics of blastwave is easy to understand using simple physicalarguments,  and  the  main  results are sketched in Figure 6.
 <center>
 <img src='./blastwave.png' height=100% width=100%>
 </center>
 
-It is best to work in the comoving frame of the shocked fluid which is travelingwith Lorentz factor $\Game$ with respect to unshocked fluid. 
+It is best to work in the comoving frame of the shocked fluid which is traveling with Lorentz factor $\Gamma$ with respect to unshocked fluid. The density of the unshocked medium in this frame is $\Gamma n(R)$, and upstream particles are seen to be streaming toward the shocked fluid with a Lorentz factor of $\Gamma$; upstream particles have  thermal energy much smaller than their rest mass. What  a shock does is to randomize the orientation of particle velocity vectors, without changing their Lorentz factors, when they cross the shock front, and therefore the mean “thermal” energy of protons down-stream of the shock front is $\Gamma m_p c^2$ (derivation provided below). As viewed from the lab frame, the average energy of each down-stream proton is $\Gamma^2 m_p c^2$, and hence for a blast wave at radius R, the total energy in the shocked plasma is
+>Consider the comoving frame of the shocked fluid, the unshocked fluid stream toward the shocked fluid with $\Gamma$, with the velocity direction of the unshocked particles randomized and magnitude unchanged. 
+
+$$
+E \approx 4 \pi A R^{3-k} c^2 / (3-k),
+\tag{33}
+$$

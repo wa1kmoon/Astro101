@@ -11,7 +11,7 @@ In this manuscript, <font color=red>we explore the possibility of using the earl
 We consider the proposed Einstein probe as a candidate X-ray telescope. Benefiting from the large field of view and high sensitivity, we find that the sequential observation algorithm not only is easy to implement, but also promises a good chance of actual detection.
 >The early stage X-ray afterglow might be utilised to search for GW events' EM counterparts, and two algorithms are tested. Supposing EP as our detector, we find that the sequential observation algorithm is better.
 
-## Introduction
+## 1. Introduction
 
 The successful operation of ground-based gravitational wave (GW) detectors like LIGO and Virgo has marked the beginning of a new era ofGW astronomy. Throughout the first to the third observation run of LIGO and Virgo, a series of detection of compact binary coalescence has been made, containing a large variety of features like mass, mass ratio, spin, and distance, etc. Following the excellent traditions of observational astronomy, where the opening of each new observation channel promises great scientific return, the operation of GW observatories greatly deepens our understanding to the most dense objects in the Universe.
 >Ignorable.
@@ -40,7 +40,7 @@ This paper is organized as follows. Section 2 describes the statistical framewor
 |Sect.4|results|
 |Sect.5|future work and summary|
 
-## Statistic framework
+## 2. Statistic framework
 
 In order to optimize the observation strategy, we need to first determine the statistical framework. Since the luminosity of X-ray afterglows changes rapidly, <font color=red>we define the detection as when multiple observations reveals obvious luminosity difference</font>.
 >The detection is deined as when the obvious luminousity difference is shown. <br />How obvious???
@@ -120,12 +120,37 @@ P(D_{ag}|\omega,\tau_1,\tau_2,I) = P_{gw} \times P_1 \times P_2
 $$
 
 In the Equation (1), we only consider the probability of detecting the afterglow of one observation field.In actual observations, the more likely scenario is that multiple fields would be observed. The total number of fields can be estimated as follows. Assuming that the GW sky localization error region covers $S deg^2$ and the size of the telescope FOV is $\omega deg^2$, the maximum number of fields n can be estimated as $n \lessapprox S/\omega$ in the caseof small FOV.  <font color=red>If a large FOV is considered, more fields than $n' = S/\omega$ may need to be observed due to the GW sky localization error region in the shape of strip</font>. There will even overlap between the fields. **In this article, we mainly consider the situation with a large FOV**.
-> The total number of fields needed to be observed for large FOV telescope can be estimated as more than $n' = S/\omega$ due to the GW sky localization error region in the shape of strip.
+>The total number of fields needed to be observed for large FOV telescope can be estimated as more than $n' = S/\omega$ due to the GW sky localization error region in the shape of strip.
 
 We will not set a constrained total observation time atfirst, but the observation time do have natural restraint. The luminosity will decrease and when the signal is so small, we can not do a valid observation to achieve the expected SNR any longer. <font color=red>In other words,$P_1$ will not increase at that time. We mark this time as $T_{threshold}$.When the time has exceeded $T_{threshold}$, we no longer consider doing the first time observation for new fields</font>.
 >At time $T_{threshold}$, expected SNR can no longer be achieved and $P_1$ can no longer increase with $\tau_1$. So no new fields for the fisrt time observation after $T_{threshold}$.
 
-## Discussion and conclusion
+## 3. Algorithm
+
+### 3.1 Tiliing
+
+There are many methods about skymap tiling. Here we **use greedy algorithm to optimize the tiling** of the observing fields. Firstly, find out the number of <font color=purple>HEALPix</font> that can just meet the required confidence level (in our case we set itto 90%) in order to simplify the calculation. Then, the observation field is divided according to the size of the FOV. <font color=red>Each time, the field with the maximum detection probability will be output and named in order from one to n</font>. Hence their label indicates their rank in terms of enclosed GW probability.
+>First, find the HEALPix meeting requiement (find obsering fields?). Greedy algorithm is used to optimized the tiling of observing fields. The output are fields named in order from one to n, ranked by their detection probabilities.<br />What is HEALPix??? HEALPix is an acronym for Hierarchical Equal Area isoLatitude Pixelation of a sphere. As suggested in the name, this pixelation produces a subdivision of a spherical surface in which each pixel covers the same surface area as every other pixel. See `https://healpix.sourceforge.io/`
+
+We use the telescope, Einstein Probe (EP)’s Wide-field X-ray Telescope (WXT module), as an example in our work, and its FOV is about 3600 $deg^2$. Because of the large FOV, the observation field covers a large area around the center point, which means that the area of the observation field may exceed the range previously determined by the 90% confidence level. <font color=red>With the increase in the number n of observation fields, almost all areas of the GW probability distribution would be cov-ered. The sum of $P_{gw}$ of all observation fields may be greater than 90%, and even reach 99% in some events</font>.The result would be shown in Section 4.
+>The FOV of EP's WXT is 3600 deg^2. The sum of $P_{gw}$ of all observation fields may be considerable.
+
+### 3.2 Sequential Observation Algorithm
+
+Firstly, we consider a relatively simple algorithm, Sequential Observation Algorithm(SO). As shown in Equation (5), the probability can be separated to two parts, depending on the pointing directions and observation time τ respectively. Then one principle of our observation strategy can be given. As we mentioned before, the label of fields indicates their rank in terms of enclosed GW probability. <font color=red>If we choose to observe a new field,the label of this field must be the smallest among all the fields that never be observed</font>.
+>Sequential observation according to the labels of the outpur fields.
+
+We intend to complete the first time observation for as many field as possible until the signal is too weak toachieve the expected SNR. Then, we start the secondtime observation in the same sequence of fields. As forthe time allocation, **we make the shortest step** to change the observation time and comparing the probabilities of each choice. <font color=red>So, considering that there is a slew timeinterval when making the telescope point at the newfield, we compare the increment of $P_1$ when observing more (1 +slewtime) seconds in the old field with the probability of observing 1 seconds in the new field. We continue observing the old field till the the increment of $P_1$ is smaller than the probability of observing a new field</font>. To be fair to compare the difference in the number of photons observed between two observations, we simply adopt the same <font color=purple>time distribution</font> in the second time observation.
+>More fields as possible for the fisrt time observation till the SNR falls blow the expected value.<br />Then the second time observation is started with the same sequence, together with a time allocation trick. But why 1 seconds??? How to calculate the $P_1$ of each field???
+
+We can easily find that such a simple algorithm make large $P_1$ for the most fields. We complete the first timeobservation as many fields as possible when the signal isstrong enough. Although when we do the second time observation the signal is weak, what determines $P_2$ indeed is the difference between the two observation signals. That is, no matter how weak the signal is, as long as the intensity of the first observation and the second observation are relatively different, then we will get alarge $P_2$. <font color=red>We can find that getting large $P_1$ and large $P_2$ do not actually conflict, so we believe that this simple but useful algorithm SO will perform well</font>.
+>Sequential Observation might get both large $P_1$ and $P_2$.
+
+### 3.3 Local Optimization Algorithm
+
+Here we consider a more complex algorithm, Local Optimization Algorithm(LO), as a comparison.  The first principle mentioned before is still followed.  <font color=red>And here is another principle that if we choose to observe a field the second time, the label of this field must be the smallest among all the fields that has been observed</font>. Based on these two principles, we can compare the probability of all choices within the shortest step to optimize the time allocation. The difference from SO is that we can choose to observation the same field for the second time before we finish the first time observation for all fields. This algorithm will get the local optimal result.
+
+## Discussion And Conclusion
 
 In this work, we devised and compared two different algorithms to <font color=red>optimize the probability of a successful X-ray afterglow detection triggered by GW alerts</font>. We apply the EP’s WXT as a candidate telescope, which has a large FOV and can get most of the $P_{gw}$ with handful fields. Interestingly, the simpler strategy, or <font color=red>Sequential Observation, which is to finish the first time observation of as many fields as possible initially, constantly outperform the more complicated algorithm.  The results indicates that **multiple observations of the same fields in fairly long time interval** would have better chance to observe the afterglow</font>. We notice that large FOV will be very beneficial for rapid detection of afterglow. Indeed, for the earlier cases, the afterglow is expected to be bright enough that a very short exposure time is sufficient for detection, the majority of time is actually spent on the slew of telescopes.
 >Sequential Observation is better, indicating that multiple observations of the same fields in fairly long time interval would have better chance to observe the afterglow.

@@ -40,4 +40,98 @@ This paper is organized as follows. Section 2 describes the statistical framewor
 |Sect.4|results|
 |Sect.5|future work and summary|
 
-## statistic framework
+## Statistic framework
+
+In order to optimize the observation strategy, we need to first determine the statistical framework. Since the luminosity of X-ray afterglows changes rapidly, <font color=red>we define the detection as when multiple observations reveals obvious luminosity difference</font>.
+>The detection is deined as when the obvious luminousity difference is shown. <br />How obvious???
+
+Throughout the work, we make certain **assumptions**.For example, <font color=red>we assume that the sky position and distance are independent of each other</font>, so that their joint probability distribution is simply the multiplication of each distribution. We also assume that <font color=red>the telescopes can point to any direction</font>, ignoring the potential influence from the Sun, the Moon, and the Earth.
+>Several assumptions:<br />1.The sky position and distance are independent of each other, so that their joint probability distribution is simply the multiplication of each distribution.<br />2.The telescopes can point to any direction, ignoring the potential influence from the Sun, the Moon, and the Earth.
+
+We use $D_{ag}$ to denote the successful detection of an afterglow. In order to confirm the existence of afterglow, one need to observe the change of luminosity, so $D_{ag}$ is only defined when multiple observations are finished. The probability of $D_{ag}$ is defined as when the inferred flux has obvious difference, or ∆f >0. We note that the probability of detection $P(D_{ag})$ depends on the field of view (FOV) $\omega$, the observed sky locations ($\alpha, \delta$), and the corresponding exposure time of the multiple observations $\tau_1$ and $\tau_2$. The posterior probability of successful detection can then be given as the probability of one first measure the flux for the first exposure, then observe an obvious change in flux between the two exposures:
+$$
+P(D_{ag}|\omega,\tau_1,\tau_2,I) =
+P(N>N^*|\omega,\alpha,\delta,\tau_1,I) \times P(\Delta f > 0|\tau_1,\tau_2,I)
+\tag{1}
+$$
+>Define the detection probability as the multiplication of the probabilities of a detection of a excess count in the fisrt exposure and a detection of a flux change between two exposures.<br /> ∆f > 0 may be too loose ???
+
+Here,I is prior information that includes the parameters of the selected telescope, such as its photon collecting area A to name one. <font color=red>The threshold count $N^*$ is the criterion for detection determined by the expected signal-to-noise ratio (SNR), the background noise, and the sensitivity of the selected telescope</font>. We adopt the definition of SNR
+$$
+SNR = \frac{N_{signal}}{\sqrt{N_{noise}}}
+\tag{2}
+$$
+
+hence, $N^*$ could be expressed as
+$$
+N^* = SNR \times \sqrt{N_{noise}}
+\tag{3}
+$$
+
+>The threshold count $N^*$ is the criterion for detection determined by the expected signal-to-noise ratio (SNR), the background noise, and the sensitivity of the selected telescope.
+
+The flux received by the telescope depends on multiple factors. The GW event is localised by GW detectors with uncertainties, and one can assess how likely a certain area contains the GW source. With the knowledge of luminosity and the distance R, one can estimate <font color=red>the distribution of the expected flux, which can be later translated into the distribution of detected photon numbers</font>.  Then the first part of Equation (1) can be expanded as
+$$
+P(N>N^*|\omega,\alpha,\delta,\tau_1,I) = \int^{\infty}_{N^*} dN \int df \int dR \int_{\omega} d\alpha d\delta \\
+\times p(N|f,\tau_1,I)p(f|I,R)p(\alpha,\delta,R|I)
+\tag{4}
+$$
+
+The quantity $P(N|f,\tau_1,I)$ is the probability of received photons, given the flux $f$ of the source and observation time $\tau_1$, which is described by a Poisson distribution. Since we assume that the prior distribution on the distance to the target afterglow is statistically independent of the prior distribution on its sky location, Equation(4) can be written as
+$$
+P(N>N^*|\omega,\alpha,\delta,\tau_1,I) = P_{gw}(\omega) \times P_{ag}(\tau_1)
+\tag{5}
+$$
+
+where
+$$
+P_{gw}(\omega) = \int_{\omega} p(\alpha,\delta|I) d\alpha d\delta
+\tag{6} \\
+$$
+$$
+P_{ag}(\tau_1)=\int df \int dR \int^{\infty}_{N^*} dN \times p(N|f,\tau_1,I)p(f|I,R)p(R|I) \\
+= \int df \int^{\infty}_{N^*} dN p(N|f,\tau_1,I) \times \int dR p(f|I,R)p(R|I)
+\tag{7}
+$$
+
+The first part of Equation (1) only considers single observation. As for the second part of Equation (1),∆f is the different flux of the multiple observations(called $f_1$ and $f_2$) at different moments.  And the $f_1$ and $f_2$ can be approximated by a distribution depending on the prior known flux $f'$, which is based on the afterglow light curve model. The equation of this distribution can be written as
+$$
+P(f_0|f',\tau)=\sum^{\infty}_{N=0} P(N|f',\tau) \times P(f_0|N,\tau) \\
+= \sum^{\infty}_{N=0} P(N|f',\tau) \times \frac{P(N|f_0,\tau) P(f_0)}{\int^{\infty}_0 P(N|f,\tau) P(f) df}
+$$
+
+Here P(f)is the prior probability of the flux emitted by afterglow. P(N|f,τ) can be approximated by Poisson distribution. For convenience of description, we refer to the probability in Equation (7) as $P_1$,
+$$
+P_1 = P_{ag}(\tau_1) = \int df \int dR \int^{\infty}_{N^*} dN \times p(N|f,\tau_1,I)p(f|I,R)p(R|I) \\
+= \int df \int^{\infty}_{N^*} dN p(N|f,\tau_1,I) \times \int dR p(f|I,R)p(R|I)
+\tag{9}
+$$
+
+And the second part in Equation (1) as $P_2$,
+$$
+P_2 = P(\Delta f > 0|\tau_1,\tau_2,I)
+\tag{10}
+$$
+
+Thus the Equation (1) could be written as
+$$
+P(D_{ag}|\omega,\tau_1,\tau_2,I) = P_{gw} \times P_1 \times P_2
+\tag{11}
+$$
+
+In the Equation (1), we only consider the probability of detecting the afterglow of one observation field.In actual observations, the more likely scenario is that multiple fields would be observed. The total number of fields can be estimated as follows. Assuming that the GW sky localization error region covers $S deg^2$ and the size of the telescope FOV is $\omega deg^2$, the maximum number of fields n can be estimated as $n \lessapprox S/\omega$ in the caseof small FOV.  <font color=red>If a large FOV is considered, more fields than $n' = S/\omega$ may need to be observed due to the GW sky localization error region in the shape of strip</font>. There will even overlap between the fields. **In this article, we mainly consider the situation with a large FOV**.
+> The total number of fields needed to be observed for large FOV telescope can be estimated as more than $n' = S/\omega$ due to the GW sky localization error region in the shape of strip.
+
+We will not set a constrained total observation time atfirst, but the observation time do have natural restraint. The luminosity will decrease and when the signal is so small, we can not do a valid observation to achieve the expected SNR any longer. <font color=red>In other words,$P_1$ will not increase at that time. We mark this time as $T_{threshold}$.When the time has exceeded $T_{threshold}$, we no longer consider doing the first time observation for new fields</font>.
+>At time $T_{threshold}$, expected SNR can no longer be achieved and $P_1$ can no longer increase with $\tau_1$. So no new fields for the fisrt time observation after $T_{threshold}$.
+
+## Discussion and conclusion
+
+In this work, we devised and compared two different algorithms to <font color=red>optimize the probability of a successful X-ray afterglow detection triggered by GW alerts</font>. We apply the EP’s WXT as a candidate telescope, which has a large FOV and can get most of the $P_{gw}$ with handful fields. Interestingly, the simpler strategy, or <font color=red>Sequential Observation, which is to finish the first time observation of as many fields as possible initially, constantly outperform the more complicated algorithm.  The results indicates that **multiple observations of the same fields in fairly long time interval** would have better chance to observe the afterglow</font>. We notice that large FOV will be very beneficial for rapid detection of afterglow. Indeed, for the earlier cases, the afterglow is expected to be bright enough that a very short exposure time is sufficient for detection, the majority of time is actually spent on the slew of telescopes.
+>Sequential Observation is better, indicating that multiple observations of the same fields in fairly long time interval would have better chance to observe the afterglow.
+
+There are multiple aspects we can further explore. For example, our threshold for distinguishing the flux change using only the information of integrated photon numbers, while X-ray telescopes can register the arrival time of X-ray photons, which can further help distinguish random fluctuation from actual change of flux. This analysis based on the assumptions of a static telescope with unconstrained pointing and the independence of statistical uncertainty between the distance and the GW trigger sky location. Space-borne gravitational wave detectors like TianQin has the potential of predicting the merger with very high accuracy, and a co-ordinated observation can better depict the very early stage evolution. All issues can help shape a more realistic and more promising future of successfulmulti-messenger astronomy.
+> kind of ignorable
+
+To extend this work, it may be helpful to consider the further constraints that arise from the diurnal cycle,observing time available for afterglows, limitations onthe pointing a particular telescope is capable of, andthe rise and set of tiles.
+>prospection

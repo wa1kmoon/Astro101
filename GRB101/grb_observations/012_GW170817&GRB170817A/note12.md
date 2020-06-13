@@ -3,7 +3,6 @@
 Author: LIGO Scientiﬁc Collaboration and Virgo Collaboration, Fermi Gamma-ray Burst Monitor, and INTEGRAL
 
 <div id="menu"></div>
-
 [Abstract](#abstract)
 [1.Introduction and Background](#sect1)
 [2.Observational Results](#sect2)
@@ -21,13 +20,12 @@ Author: LIGO Scientiﬁc Collaboration and Virgo Collaboration, Fermi Gamma-ray 
 [6. Gamma-ray Energetics of GRB 170817A and their Implications](#sect6)
 &emsp;[6.1 Isotropic Luminosity and Energetics of GRB 170817A](#sect6.1)
 &emsp;[6.2 Implications of the Dimness on the Central Engine](#sect6.2)
-&emsp;[6.3  Observational Bias Against Low-luminosity GRBs](#sect6.3)
+&emsp;[6.3 Observational Bias Against Low-luminosity GRBs](#sect6.3)
 &emsp;[6.4 Predicted Detection Rates](#sect6.4)
 &emsp;[6.5 Limits on Precursor and Extended Emission](#sect6.5)
 [7.Conclusion](#sect7)
 
 <div id="abstract"></div>
-
 ## Abstract
 
 On 2017 August 17, the gravitational-wave event GW170817 was observed by the Advanced LIGO and Virgo detectors, and the gamma-ray burst(GRB)GRB 170817A was observed independently by the Fermi Gamma-ray Burst Monitor, and <font color=purple>the Anti-Coincidence Shield for the Spectrometer</font> for the International Gamma-Ray Astrophysics Laboratory.
@@ -43,7 +41,6 @@ Finally, we predict a joint detection rate for the Fermi Gamma-ray Burst Monitor
 >1.Detections: GW170817 by LIGO/VIRGO and GRB 170817A by GBM and INTEGRAL/SPI-ACS, independently.<br />2.GRB 170817A is basically sure to be associated with GW170817, which could verify the neutron star mergers origin of short GRBs.<br />3.The time delay of GRB 170817A and GW170817 are used to: a) constrain the difference between the spped of gravity and that of light, b) place new bounds on the violation of Lorentz invariance, c) test the equivalence principle somehow using Shapiro delay, d) constrain the size and bulk Lorentz factor of the gamma-rays emitting region.<br />4. GRB 170817A is less energetic in spite of the close distance.<br />5.Prediction of joint detection rate for GBM and LIGO/VIRGO.
 
 <div id="sect1"></div>
-
 ## 1. Introduction and Background
 
 [Back](#menu)
@@ -66,14 +63,12 @@ In Section 2 we describe the independent observations of GW170817 by the LIGO–
 |sect.7|conclusion|
 
 <div id="sect2"></div>
-
 ## 2. Observational Results
 
 The observations of GW170817 and of GRB 170817A are described in detail in Abbott et al. (2017e), Goldstein et al. (2017), and Savchenko et al. (2017b). Here we summarize the observations relevant to the results presented in this Letter and report the results of two fully coherent searches for GWs from the sky location of GRB 170817A. For convenience, all measurements of time have been converted to their <font color=purple>geocentric equivalent.</font>
 >In here we just summarize the observations relevant to our results.<br />All the time measurments here have been converted to geocentric equivalent, in order to adapt the GW signal arrival time.
 
 <div id="sect2.1"></div>
-
 ### 2.1 LIGO–Virgo Observation of GW17081
 
 <font color=red>GW170817 is a GW signal from the inspiral of two low-mass compact objects and is the ﬁrst GW observation consistent with a BNS coalescence.</font> GW170817 was ﬁrst observed by a <font color=purple>low-latency</font> search on 2017 August 17 at 12:41:04 UTC as a single-detector trigger in the LIGO-Hanford detector. The temporal proximity of GRB 170817A was immediately identiﬁed by automatic comparison of the Fermi-GBM Gamma-ray Coordinates Network notice to the GW trigger. Rapid ofﬂine re-analysis of data from the LIGO/Virgo network conﬁrmed the presence of a signiﬁcant coincident signal in the LIGO GW detectors with a combined signal-to-noise ratio (S/N) of 32.4. <font color=red>The combination of observations from the LIGO and Virgo detectors allowed a precise sky position localization to an area of 28 deg^2 at 90% probability</font> shown in green in Figure 1. A time-frequency representation of the LIGO data containing GW170817 is shown in the bottom panel of Figure 2. The GPS time of the merger of GW170817 is $T_0^{GW} = 1187008882.430_{-0.002}^{+0.002}s$. <font color=red>At the observed signal strength,the false alarm rate of the all-sky search for compact-object mergers is **less than 1 in 80,000 years**.</font> The ofﬂine searches target binaries with (detector frame) total mass 2–500 $M_{sun}$. Signals are required to be coincident in time and mass in the LIGO detectors, but Virgo data are not used in the signiﬁcance estimates of the all-sky ofﬂine search.
@@ -98,7 +93,6 @@ The GW data constrain the <font color=blue>inclination angle $\Theta_{JN}$ betwe
 >1.The inclination angle $\Theta_{JN}$ is constrained as cos$\Theta_{JN} \le -0.54$.<br />2.It is assumed that the orbital and total angular momenta are aligned since the component masses are comparable.<br />3.The SGRB jet is assumed to be aligned with the system rotation axis.<br />4.Thus the jet viewing angle can be constrained with the known distance: $\zeta \le 36\degree$ or $\zeta \le 28\degree$ depending on the Hubble constant.
 
 <div id="sect2.2"></div>
-
 ### 2.2 Fermi-GBM Observation of GRB 170817A
 
 GRB 170817A was autonomously detected in-orbit by the GBM ﬂight software in a process known as “triggering.” Goldstein et al. (2017) showed the signal exceeds 5σ in three (of twelve) GBM NaI detectors. <font color=red>The GBM detection showed two apparently distinct components. The triggering pulse, that lasts about half a second and falls within the usual observer distributions for GBM SGRBs, is shorter and spectrally harder than the subsequent softer, weaker emission that lasts a few seconds</font>. Summed GBM lightcurves from the relevant detectors in two energy ranges, selected to show the two distinct components, are shown in the top two panels in Figure 2. The GBM time-tagged event data is binned to match the SPI-ACS temporal resolution (100 ms) and phase (matching bin edges) to allow for an easier comparison between the gamma-ray instruments.
@@ -130,7 +124,6 @@ Using the soft spectral template of the GBM targeted search, a Band function wit
 >Upper limits on precursor activity and extended emission???
 
 <div id="sect2.3"></div>
-
 ### 2.3 INTEGRAL SPI-ACS Observation of GRB 170817A
 
 A routine follow-up search for short transients in SPI-ACS identified a single excess at <font color=red>$T_0^{ACS} = T_0^{GW} +1.88 s$</font> with S/N = 4.6 at the 0.1 s timescale. <font color=purple>The correction to the geocentric system assumes the location of the optical transient and results in delay of the signal arrival to INTEGRAL of148.96 ms</font>. In order to compare the intensity of the eventobserved by SPI-ACS to the GBM measurement, we computethe range of fluences compatible with the SPI-ACS data in the [-0.320 s, +0.256s] time interval centered in $T_0^{GBM}$, assuming the GBM best fit spectral model in the same interval. We derive a fluence estimate of $(1.4 \pm 0.4) x 10^{-7}$ erg/cm$^2$.(statisticaluncertainty only)in the 75–2000 keV energy range, consistentwith GBM.
@@ -143,7 +136,6 @@ The significant interval of the SPI-ACS lightcurve of GRB 170817A is limited to 
 >The different energy band of the two instruments resulted in the difference appearing duration time. The pulse duration of SPI-ACS is constrained to be less than 100ms (half a second as for the GBM triggering pulse).
 
 <div id="sect3"></div>
-
 ## 3. Unambiguous Association
 
 The separation of GRBs into short and long classes was suggested by their duration distributions and reinforced by differences in the prompt gamma-ray emission of the two classes. Tying the short class to a different progenitor from the long class was strengthened by redshift measurements of their hosts. <font color=blue>Association of SGRBs with older stellar populations than long GRBs was supported by the types of galaxies that host them; the connection to BNS mergers was strengthened by the offsets of SGRBs afterglows from their host galaxies and by the absence of supernovae following nearby, well-observed SGRBs.</font> We provide conclusive evidence for the BNS-SGRB connection by quantifying the chance temporal and spatial coincidence for GRB 170817A and GW170817 arising from two independent astrophysical events.
@@ -159,7 +151,6 @@ The temporal and spatial p-values are independent quantities,thus the probabilit
 >$P_{temporal} \times P_{spatial} = (5.0 \times 10^{-6}) \times (0.01) = 5.0 \times 10^{-8}$ for being independent events comes the unambiguous association of GW170817 and GRB 170817A, confirming the BNS mergers are progenitors of(at least some)SGRBs.
 
 <div id="sect4"></div>
-
 ## 4. Implications for Fundamental physics
 
 <font color=blue>Little or no arrival delay between photons and GWs over cosmological distances is expected as the intrinsic emission times are similar and the propagation speeds of EM and GWs are thought to be identical.</font> In this Section we discuss the implications on fundamental physics of the temporal offset of (1.74 $\pm$ 0.05) s measured between GW170817 and GRB 170817A.
@@ -168,7 +159,6 @@ Standard EM theory minimally coupled to general relativity predicts that GWs and
 >Using the temporal offset, the distance, and the expected eimssion-time difference to constrain the devation of the speed of gravity from $c$, the violations of Lrentz invariance and the equivalence principle.
 
 <div id="sect4.1"></div>
-
 ### 4.1 Speed of Gravity
 
 Assuming a small difference in travel time $\Delta t$ between photons and GWs, and the known travel distance D, the fractional speed difference during the trip can be written $\Delta v/v_{EM} \approx v_{EM} \Delta t/D$, where $\Delta v = v_{GW} - v_{EM}$. This relation is less constraining for small distances, hence we conservatively use here **$D = 26 Mpc$, the lower bound of the 90% credible interva**l on luminosity distance derived from the GW sigma.<font color=red>If we conservatively assume that the peak of the GW signal and the first photons were emitted simultaneously, attributing the entire (1.74 $\pm$ 0.05) s lag to faster travel by the GW signal, this time difference provides an upper bound on $\Delta v$.</font> <font color=red>To obtain alower bound on $\Delta v$, one can assume that the two signals were emitted at times differing by more than 1.74s with the faster EM signal making up some of the difference.</font> As a conservative bound relative to the few second delays discussed in Section2.1, **we assume the SGRB signal was emitted 10 s after the GW signal.** The resulting constraint on the fractionalspeed difference is
@@ -183,7 +173,6 @@ The intergalactic medium dispersion has negligible impact on the gamma-ray photo
 >Upper limit and lower bound??? of the fractional speed difference are obtained.The intergalactic medium dispersion has negligible impact on the speed difference.
 
 <div id="sect4.2"></div>
-
 ### 4.2 Lorentz Invariance  Violation Limits
 
 Within a comprehensive effective field theory description of Lorentz  violation, <font color=blue>the relative group velocity of GWs and EM waves, is controlled by differences in coefficients for Lorentz violation in the gravitational sector and the photon sector at each mass dimension d</font>. We focus here on the non-birefringent, non-dispersive limit at mass dimension d = 4, as it yields by far the most impressive results. In this case, the difference in group velocities for the two sectors takesthe form:
@@ -204,7 +193,6 @@ For ease of comparison with the many existing sensitivities to the d = 4 gravity
 <img src='./table1.png'>
 
 <div id="sect4.3"></div>
-
 ### 4.3 Test of the Equivalence Principle
 
 <font color=blue>Probing whether EM radiation and GWs are affected by background gravitational potentials in the same way is a test of the equivalence principle.</font> One way to achieve this is to use the **Shapiro effect**, <font color=blue>which predicts that the propagation time of massless particles in curved spacetime,i.e., through gravitational fields, is slightly increased with respect to the flat spacetime case.</font> We will consider the following simple parametrized form of the Shapiro delay:
@@ -229,7 +217,6 @@ $$
 The best absolute bound on $\gamma_{EM}$ is $\gamma_{EM} -1 = (2.1 \pm 2.3) \times 10^{-5}$ from the measurement of the Shapiro delay (at radio wavelengths)with the Cassini spacecraft.
 
 <div id="sect5"></div>
-
 ## 5. Astrophysical Implications
 
 The joint GW–GRB detection provides us with unprecedented information about the central engine of SGRBs. The elay between the GW and the GRB trigger times allows us toexamine some basic GRB physics. <font color=red>This delay could be intrinsic to the central engine, reflecting the time elapsed from the moment the binary components come into contact to the formation of a remnant BH and the resulting jet.</font> This interpretation includes the case of a relatively long-lived massive NS remnant, which has been suggested to survive from seconds to minutes after merger. The delay could also be due to the propagation time of the relativistic jet, including the time it takes for the jet to break out of the dense gaseous environment produced by non-relativistic merger ejecta and/or the emitting region to become transparent to gamma-rays.
@@ -239,7 +226,6 @@ We first discuss the implications that the time delay between the GW and EM emis
 >这里先只考虑第二种解释中的情景，即延迟仅来自于暴周介质的作用而不考虑并合过程的影响，讨论这种情况造成的时间延迟会对辐射区域的物理性质有何反映。<br />之后考虑双中子星并合产生SGRB对致密物质的状态方程有何影响。
 
 <div id="sect5.1"></div>
-
 ### 5.1 GRB Physics
 
 The main hard peak observed for GRB 170817A lasted roughly half a second. <font color=red>This peak is consistent with a single intrinsic emission episode as it is well described by a single pulse, showing no evidence for significant substructure(spikes).</font> This interpretation is consistent with the SPI-ACS observation of a single peak. The GBM detection of GRB 170817A also shows no evidence for photons with energy > 511 keV,<font color=purple>implying that the outflow does not require a high bulk Lorentz factor $\Gamma$ to overcome photon–photon absorption at the source.</font>
@@ -329,7 +315,6 @@ The  primary  challenge  of  this interpretation is in explaining the nature of 
 除此之外文章还提到了一些机制，如黑体辐射来自于cacoon，或者延迟是因为相对论性喷流突破'sub-relativistic dense ejecta'需要时间导致的，但这个情景下，如果采用典型的抛射物质量，则得到的突破时间爱要短于实际观测到的延迟。而如果降低喷流动能，有可能导致喷流突破失败。
 
 <div id="sect5.2"></div>
-
 ### 5.2 Neutron Star EOS Constraints
 
 对双中子星并合产生的短伽玛暴的观测有助于限制中子星的状态方程。现将基于GW信号的双星质量的测量结果放到两种并合模型下进行比较：1. 并合产生一个带吸积盘的旋转黑洞，以给GRB供能。2. 并合产生快速旋转并高度磁化的中子星（毫秒磁星），同样也伴随吸积盘。
@@ -345,14 +330,12 @@ The  primary  challenge  of  this interpretation is in explaining the nature of 
 考虑到如果要兼容第二种情形（并合形成毫秒磁星），并合残骸的寿命必须足够长才能驱动GRB。但就目前的研究还无法排除H4, LS220,SFHo,以及SLy中的哪一个。
 
 <div id="sect6"></div>
-
 ## 6. Gamma-ray Energetics of GRB 170817A and their Implications
 
 Using the measured gamma-ray energy spectrum and the distance to the host galaxy identified by the associated optical transient, we compare the energetics of GRB 170817A to those of other SGRBs at known redshifts. Finding GRB 170817A to be subluminous, we discuss whether this dimness is an <font color=purple>expected observational bias for joint GW–GRB detections</font>,what insight it provides regarding the <font color=red>geometry of the gamma-ray emitting region</font>, what we can learn about the <font color=red>population of SGRBs</font>, update our <font color=red>joint detection estimates</font>, and set limits on gamma-ray precursor and extended emission.
 >GRB 170817A 相对其它红移已知的SGRB来说，亮度较低。我们讨论了<br />是否是GW-GRB联合观测的偏差导致亮度较低；<br />反映了辐射区域怎样的几何形态；<br />对短暴家族的理解有何帮助；<br />联合观测的探测概率；<br />伽玛涉嫌的前哨和后延辐射的限制。
 
 <div id="sect6.1"></div>
-
 ### 6.1 Isotropic Luminousity and Energetics of GRB 170817A
 
 Using the “standard” spectral information from Goldstein et al.(2017) and the distance to the host galaxy NGC 4993 (42.9 $\pm 3.2$)Mpc, we calculate the energetics of GRB 170817A using the standard formalisms(Bloom et al.2001;Schaefer2007). GRBs are believed to be relativistically beamed and their emission collimated (Rhoads1999). Isotropic energetics are upper bounds on the true total energetics assuming the GRB is observed within the beaming angle of the brightest part of the jet.We estimate that the isotropic energy release in gamma-rays <font color=purple>$E_{iso} = (3.1 + 0.7) \times 10^{46}$ erg, and the isotropic peak luminos-ity,(1.6 $\pm$ 0.6) x 10$^{47}$ erg s$^{−1}$</font>,in the 1keV–10MeV energy band. These energetics are from the source interval—i.e.,the selected time range the analysis is run over—determined in the standard manner for GBM spectral catalog results, allowing us to compare GRB 170817A to other GRBs throughout thissection. The uncertainties on the inferred isotropic energetics values here include the uncertainty on the distance to the host galaxy. As a cross check, the isotropic luminosity is also estimated using a Bayesian approach proposed by Fan(2017).Assuming a flat prior on isotropic luminosity, we obtain Liso=$1.2_{-0.6}^{+0.7} \times 10^{47}$ erg/s, which is consistent with the standard GBM approach. This Bayesian approach can be used to combine future joint GW-GRB observations to provide a redshift-independent estimate of the GRB luminosity function.
@@ -367,7 +350,6 @@ Compared to the distribution of GBM detected GRBs with measured redshift shown i
 <img src="./fig4.png">
 
 <div id="sect6.2"></div>
-
 ### 6.2 Implications of the Dimness on the Central Engine
 
 The broad observed brightness distribution likely arises from a mixture of an intrinsic brightness distribution and geometric effects, which include the inclination angle of the system to Earth, the structure and width of the collimated jet itself, and the relativistic beaming angle $\theta_b$. We  consider several possibilities to explain why GRB 170817A is extremely dim(Figure5):(i)we viewed it from beyond the half-jet opening angle $\theta_j$ for a standard top-hat model, (ii)the structure of the jet is more complicated than a simple top-hat model, (iii)the observed emission for GRB 170817A originates from  a different mechanism than for most SGRBs, or (iv) it is due solely to the intrinsic luminosity distribution and not the geometry of the system.
@@ -416,7 +398,6 @@ Scenario(iv). If GRB 170817A is viewed within both the collimated jet and the be
 >情形4：也有可能GRB170817A就是在其喷的正轴上被我们观测到，它相对暗弱的亮度只是其内部机制的结果，即‘高帽’喷流的亮度分布横跨6个量级，而这在现有的对双中子星并合模型的质量限制下不大可能实现。有可能现在的亮度分布中那些很亮的事件实际上是NS-BH事件，有或者是系统其它性质如磁场强度或固有喷流张角分布（the intrinsic jet-openingangle distribution）。
 
 <div id="sect6.3"></div>
-
 ### 6.3 Observational Bias Against Low-luminosity GRBs
 
 The fact that GRB 170817A is orders of magnitude dimmer than the population of SGRBs with known redshifts raises the questions: (i) is it unexpectedly dim, and (ii) is there apopulation of SGRBs with comparable luminosities(and distances)that we are not detecting? We explore here whether the gap in luminosity compared to more luminous SGRBs is a result of the instrumental sensitivity for the detection of either the prompt or the afterglow emission of SGRBs, or whether our problem lies in the association of SGRBs to their host galaxies and thus redshift.
@@ -462,7 +443,6 @@ Giantflares from the highly magnetized NSs known as magnetars can be detected ou
 ---
 
 <div id="sect6.4"></div>
-
 ### 6.4 Predicted Detection Rates
 
 The intrinsic specific <font color=purple>volumetric SGRB rate</font> is often quoted to be around $10 Gpv^{-3}yr^{-1}$. However, unlike GW signals, SGRBs do not have a clear relationship between the observed distance and brightness. As discussed in the previous section, this can be due to intrinsic variations in SGRB luminosities, as well as structure in the jet. In this Section, <font color=red>we investigate the former scenario  presenting  the  implications  of  GW170817/GRB 170817A for future GW and SGRB observations in terms of a simple standard model for the SGRB luminosity distribution.</font> Similar interpretations for other, perhaps moreelaborate, models are straightforward.
@@ -516,7 +496,6 @@ Future joint GW-SGRB observations will provide significant new insights into low
 >未来更多的GW-SGRB的联合观测将帮助我们更好地理解低亮度SGRB。对于仅有GW信号而没有SGRB观测的事件有助于我们对SGRB的喷流张角作出限制，以及加强GW观测时的GRB亚阈值搜寻也有助于增加联合观测的样本数量。
 
 <div id="sect6.5"></div>
-
 ### 6.5 Limits on Precursor and Extended Emission
 
 At gamma-ray energies, SGRBs are characterized by a prompt emission episode lasting at most ∼2 s. Observational evidence for precursor flares associated with SGRBs and temporally extended emission is so far inconclusive. <font color=red>Given the small distance to the source, the absence of such emission from GRB 170817A provides an important data point and may constrain models that predict it.</font> The flux upper limits set in Section 2.2 correspond to an intrinsic upper limit of $\sim 2.4 \times 10^{47}$ erg/s for precursor emission on the 0.1 s timescale, $\sim 7.0 \times 10^{46}$ erg/s for precursor emission on the 1.0 s timescale, and $\sim 2.2 \times 10^{46}$ erg/s for extended emission on the 10 s timescale.
@@ -536,7 +515,6 @@ We encourage the development of quantitative predictions of luminosity as a func
 >将来更多的BNS的联合观测可以对并合前的物理模型做出更多限制。
 
 <div id="sect7"></div>
-
 ## 7. Conclusion
 
 The joint observation of GW170817 and GRB 170817A conﬁrms the association of SGRBs with BNS mergers. <font color=red>With just one joint event, we have set stringent limits on fundamental physics and probed the central engine of SGRBs in ways that have not been possible with EM data alone</font>, demonstrating the importance of multi-messenger astronomy.

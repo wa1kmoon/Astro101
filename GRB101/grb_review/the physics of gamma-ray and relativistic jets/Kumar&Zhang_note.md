@@ -5,7 +5,6 @@
 [3.Afterglow theory](#sect3)
 
 <div id='sect1'></div>
-
 ## 1. Introduction
 
 - GRBs are irregular pulses of gamma-ray radiation
@@ -31,7 +30,6 @@
 - relativistic jet: baryonic matter? electron-positron pairs? energy in magnetic fields?
 
 <div id='sect2'></div>
-
 ## 2. Radiative processes
 
 - synchrotron process
@@ -372,11 +370,9 @@ When photon energy in electron comoving frame approaches (or exceeds) $m_e c^2$,
 One simple consequence of the recoil effect is that the energy of the scattered photon is limited to $\sim m_e c^2 \gamma_e /2$ (no longer $\sim \nu_0 \gamma_e^2$) which is obviouse  from energy conservation.
 
 <div id='sect3'></div>
-
 ## 3.Afterglow theory
 
 <div id='sect3.1'></div>
-
 ### 3.1 Relativstic shocks: basic scalings
 
 This is a relativistic blastwave theory that describes interaction between the "fireball" -- which moves with Lorentz factor $\Gamma_0$ before before deceleration and has total "isotropic equivalent" energy E -- and the circumburst medium (CBM) described by the density profile, $n(R)=(A/m_p)R^{-k}$.
@@ -401,3 +397,92 @@ $$
 E \approx 4 \pi A R^{3-k} c^2 / (3-k),
 \tag{33}
 $$
+
+
+
+### 余辉同步辐射光谱和光变曲线
+
+三个特征频率 $\nu_a$, $\nu_m$, $\nu_c$
+
+- 慢冷却，$\nu_m$ < $\nu_c$
+
+  ![eq61](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq61_p30.png)
+
+- 快冷却， $\nu_c$ < $\nu_m$
+
+  ![eq62](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq62_p30.png)
+
+$\nu_m$和$\nu_c$由同步辐射公式给出（eq18,eq69,eq64,eq65,eq66），$\nu_a$可由对应温度等流量黑体算出（eq68）。
+
+这三个特征频率随时间的变化可从激波动力学，特别是根据就激波洛伦兹因子的演化算出u。
+
+- constant CBM:
+
+  ![eq70-72](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq70-72_p30.png)
+
+- wind like CBM
+
+  ![eq73-75](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq73-75_p31.png)
+
+
+
+峰值频率的完整表达式（上为constant CBM， 与时间无关；下为wind-like CBM，随时间减小）
+
+![eq79-80](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq79-80_p32.png)
+
+光度距离由78式给出。
+
+
+
+通过以上这些式子，可给出$\nu > max(\nu_m, \nu_c)$频段观测到的流量：
+
+![eq81](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq81_p33.png)
+
+
+
+外激波下的同步辐射机制可以给晚期（晚于10小时）的GRB提供较好的描述。
+
+![fig7](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig7_p33.png)
+
+
+
+### Reverse shock
+
+如果喷流中磁场不太强（比如磁化参数$\sigma = B'^{2}/(4 \pi n'_p m_p c^2) \ll 1$）则在余辉早期，反向激波会在喷流中传播，使喷流减速。RS-FS系统可被分为以下四个区域：
+
+![fig8](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig8_p34.png)
+
+3区域这样被反向激波加热的区域可发出辐射，这样的预言在GRB 990123中被发现。
+
+- 2 3 区域的压强与洛伦兹因子相等，但密度不相等。
+
+
+
+这几个区域之间的相对洛伦兹因子有如下关系（相对论情况下）：
+
+![eq82](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq82_p34.png)
+
+- $\Gamma_0$是4区相对1区的洛伦兹因子，即喷流的洛伦兹因子。
+
+有了这些洛伦兹因子，即可推导出2和3区域的一些热动力学性质Sari and Piran (1995)。
+
+
+
+基于以下无量纲化的宽度：
+
+![eq83](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq83_p35.png)
+
+- 若$\xi > 1$，则为 thin shell
+- 若$\xi < 1$，则为 thick shell
+
+两种情况下FS/RS系统的动力学不一样，进而光变曲线也不一样。
+
+详细的讨论可参见35页提到的一众文献。
+
+
+
+RS/FS系统三种类型的特征：
+
+- re-brightening。标准的microphysics parameters下，如$\epsilon_e = 0.1 \epsilon_B = 0.01$，光变曲线显示出重燃的特征。第一个峰一般由RS主导，第二个峰则对应FS中$\nu_m$下降至光学波段以下。
+- flattening。如果未激波化喷流区域（区域4）的磁化程度不够压制RS，且RS磁场强于FS磁场，则RS辐射将会主导光变，就像GRB 990123。早期光学耀发由RS主导，当RS穿透喷流时达到峰值，随后快速衰减（$ \sim t^{-2}$）。
+- no RS component。Swift时代探测到的一些早期GRB余辉并未显示出RS迹象。原因可能是这些GRB喷流为Poynting流量主导的从而抑制RS(Zhang and Kobayashi, 2005; Mimica et al., 2009)，抑或是RS中$\nu_m$太低(Jin and Fan, 2007)。

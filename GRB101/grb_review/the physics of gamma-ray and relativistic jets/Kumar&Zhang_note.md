@@ -375,7 +375,7 @@ One simple consequence of the recoil effect is that the energy of the scattered 
 <div id='sect3.1'></div>
 ### 3.1 Relativstic shocks: basic scalings
 
-This is a relativistic blastwave theory that describes interaction between the "fireball" -- which moves with Lorentz factor $\Gamma_0$ before before deceleration and has total "isotropic equivalent" energy E -- and the circumburst medium (CBM) described by the density profile, $n(R)=(A/m_p)R^{-k}$.
+This is a relativistic blastwave theory that describes interaction between the "fireball" -- which moves with Lorentz factor $\Gamma_0$ before deceleration and has total "isotropic equivalent" energy E -- and the circumburst medium (CBM) described by the density profile, $n(R)=(A/m_p)R^{-k}$.
 
 A power-law decaying multi-wavelength afterglow is predicted before the first observational detection of X-ray afterglow in 1997.
 
@@ -400,7 +400,7 @@ $$
 
 
 
-### 余辉同步辐射光谱和光变曲线
+### 3.2 余辉同步辐射光谱和光变曲线
 
 三个特征频率 $\nu_a$, $\nu_m$, $\nu_c$
 
@@ -446,7 +446,7 @@ $\nu_m$和$\nu_c$由同步辐射公式给出（eq18,eq69,eq64,eq65,eq66），$\n
 
 
 
-### Reverse shock
+### 3.3 Reverse shock
 
 如果喷流中磁场不太强（比如磁化参数$\sigma = B'^{2}/(4 \pi n'_p m_p c^2) \ll 1$）则在余辉早期，反向激波会在喷流中传播，使喷流减速。RS-FS系统可被分为以下四个区域：
 
@@ -486,3 +486,104 @@ RS/FS系统三种类型的特征：
 - re-brightening。标准的microphysics parameters下，如$\epsilon_e = 0.1 \epsilon_B = 0.01$，光变曲线显示出重燃的特征。第一个峰一般由RS主导，第二个峰则对应FS中$\nu_m$下降至光学波段以下。
 - flattening。如果未激波化喷流区域（区域4）的磁化程度不够压制RS，且RS磁场强于FS磁场，则RS辐射将会主导光变，就像GRB 990123。早期光学耀发由RS主导，当RS穿透喷流时达到峰值，随后快速衰减（$ \sim t^{-2}$）。
 - no RS component。Swift时代探测到的一些早期GRB余辉并未显示出RS迹象。原因可能是这些GRB喷流为Poynting流量主导的从而抑制RS(Zhang and Kobayashi, 2005; Mimica et al., 2009)，抑或是RS中$\nu_m$太低(Jin and Fan, 2007)。
+
+
+
+### 3.4 Jet break
+
+很多GRB余辉光变曲线中显示出了消色差拐折，表明GRB外流是准直的（Rhoads
+1997 预测）。
+
+光变曲线变陡由两方面因素造成：
+
+- “edge” effect
+
+  对于以洛伦兹因子$\Gamma$移动的喷流，其内部辐射出来的光子的在静系看来是集中在张角为$1/\Gamma$内的。对于一个张角为$\theta_j$的喷流，一开始洛伦兹因子比较大，$\Gamma > 1/\theta_j$，光子集束角小于喷流张角，观测者只看到了喷流的一小部分发出的辐射。这一阶段的光变曲线为拐折前曲线。随着喷流减速，洛伦兹因子变小，当$1/\Gamma \sim \theta_j$时，即光子集束角与喷流张角相当，光变曲线便开始出现拐折。此后洛伦兹因子继续减小，光变曲线开始以更陡峭的斜率衰减。
+
+  该效应是一个几何+相对论性的效应，受此影响，特定流量在拐折前后会有一个$\propto \Gamma^2$因子的变化。
+
+  对于均匀密度CBM的情形，$\Gamma^2 \propto t^{-3/4}$；同步辐射的各特征频率随时间的演化不受此效应的影响。
+
+  对于wind-like CBM的情形，$\Gamma^2 \propto t^{-1/2}$，且该情形下的喷流拐折会显得更光滑，整个拐折过程大约会跨越两个星等（2 orders of magnitude）。有数值模拟显示该情形的拐折时标会更短一点，大约跨越一个星等。
+
+- sideways expansion
+
+  当边缘效应发生作用时，横向声波也传播到了喷流外侧，引起侧向延展，张角会随洛伦兹因子减小而增加：$\theta_j \sim 1/\Gamma$。均匀密度CBM下，结合能量守恒，可知喷流半径的增大速度在拐折之后会大幅下降，$\Gamma \propto \sim t_{obs}^{-1/2}$。测向延展影响了洛伦兹因子的演化，进而也会影响特征频率以及光变曲线的演化。
+
+  ![eq84-89](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq84-89_p38.png)
+
+  数值模拟显示侧向延展造成的影响在$\Gamma < 2$之前都不重要。 
+
+
+
+一般认为GRB喷流是结构性的，即其性质（如光度和洛伦兹因子）存在一个相对中轴线的角分步，如幂律分布或高斯分布。对于一个正轴观测者，结构性喷流衰减的斜率会比普通高帽模型的斜率要陡。而对于偏轴观测者，光变曲线的行为大部分会受到观测角$\theta_v$的影响，喷流拐折时间将由观测角$\theta_v$而非喷流张角$\theta_j$决定。
+
+有理论认为，所有GRB的喷流都是类似的，观测上呈现的不同性质是因为观测角度不同而导致的。 （"quasi-universal" jet, Rossi et al., 2002; Zhang and
+Mészáros, 2002b; Zhang et al., 2004a）
+
+还有一种广泛讨论的结构性喷流是二成分喷流，由中间狭窄的，高洛伦兹因子和高光度的部分，加上四周包围的更宽但光度较低，洛伦兹因子较小的部分组成。这样的模型，在不同的观测角下也可以解释一些GRB的光变曲线的现象，如较早的喷流拐折以及晚期的重燃（re-brightening）现象。这种模型也包括“cocoon”模型，可由塌缩型超新星的长暴中产生。
+
+偏轴观测也可能会导致“孤儿”余辉的发现，即仅观测到了余辉辐射，而没有观测到伽玛辐射本身。观测者可能会看到余辉流量上升，直到$1/\Gamma$辐射椎进入了视线后开始像喷流拐折后的情形一样衰减。
+
+
+<div id='sect4'></div>
+## 4. Afterglow observations and interpretations
+
+1997年GRB 余辉首次被预测，紧接着在GRB 970228中首次观测到X射线和光学波段余辉，在GRB 970508中首次观测到射电余辉。
+
+
+
+### 4.1 Late time afterglow observations and interpretations
+
+在Swift卫星发射以前就已经通过观测收集了许多GRB的晚期（10小时后）且宽波段的余辉数据。这些观测数据通常都符合外部前向激波的同步辐射模型。主要的观测特征如下：
+
+- 通常，光学余辉会呈现出幂律衰减$F_{\nu} \propto t^{-\alpha}$，衰减指数$\alpha \sim 1$。这与标准外激波余辉模型的预测吻合。
+- 通常在明亮的GRB的光变曲线中会观测到拐折，大概发生在一天左右。拐折之后曲线衰减会变陡，$\alpha \sim 2$。这与喷流拐折理论是吻合的。
+- 射电波段的余辉光变曲线通常会先上升，在10天左右达到峰值后开始衰减。达到峰值时一般也是同步辐射注入频率$\nu_m$或同步辐射自吸收频率$\nu_a$演化到射电波段的时候。
+- 余辉i的宽频光谱可以用一个broken power law来拟合，同样符合同步辐射余辉模型。
+- 一些有高质量观测数据的GRB（如GRB 021004、 GRB 030329）的光变曲线中会出现一些其它的结构，如bumps（鼓包）或者wiggles（波动），偏离了理想余辉模型的预测。曲线中出现光滑的鼓包的原因有可能是暴周介质的一个“密度鼓包”造成的；而比较尖锐的特征则有可能是因为中心引擎的能量注入，每单位立体角的能量的角分布波动，又或是由于双成分喷流的存在。
+
+通过对余辉光变数据的模型（Panaitescu and Kumar2001, 2002; Yost et al. 2003）拟合，可以推出激波参数（$\epsilon_e,\  \epsilon_B,\  p$）。结果证明这些参数对于不同的GRB通常是不同的。
+
+另外，余辉数据似乎更倾向于一个均匀密度的介质而不是密度分层的星风型介质。
+
+还有一个有趣的事实是，尽管GRB blastwaves的各向同性动能的分布会跨越三个量级，但经过喷流修正的余辉能量通常集中在约一个量级，伽玛能量也是如此。这反映了Swift之前探测到的GRBs的能量储备大概是接近的。
+
+
+
+### 4.2 Early afterglow observations and interpretations
+
+Swift卫星上天后，我们可以得到早期（从小于100s开始）余辉的观测数据，这些数据展示了很多意料外的有趣的特征。
+
+GRB 990123的早期观测数据呈现了一个明亮的光学耀发，显示其与伽玛辐射有着不同的来源。这个耀发显示为一个sharp rise和一个steep decay，衰减部分的指数约为2。这是不符合外部前向激波模型的，但可以用逆向激波来解释。但如果用逆向激波来解释的话，逆向激波区域的磁场应该比前向激波区域的磁场强，同时不能太强，否则会抑制逆向激波导致其无法辐射出观测水平的辐射流量。
+
+可能是与光学耀发联系在一起的射电耀发，也在一些GRB中被探测到，如GRB 990123 和 GRB 021004。射电耀发的峰值要来的晚些（一天左右），它同样可以用逆向激波来解释。
+
+![fig9](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig9_p48.png)
+
+
+
+Swift在早期的X波段余辉探测到了数个令人惊讶的辐射成分。这些数据可以看作光变曲线的模板，通常包含5个成分。
+
+![fig10](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig10_p49.png)
+
+![fig11](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig11_p49.png)
+
+
+
+但不是所有的GRB都有这5个成分。这5个成分的主要性质总结如下：
+
+- 第一阶段是一个快速衰减阶段，衰减指数大于2。这一阶段可能与瞬时辐射的结尾有关。This phase may be simply the high latitude emission (described in §2.1) associated with the prompt γ-ray source at R > ∼ 10 cm when the central engine turns off faster than the decline of the X-ray lightcurve (Kumar and Panaitescu, 2000a; Dermer, 2004; Zhang et al., 2006; Nousek et al., 2006; Liang et al., 2006a). On the other hand if the emission region is at a much smaller radius then the rapidly declining X-ray lightcurve reflects the time dependence of the central engine activity (Fan and Wei, 2005; Barniol Duran and Kumar, 2009).
+- 第二阶段是慢衰减阶段（或平台期），衰减指数约0.5或再大一点。有时候是平的，甚至稍微上升。在大多数GRB，第二阶段后面会跟着一个普通的衰减阶段$\sim t^{-1}$。在外激波模型中，这一阶段可以视为中心引擎持续向blast wave功能的体现。偶尔平台期后会跟着一个非常快速的衰减，这可能显示平台期有一个内部起源。
+- 第三阶段是普通衰减阶段，$\sim t^{-1}$，符合典型的前向激波模型。
+- 第四阶段是晚期的加快衰减阶段，$\sim t^{-2}$或更陡一些。符合jet break后的前向激波理论。
+- 第五种是X射线耀发。经常在GRB的X射线余辉中发现一个或多个耀发，其性质与瞬时辐射的脉冲相像，通常认为其是由晚期中心引擎的活动导致的。
+
+有理论（O’Brien et al., 2006; Willingale et al., 2007; Ghisellini
+et al., 2009）将X射线余辉描述成是双成分组成的：瞬时辐射+余辉辐射。这一唯象（phenomenological）理论对一些Swift GRB的X射线余辉数据可以拟合地较好。
+
+
+
+有一部分的GRB会显示出一个“色差”的余辉：X射线光变发生的拐折（阶段2到阶段3或阶段3到阶段4。）而光学余辉的光变没有发生拐折。这就要求至少两个辐射区域分别辐射不同波段的辐射。
+
+接下来介绍和总结一些解释余辉光变各种特征的理论观点。

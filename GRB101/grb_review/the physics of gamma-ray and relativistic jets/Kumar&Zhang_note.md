@@ -574,7 +574,7 @@ Swift在早期的X波段余辉探测到了数个令人惊讶的辐射成分。�
 但不是所有的GRB都有这5个成分。这5个成分的主要性质总结如下：
 
 - 第一阶段是一个快速衰减阶段，衰减指数大于2。这一阶段可能与瞬时辐射的结尾有关。This phase may be simply the high latitude emission (described in §2.1) associated with the prompt γ-ray source at R > ∼ 10 cm when the central engine turns off faster than the decline of the X-ray lightcurve (Kumar and Panaitescu, 2000a; Dermer, 2004; Zhang et al., 2006; Nousek et al., 2006; Liang et al., 2006a). On the other hand if the emission region is at a much smaller radius then the rapidly declining X-ray lightcurve reflects the time dependence of the central engine activity (Fan and Wei, 2005; Barniol Duran and Kumar, 2009).
-- 第二阶段是慢衰减阶段（或平台期），衰减指数约0.5或再大一点。有时候是平的，甚至稍微上升。在大多数GRB，第二阶段后面会跟着一个普通的衰减阶段$\sim t^{-1}$。在外激波模型中，这一阶段可以视为中心引擎持续向blast wave功能的体现。偶尔平台期后会跟着一个非常快速的衰减，这可能显示平台期有一个内部起源。
+- 第二阶段是慢衰减阶段（或平台期），衰减指数约0.5或再大一点。有时候是平的，甚至稍微上升。在大多数GRB，第二阶段后面会跟着一个"“普通（normal）”的衰减阶段$\sim t^{-1}$。在外激波模型中，这一阶段可以视为中心引擎持续向blast wave供能的体现。偶尔平台期后会跟着一个非常快速的衰减，这可能显示平台期有一个“内部（internal）”起源。
 - 第三阶段是普通衰减阶段，$\sim t^{-1}$，符合典型的前向激波模型。
 - 第四阶段是晚期的加快衰减阶段，$\sim t^{-2}$或更陡一些。符合jet break后的前向激波理论。
 - 第五种是X射线耀发。经常在GRB的X射线余辉中发现一个或多个耀发，其性质与瞬时辐射的脉冲相像，通常认为其是由晚期中心引擎的活动导致的。
@@ -587,3 +587,8 @@ et al., 2009）将X射线余辉描述成是双成分组成的：瞬时辐射+余
 有一部分的GRB会显示出一个“色差”的余辉：X射线光变发生的拐折（阶段2到阶段3或阶段3到阶段4。）而光学余辉的光变没有发生拐折。这就要求至少两个辐射区域分别辐射不同波段的辐射。
 
 接下来介绍和总结一些解释余辉光变各种特征的理论观点。
+
+#### 4.2.1 Steep decay of early X-ray light-curve
+
+如前所说，对快速衰减的I阶段的标准解释是，该阶段反映的是瞬时辐射的末期。但具体来说还有一些问题没有定论，如该阶段的X射线流量是单纯来自瞬时辐射迅速结束情形下的高纬辐射，还是来自某种衰退不那么快的中心引擎。
+

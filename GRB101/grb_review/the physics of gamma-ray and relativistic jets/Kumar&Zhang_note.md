@@ -3,6 +3,7 @@
 [1.Introduction](#sect1)
 [2.Raiative processes](#sect2)
 [3.Afterglow theory](#sect3)
+[4.Afterglow observations and interpretations](#sect4)
 
 <div id='sect1'></div>
 ## 1. Introduction
@@ -297,7 +298,7 @@ $$
 \frac{qB' \gamma^2}{2\pi mc} < \frac{9mc^3}{16\pi q^2}
 $$
 
-The left side of this equation is the synchrotron frequency of particle with LF of $\gamma$. Thus we can use this inequality to find the maximun synchrotron photon energy for an electron (proton) is ~50 MeV  (100GeV) inn shocked fluid comoving frame under the optimistic Bohm diffusion limit.
+The left side of this equation is the synchrotron frequency of particle with LF of $\gamma$. Thus we can use this inequality to find the maximun synchrotron photon energy for an electron (proton) is ~50 MeV  (100GeV) in shocked fluid comoving frame under the optimistic Bohm diffusion limit.
 
 Synchrotron photons produced when a particle is passing through a region of muchhigher-than-average magnetic field can have energy larger than the limit de-scribed above, e.g. Kumar et al. (2012).
 
@@ -414,7 +415,7 @@ $$
 
 $\nu_m$和$\nu_c$由同步辐射公式给出（eq18,eq69,eq64,eq65,eq66），$\nu_a$可由对应温度等流量黑体算出（eq68）。
 
-这三个特征频率随时间的变化可从激波动力学，特别是根据就激波洛伦兹因子的演化算出u。
+这三个特征频率随时间的变化可从激波动力学，特别是根据激波洛伦兹因子的演化算出u。
 
 - constant CBM:
 
@@ -590,5 +591,77 @@ et al., 2009）将X射线余辉描述成是双成分组成的：瞬时辐射+余
 
 #### 4.2.1 Steep decay of early X-ray light-curve
 
-如前所说，对快速衰减的I阶段的标准解释是，该阶段反映的是瞬时辐射的末期。但具体来说还有一些问题没有定论，如该阶段的X射线流量是单纯来自瞬时辐射迅速结束情形下的高纬辐射，还是来自某种衰退不那么快的中心引擎。
+如前所说，对快速衰减的I阶段的标准解释是，该阶段反映的是瞬时辐射的末期。但具体来说还有一些问题没有定论，如该阶段的X射线流量是单纯来自瞬时辐射迅速结束情形下的高纬辐射，还是来自某种衰退不那么快的中心引擎。另外我们通常会在快速衰减阶段观察到强烈的光谱变软的现象， 这并不能用简单的高纬辐射模型解释。
 
+其他关于快速衰减阶段辐射来源的模型包括快速扩散（rapidly expanding）的cocoon；爆炸波中强子能量的快速释放（rapid discharge of hadronic energy of the blastwave）；外部反向激波的高纬辐射（high-latitude emission of the external reverse emission）；以及较低最大频率的外前向激波同步辐射谱扫过X射电波段的表现。后三年种都潜在假设瞬时辐射是外激波起源的，因为观测上这一阶段辐射是瞬时辐射的尾巴，而后三种均认为这一阶段来源于外激波模型，而伽玛射线光变曲线的多变性（variability）则并不支持这种观点，所以这三种模型都不被支持。
+
+#### 4.2.2 Sudden increase in X-ray flux (flares)
+
+X射线耀发通常的解释是来源于GRB中心引擎的重启，因为其时标相对较短$\delta t_{obs}/t_{obs} \ll 1$。数据分析(Chincarini et al., 2010; Margutti et al.,2010, 2011)也直接支持了这一解释。
+
+#### 4.2.3 Plateaus in X-ray light-curves
+
+慢衰减或是平台期的II阶段以及后面的III和IV阶段的解释更具挑战性。一般的解释是，正在减速的外激波由于能量注入而减慢了衰减，而当能量注入停止后，光变曲线则进入阶段III的衰减。而在这一情景下，X射线和光学波段应该均表现出相似的拐折，即这个拐折是消色差的（achromatic），事实也的确有一些GRB可以用这一模型解释，如GRB 060614，GRB 060729。
+
+然而对于有色差行为的余辉，单靠这一模型就无法解释了，还需补充其他成分的辐射机制。对于外激波模型最为直接的扩充就是引入双成分喷流，其中狭窄的喷流主导X射线辐射，较宽的喷流则主导光学辐射(e.g. Racusin et al., 2008)。另一种扩充就是把反向激波辐射也囊括进来，两种激波叠加起来形成观测到的光变曲线。
+
+Shen 和 Matzner （2012）将慢衰减阶段解释为滑行阶段的前向激波在wind-like介质中的同步辐射，但这个模型要求一个相对小的洛伦兹因子Shen 和 Matzner （2012）将慢衰减阶段解释为滑行阶段的前向激波在wind-like介质中的同步辐射，但这个模型要求一个相对小的洛伦兹因子，可能与有瞬时辐射数据中得到的较大洛伦兹因子相矛盾。另外该模型也只能解释消色差的余辉光变行为。
+
+#### 4.2.4 Steep decay foloowing the plateau in X-ray light-curve
+
+有一小部分的GRB的X射线光变曲线在平台期后会跟着一个快速的衰减$f_\nu \propto t_{obs}^{-3}$，或者更陡。
+
+![fig12](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig12_p54.png)
+
+这样平台后跟随快速衰减的现象比较少见，图10中也未表现这种特征阶段。该现象不能用外激波模型解释，它只能起源于“内部（internal）”涉及持久喷流的直接耗散（involving direct dissipation of a long-lasting jet）。X射线耀发以及这种内部起源的平台都反映了持久性中心引擎的存在。
+
+
+
+总之，早期余辉的多样性向我们展示了使用多种辐射成分来解释光变曲线的必要性。不管是中心引擎的活动，某些内部的过程如内激波，还是外部反向激波和前向激波，都可用来解释的各类光变曲线的行为（主要是色差性余辉的光变）。这些成分的叠加组成了我们观测到的光变曲线，而不同GRB的参数条件的不同则导致各自曲线的不同特征。
+
+
+
+### 4.3 High energy ($\gt 10^2 MeV$) afterglow radiation
+
+在Compton-Gamma-Ray-Observatory (CGRO)时代，有一个GRB，GRB 941017，在其爆后1.5小时从地球遮掩中重现时仍有GeV的辐射被探测到。
+
+接下来总结一些解释这些GRB发出的延迟的，持久的高能光子的理论模型。这些模型包括内激波模型，当反向激波正穿过喷流时外激波中的同步自康普顿散射（SSC）模型，反向激波和前向激波的双SSC模型以及两个交叉的逆康普顿（IC）模型（前向激波的光子被反向激波中的电子碰撞加速，以及反过来）。另外，瞬时辐射中的伽玛光子也可能在FS或RS中的电子碰撞加速而变得更高能。还有一种情形可以产生延迟的高能GeV光子，就是CMB中的光子被星系际介质中高洛伦兹因子的电子-正电子对散射加速，而这样的电子-正电子对则是在GRB的TeV光子与宇宙红外背景辐射相互作用产生的。但这样的机制只有在星系际介质的磁场很低时$\lt \sim 10^{-15} G$才能发生。
+
+Fermi卫星的上天让我们能系统研究100MeV以上的GRB，并解决高能伽玛光子的来源问题。Fermi的LAT和GBM每年联合探测约10个GRB，通过这些观测我们发现100MeV以上的光子通常在GBM触发几秒后到来， 且LAT能段（> 100MeV）的辐射能够持续长达~$10^3 s$，远长于GBM能段（~5keV - 10MeV）典型持续时间的$10-30s$。另外，LAT的光变曲线通常在其几乎部持续时间内呈现简单的幂律衰减。
+
+在Fermi发现这些性质后，我们才意识到瞬时辐射后的持续时间~ 30s 的100MeV以上的光子是由外前向激波中的同步辐射过程产生的，理由如下：
+
+LAT的谱指数和光变曲线的衰减指数 $f_\nu(t) \propto \nu^{-1.1}t^{-1.3}$完美符合$\nu > \nu_c$时激波加热的CBM的同步辐射的closure relationship。
+
+![fig13](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig13_p58.png)
+
+Kumar (2000) 展示了当观测频段大于同步辐射冷却频率时，外前向激波的单色（specific）流量仅决定于爆炸波的能量和电子所占的能量，而与不确定的CBM密度无关，也对磁场能量不敏感（$f_\nu \propto \sim \epsilon_B^{0.1}$）（式81）：
+
+![eq81](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq81_p33.png)
+
+据此我们就可以较可靠地根据瞬时辐射中伽玛射线的能量来预测Fermi/LAT能段的流量，并且在一些研究详细的GRB里，预测的流量与实际的LAT能段观测到的流量吻合较好。
+
+![tab1](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/tab1_p68.png)
+
+同样，我们可以根据早期（$t \sim 10^2 s$）的Fermi数据来推算外激波的参数，再利用相关参数预测晚期的光学和X射线流量（见fig 13），且观测与预测也符合得很好。相反，也可以用晚期（0.5天后）的X射线，光学以及射电数据来确定外激波参数，进而计算早期（早于约$10^3 s$）的高能（100MeV）流量。这些都表明LAT探测到的30s后的高能光子是由同步辐射过程产生的。
+
+![fig14](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig14_p59.png)
+
+不过要指出的是，同步辐射过程要产生高于$\sim 50\Gamma MeV \sim 5GeV$的高能光子并不容易（见2.2节讨论同步辐射能产生的最高能量光子），这些最高能的光子有可能是同步辐射的光子被逆康普顿散射而产生的。 
+
+Kumar 和 Barniol Duran (2009, 2010)发现，要使Fermi GRB 外激波中产生的1 MeV的以下的流量不超过观测值，这些GRB的外激波的$\epsilon_B$应该比较小（~$10^{-6}$ for a 0.1 cm$^{-3}$ CBM，密度越高则越小）才行。另外，Fermi/GBM 的10keV - 10MeV的光变曲线在顺势辐射阶段后衰减得很快，所以前向激波在此能段的贡献（~$t^{-1.2}$）必须足够低于观测值，才能确保瞬时辐射结束阶段的GBM曲线快速衰减。
+
+> 这段说的应该是，要使前向激波的理论预测的早期高能辐射值小于观测值（因为还有瞬时辐射对观测值的贡献），磁场就必须相对小。
+
+It can be shown that this small magnetic field is sufficient for confining high
+energy electrons of thermal Lorentz factor ~ $10^8$ (that produce ~ 10 GeV
+photons), both upstream and down-stream of the shock front, and for their
+efficient acceleration by the first order Fermi mechanism as long as these electrons are not exposed to a large flux of a few eV photons ( > ~ 10 mJy in our frame) to cause severe IC losses (Barniol Duran and Kumar, 2011; Piran and Nakar, 2010).
+
+> 不明白这段话要表达什么意思，不过应该与高能光子的产生有关。
+
+第5节会讨论更多GRB关于$\epsilon_B$的测量及其意义。
+
+前面提到GeV余辉的光变曲线几乎都呈现简单的普通（normal，斜率中等）幂律衰减，而只有5%的X射线余辉是简单幂律衰减的，大多数呈现陡峭—缓慢—中等—陡峭的衰减行为（4.2节）。只有很少数的GRB同时触发了Swift/XRT和Fermi/LAT，目前有GRB 090510 (De Pasquale et al., 2010)和 GRB 110731A (Ackermann et al., 2013b)，而它们的GeV和X射线光变曲线在几乎全部持续时间内（LAT开始于~5s，XRT开始于~100s）都显示出幂律衰减行为。这些爆的光学，X射线和GeV的数据也都符合外前向激波的模型。这样的话，不禁会想伴随有GeV余辉的GRB是否也都会呈现少见的简单幂律衰减的X射线余辉。
+
+当然如果观测到有拐折的GeV余辉曲线（steep—shallow），可以解释为辐射机制从瞬时辐射主导变为余辉同步辐射主导。

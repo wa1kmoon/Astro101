@@ -4,6 +4,7 @@
 [2.Raiative processes](#sect2)
 [3.Afterglow theory](#sect3)
 [4.Afterglow observations and interpretations](#sect4)
+[5.Collisionless shock properties from GRB afterglow observations](#sect5)
 
 <div id='sect1'></div>
 ## 1. Introduction
@@ -665,3 +666,46 @@ efficient acceleration by the first order Fermi mechanism as long as these elect
 前面提到GeV余辉的光变曲线几乎都呈现简单的普通（normal，斜率中等）幂律衰减，而只有5%的X射线余辉是简单幂律衰减的，大多数呈现陡峭—缓慢—中等—陡峭的衰减行为（4.2节）。只有很少数的GRB同时触发了Swift/XRT和Fermi/LAT，目前有GRB 090510 (De Pasquale et al., 2010)和 GRB 110731A (Ackermann et al., 2013b)，而它们的GeV和X射线光变曲线在几乎全部持续时间内（LAT开始于~5s，XRT开始于~100s）都显示出幂律衰减行为。这些爆的光学，X射线和GeV的数据也都符合外前向激波的模型。这样的话，不禁会想伴随有GeV余辉的GRB是否也都会呈现少见的简单幂律衰减的X射线余辉。
 
 当然如果观测到有拐折的GeV余辉曲线（steep—shallow），可以解释为辐射机制从瞬时辐射主导变为余辉同步辐射主导。
+
+<br>
+
+<div id='sect5'></div>
+## 5 Collisionless shock properties from GRB afterglow observations
+
+GRB余辉提供了研究相对论性非碰撞激波（collisionless shock）的天然实验室。目前，尽管有很多理论研究工作，还是有不少相关的问题没有解决，重要的如：激波面（shock front）上/下游的磁场的产生（$\epsilon_B$）,粒子加速（$p$）以及激波化等离子体中转移到电子的能量（$\epsilon_e$）。因为同步辐射的计算设计到这几个量，所以多波段余辉的光变曲线可以帮助我们反过来测量这些量，从而有助于collisionless shock的基础等离子物理的发展。
+
+在同步辐射框架下，GRB余辉在任何给定时间辐射的流量是由这四个参数决定的：$E$（爆炸能量），$n$（CBM密度），$\epsilon_e$和$\epsilon_B$。电子分布参数$p$可以从X射线光谱导出，故不在上述几个未知参数中。因此，要确定这四个参数，我们至少需要4组独立的观测，且这4组观测应该落在同步辐射谱的不同特征区段（比如一组的观测频率在$\nu_m$一下，另一组在$\nu_m$以上；或一个在同步自吸收区段，另一个不在），这样每组观测才能提供独立的信息。但通常我们难以满足这一点，因此除了少数在X射线，光学，射电均有长时间跟踪观测的GRB，我们很少能唯一地测量这4个参数。
+
+$\epsilon_e$是由相对论激波的微观物理（micro-physics）决定的；如果磁化流体的磁场是由Weibel不稳定性或是其它基于当地等离子体物理条件下的某种不稳定性而产生的，那么$\epsilon_B$也决定于激波微观物理。所以，基于基础物理的考虑，$\epsilon_e$和$\epsilon_B$应该可作为能够描述相对论激波的变量的函数，即可作为$E$，$n$，$\Gamma$（激波前的洛伦兹因子）的函数。
+
+由于$\nu_m$以上频段的余辉流量正比于$\epsilon_e^{p-1}$（eq.81），对$\epsilon_e$依赖较强，所以这个参数的测量是相对最可靠的一个。
+
+![fig15](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig15_63.png)
+
+上图展示了30个GRB的$\epsilon_e$的分布，平均值为0.2，且围绕平均值有一个因子为2的dispersion。$\epsilon_e$ ~ 0.2与最近的相对论非碰撞电子-离子激波的模拟比较吻合。这些爆的$E$和$n$的跨度比较广。所以，可以粗浅的说，$\epsilon_e$与激波的强度无关，且不同的GRB的$\epsilon_e$变化因子~2。
+
+![santana_fig1](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/santana_fig1.png)
+
+![santana_tab6](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/santana_tab6.png)
+
+假设GRB的瞬时伽玛辐射的辐射效率为20%（即blast wave中的能量为瞬时伽玛辐射能量的4倍），以及外激波中$\epsilon_e = 0.2$，则从光学余辉的数据就可以推得$\epsilon_B / n$。下图展示了Swift探测的35个GRB的$\epsilon_B$的分布，可以看出其分布很广，中值为$3 \times 10^{-5}$，跨度大于4个量级。
+
+![fig16](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig16_p64.png)
+
+没有证据显示$\epsilon_B$依赖于激波的洛伦兹因子。对于一些Fermi/LAT的爆，我们可以从其早期当洛伦兹因子大于100时的伽玛射线数据来推断$\epsilon_B$（下图左）或者从晚期当洛伦兹因子减小到~10时的X射线和光学的数据来推断$\epsilon_B$（下图右），并且由早期数据得到的和晚期数据得到的$\epsilon_B$是吻合的。另外，Collisionless shock 模拟也显示$\epsilon_B$与$\Gamma$之间没有关联（Sironi and Spitkovsky 2011）。这些表明，磁场应该不会仅与相对论激波的微观物理相关。
+
+![fig17](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig17_p65.png)
+
+在激波波前的区域，CBM的磁场$B_0$会被放大，放大因子为AF（$\propto \sim n^{0.2} B_0^{-1}$），在一定假设下（给定$n,B_0$）可结合观测算出，注意算出的AF应对应所有对观测值有贡献的辐射区域（激波化等离子体区域）处磁场的平均。上面35个GRB的放大因子分布如下，中值~30（$AF \sim 10^4$ for equipartition magnetic field）。
+
+![fig18](/home/xlew/Pictures/fig18_p67.png)
+
+如果磁场由下游（激波化区域）的Weibel不稳定性产生，则波前区域理论预期为$\epsilon_B \sim 0.1$，但这样的磁场的相干长度（coherence length scale）较小，且在尺寸相对比较大的激波化等离子体区域上有较强的衰减，导致整体的放大因子不大。一些数值模拟的工作支持这样的波前附近磁场较强以及它们存在衰减的情景。
+
+另一些磁场产生机制，如shear across the GRB-jet，或能导致下游湍流的ISM密度不均匀性，它们产生的磁场的相干长度较大，贯穿整个下游（激波化）区域。
+
+Lemoine et al.(2013) 通过分析4个不同GRB的X射线和GeV余辉数据，提出激波中的湍流磁场在接近波前的位置（同步辐射产生GeV光子的位置）较强（$\epsilon_B \sim 10^{-2}$），且强度随距波前距离衰减，在X射线产生的位置$\epsilon_B \sim 10^{-6}$。他们发现X射线的数据符合$\epsilon_B \propto \sim d'^{-0.5}$。
+
+另外，GeV高能光子的探测给前向激波的上游（未激波化）磁场提出了一个下限：磁场强度至少应该能将产生这些高能光子的电子局限在激波中。Barniol Duran and Kumar (2011) 给出10$\mu G$的CBM磁场足够将电子加速至产生~10GeV的同步辐射光子。
+
+至于电子能量分布指数$p$，一些计算给出对于非碰撞相对论激波，其值应约为2.2，与激波的洛伦兹因子无关，而GRB余辉光谱显示不同GRB的$p$值存在显著差异。一种可能是通过X射线余辉光谱计算得到的$p$值不是真实的外激波电子分布，因为光谱中辐射可能包含内部辐射的成反。当然也有可能是理论计算本身除了问题，这样的话我们应该根据观测得到的$p$值分布来修正理论模型。

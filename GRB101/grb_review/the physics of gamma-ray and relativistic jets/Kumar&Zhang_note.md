@@ -5,6 +5,7 @@
 [3.Afterglow theory](#sect3)
 [4.Afterglow observations and interpretations](#sect4)
 [5.Collisionless shock properties from GRB afterglow observations](#sect5)
+[6.Observational properties of GRB prompt radiation](#sect6)
 
 <div id='sect1'></div>
 ## 1. Introduction
@@ -584,8 +585,6 @@ Swift在早期的X波段余辉探测到了数个令人惊讶的辐射成分。�
 有理论（O’Brien et al., 2006; Willingale et al., 2007; Ghisellini
 et al., 2009）将X射线余辉描述成是双成分组成的：瞬时辐射+余辉辐射。这一唯象（phenomenological）理论对一些Swift GRB的X射线余辉数据可以拟合地较好。
 
-
-
 有一部分的GRB会显示出一个“色差”的余辉：X射线光变发生的拐折（阶段2到阶段3或阶段3到阶段4。）而光学余辉的光变没有发生拐折。这就要求至少两个辐射区域分别辐射不同波段的辐射。
 
 接下来介绍和总结一些解释余辉光变各种特征的理论观点。
@@ -698,7 +697,7 @@ $\epsilon_e$是由相对论激波的微观物理（micro-physics）决定的；�
 
 在激波波前的区域，CBM的磁场$B_0$会被放大，放大因子为AF（$\propto \sim n^{0.2} B_0^{-1}$），在一定假设下（给定$n,B_0$）可结合观测算出，注意算出的AF应对应所有对观测值有贡献的辐射区域（激波化等离子体区域）处磁场的平均。上面35个GRB的放大因子分布如下，中值~30（$AF \sim 10^4$ for equipartition magnetic field）。
 
-![fig18](/home/xlew/Pictures/fig18_p67.png)
+![fig18](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig18_p67.png)
 
 如果磁场由下游（激波化区域）的Weibel不稳定性产生，则波前区域理论预期为$\epsilon_B \sim 0.1$，但这样的磁场的相干长度（coherence length scale）较小，且在尺寸相对比较大的激波化等离子体区域上有较强的衰减，导致整体的放大因子不大。一些数值模拟的工作支持这样的波前附近磁场较强以及它们存在衰减的情景。
 
@@ -709,3 +708,47 @@ Lemoine et al.(2013) 通过分析4个不同GRB的X射线和GeV余辉数据，提
 另外，GeV高能光子的探测给前向激波的上游（未激波化）磁场提出了一个下限：磁场强度至少应该能将产生这些高能光子的电子局限在激波中。Barniol Duran and Kumar (2011) 给出10$\mu G$的CBM磁场足够将电子加速至产生~10GeV的同步辐射光子。
 
 至于电子能量分布指数$p$，一些计算给出对于非碰撞相对论激波，其值应约为2.2，与激波的洛伦兹因子无关，而GRB余辉光谱显示不同GRB的$p$值存在显著差异。一种可能是通过X射线余辉光谱计算得到的$p$值不是真实的外激波电子分布，因为光谱中辐射可能包含内部辐射的成反。当然也有可能是理论计算本身除了问题，这样的话我们应该根据观测得到的$p$值分布来修正理论模型。
+
+<br />
+
+<div id='sect6'></div>
+## 6 Obsevational properties of GRB prompt radiation
+
+### 6.1 Temporal properties
+
+观测上，GRB瞬时辐射阶段一般指GRB探测器探测到sub-MeV辐射的阶段，而一个爆的持续时间通常用$T_{90}$表示：探测器探测到总通量的5%到95%所经历的时间。但这样观测上定义的时间会有一些限制：
+
+- 与探测器的能段相关。对于同一个GRB，低能段探测器一般给出更长的$T_{90}$。
+- 与灵敏度相关。探测器越灵敏，给出的$T_{90}$也越长。
+- 一些GRB瞬时辐射的阶段不是连续的，中间存在间隔，这种情况下传统的$T_{90}$可能会高估中心引擎的实际持续时间。
+- $T_{90}$内的辐射也可能包含外激波等其它区域的辐射。内部辐射和外部辐射的分界目前并不清晰。
+
+下面的叙述依然把$T_{90}$作为瞬时辐射的持续时间，但讨论仅限于瞬时辐射的内部耗散模型（internal dissipation models）。
+
+GRB的时域特性可总结如下：
+
+- $T_{90}$的分布以约2s为分界显示出两种GRB类别：以20-30s为分布峰值的长爆和以0.2-0.3s为分布峰值的短爆。长爆在统计上比短暴要更软，即低能光子数量与高能光子的数量比值相对较高。
+
+![fig19](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig19_p71.png)
+
+- 瞬时辐射的光变曲线很不规则，有的非常多变，最小变化时标能达到毫秒量级，而有的光变则比较平滑，结构简单。一些GRB还具有间歇的辐射行为。
+
+![fig20](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig20_p72.png)
+
+- 部分GRB存在一般较软较弱的前兆（precursor）辐射，这些辐射会单独发生于主爆发的10s到100s之前。大概有3%到12%的GRB会有一个前兆辐射。一些统计研究表明主爆发阶段的性质和有没有前兆辐射无关，且一些GRB中的前兆辐射的性质与主爆发阶段辐射的性质相似。
+
+- Power density spectrum (PDS) analysis of GRB lightcurves reveals null
+  periodicity. The PDSs of individual GRBs can be noisy. However, averaging
+  the PDS of several bright GRBs leads to a power law with index -5/3 and
+  a sharp break around 1 Hz (Beloborodov, 2000).
+
+- 有证据表明GRB光变曲线是一个慢成分（slower component）和一个快成分（faster component）的叠加。This is evidenced by a gradual depletion of the fast component at low energies (Vetere et al., 2006), and the existence of a distinct low frequency component in a stepwise low-pass filter correlation analysis (Gao et al., 2012).
+- 光变曲线中的单个脉冲一般是非对称的，它们呈现突然的增强和稍慢一些的衰减。对一些明亮的单脉冲，多用“FRED”（fast-rising exponential-decay）函数来拟合。
+- 一个爆在持续阶段中会存在沉默阶段。这些脉冲间的间隔时间的分布也符合对数正态分布。
+- 光变曲线的形状随能段的不同会有变化。在更硬的能段，脉冲会变得更窄。一个脉冲的宽度随能量的变化 $\omega(E) \propto E^{-\alpha}$，$\alpha \sim 0.3 - 0.4$。
+
+![fig21](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig21_p73.png)
+
+- 在很多长GRB中，keV-MeV能段会存在“光谱延迟（spectral lag）”现象，即低能段的脉冲相较高能段的脉冲存在系统的延迟(Norris et al., 2000; Norris, 2002; Norris et al., 2005)。短爆没有表现出明显的spectral lag。一部分短爆显示出相反的延迟(Yi et al., 2006)。
+
+![norris_fig26](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/norris_fig26.png)

@@ -749,6 +749,49 @@ GRB的时域特性可总结如下：
 
 ![fig21](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig21_p73.png)
 
+![fig22_p74](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig22_p74.png)
+
 - 在很多长GRB中，keV-MeV能段会存在“光谱延迟（spectral lag）”现象，即低能段的脉冲相较高能段的脉冲存在系统的延迟(Norris et al., 2000; Norris, 2002; Norris et al., 2005)。短爆没有表现出明显的spectral lag。一部分短爆显示出相反的延迟(Yi et al., 2006)。
 
 ![norris_fig26](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/norris_fig26.png)
+
+<br />
+
+### 6.2 Spectral properties
+
+#### 6.2.1 Spectral shapes and functions
+
+GRB光谱分time-integrated 和 time-resolved两种，后者能提供光谱演化的信息，但一般只有较亮的GRB才在每个time bin中有足够的光子用来抽取time-resolved的光谱。
+
+一个典型的GRB宽频谱可以用一个平滑的拐折幂律：Band 函数 来拟合。
+
+![eq9_p73](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq98_p73.png)
+
+能谱的峰值能量由$E_p = (2+\alpha)E_0$给出。下图展示了GRB 990123的time-integrated能谱可以用Band函数很好的拟合。
+
+![fig23_p75](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig23_p75.png)
+
+能量峰值$E_p$的分布较广，从几个keV到MeV连续分布。从硬到软可以大致归类为 伽玛射线爆gamma-ray bursts(GRBs,$E_p$ >50 keV)，富X射线伽玛爆X-ray rich GRBs (XRGRBs, 30 keV < $E_p$ < 50 keV), 以及 X射线耀发X-ray flashes (XRFs, $E_p$ < 30 keV)，它们之间也没有明确的分界。对于BATSE探测的明亮的爆，两个谱指数的分布为$\alpha \sim -1 \pm 1$，$\beta \sim -2^{+1}_{-2}$，且Fermi和INTEGRAL探测的样本也证实了这样的分布。
+
+另一方面，对于能段较窄的探测器探测的GRB，如Swift，一般可以用截断幂律去拟合
+
+![eq100_p75](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/eq100_p75.png)
+
+这实际上就是Band函数的前半部分。后半部分因为缺少高能数据所以难以限制高能谱指数。不过如果Swift爆同时也被高能探测器探测到，如Konus-wind, Fermi/GBM，则仍可以用Band函数来拟合。
+
+在Fermi上天之后，我们认识到目前至少有两种瞬时辐射谱，一种谱包含覆盖6-7个量级的Band谱成分，没有热成分，较为常见，如GRB 080916C。另一种则是类热成分与非热幂律谱的叠加，如GRB 090902B，这类谱较为少见。这两种谱的差别在time-resolved能谱中会变得比较明显。当缩小time bin时，GRB 080916C的Band谱拟合指数几乎不变，而GRB 090902B的Band成分则逐渐变窄，最后变为由准热成分+幂律成分来拟合，不过主导的还是幂律成分。
+
+![fig24](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig24_p76.png)
+
+Zhang et al (2011) 提到一些顺势辐射可能包含三个成分：I 非热Band谱；II 准热成分；III 另一个延伸至高能段的非热幂律成分 。如下图
+
+![fig25_p78](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig25_p78.png)
+
+另外，一个有趣的现象是，一些低光度的GRB表现出一定程度上不太一样的瞬时辐射光谱，如GRB 060218的顺势辐射光谱可以用内秉截断幂律很好的描述，且其峰值能量$E_p$的演化很迅速，从~80 keV 演化到 5 keV。考虑到GRB 060218在很多方面都比较特殊（距离近z=0.033，光度低，有成协超新星，持续时间长，存在热成分），这个爆（以及或许包括其他邻近低光度的GRB）可能有不同于高光度的GRB的辐射机制。
+
+#### 6.2.2 Spectral evolution
+
+GRB的time-resolved能谱分析能给我们提供更多关于瞬时辐射的线索，以下总结一些有趣的特点：
+
+- 关于GRB脉冲中的光谱演化，一般有两种类型，第一种的演化模式为“hard-to-soft”演化，即$E_p$从脉冲一开始就开始下降。第二种演化表现出一种“tracking”行为，光谱硬度跟踪脉冲强度，即脉冲的上升期，光谱的$E_p$也在变大。观测上，这两种行为可以在一个爆中观测到。考虑到光谱不同成反的叠加效应，有观点认为所有的脉冲都符合“hard-to-soft”模式。
+- 相当一部分LAT的GRB表现出GeV辐射的开始晚于MeV辐射的开始，如图21的GRB 080916C和图22的GRB 090902B，这当然也可能与谱指数的演化或者某些谱成分但尚不清楚原因。

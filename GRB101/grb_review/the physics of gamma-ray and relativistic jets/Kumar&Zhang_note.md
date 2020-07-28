@@ -671,7 +671,7 @@ efficient acceleration by the first order Fermi mechanism as long as these elect
 <div id='sect5'></div>
 ## 5 Collisionless shock properties from GRB afterglow observations
 
-GRB余辉提供了研究相对论性非碰撞激波（collisionless shock）的天然实验室。目前，尽管有很多理论研究工作，还是有不少相关的问题没有解决，重要的如：激波面（shock front）上/下游的磁场的产生（$\epsilon_B$）,粒子加速（$p$）以及激波化等离子体中转移到电子的能量（$\epsilon_e$）。因为同步辐射的计算设计到这几个量，所以多波段余辉的光变曲线可以帮助我们反过来测量这些量，从而有助于collisionless shock的基础等离子物理的发展。
+GRB余辉提供了研究相对论性非碰撞激波（collisionless shock）的天然实验室。目前，尽管有很多理论研究工作，还是有不少相关的问题没有解决，重要的如：激波面（shock front）上/下游的磁场的产生（$\epsilon_B$）,粒子加速（$p$）以及激波化等离子体中转移到电子的能量（$\epsilon_e$）。因为同步辐射的计算涉及到这几个量，所以多波段余辉的光变曲线可以帮助我们反过来测量这些量，从而有助于collisionless shock的基础等离子物理的发展。
 
 在同步辐射框架下，GRB余辉在任何给定时间辐射的流量是由这四个参数决定的：$E$（爆炸能量），$n$（CBM密度），$\epsilon_e$和$\epsilon_B$。电子分布参数$p$可以从X射线光谱导出，故不在上述几个未知参数中。因此，要确定这四个参数，我们至少需要4组独立的观测，且这4组观测应该落在同步辐射谱的不同特征区段（比如一组的观测频率在$\nu_m$一下，另一组在$\nu_m$以上；或一个在同步自吸收区段，另一个不在），这样每组观测才能提供独立的信息。但通常我们难以满足这一点，因此除了少数在X射线，光学，射电均有长时间跟踪观测的GRB，我们很少能唯一地测量这4个参数。
 
@@ -707,7 +707,7 @@ Lemoine et al.(2013) 通过分析4个不同GRB的X射线和GeV余辉数据，提
 
 另外，GeV高能光子的探测给前向激波的上游（未激波化）磁场提出了一个下限：磁场强度至少应该能将产生这些高能光子的电子局限在激波中。Barniol Duran and Kumar (2011) 给出10$\mu G$的CBM磁场足够将电子加速至产生~10GeV的同步辐射光子。
 
-至于电子能量分布指数$p$，一些计算给出对于非碰撞相对论激波，其值应约为2.2，与激波的洛伦兹因子无关，而GRB余辉光谱显示不同GRB的$p$值存在显著差异。一种可能是通过X射线余辉光谱计算得到的$p$值不是真实的外激波电子分布，因为光谱中辐射可能包含内部辐射的成反。当然也有可能是理论计算本身除了问题，这样的话我们应该根据观测得到的$p$值分布来修正理论模型。
+至于电子能量分布指数$p$，一些计算给出对于非碰撞相对论激波，其值应约为2.2，与激波的洛伦兹因子无关，而GRB余辉光谱显示不同GRB的$p$值存在显著差异。一种可能是通过X射线余辉光谱计算得到的$p$值不是真实的外激波电子分布，因为光谱中辐射可能包含内部辐射的成反。当然也有可能是理论计算本身出了问题，这样的话我们应该根据观测得到的$p$值分布来修正理论模型。
 
 <br />
 
@@ -783,11 +783,11 @@ GRB光谱分time-integrated 和 time-resolved两种，后者能提供光谱演�
 
 ![fig24](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig24_p76.png)
 
-Zhang et al (2011) 提到一些顺势辐射可能包含三个成分：I 非热Band谱；II 准热成分；III 另一个延伸至高能段的非热幂律成分 。如下图
+Zhang et al (2011) 提到一些瞬时辐射可能包含三个成分：I 非热Band谱；II 准热成分；III 另一个延伸至高能段的非热幂律成分 。如下图
 
 ![fig25_p78](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig25_p78.png)
 
-另外，一个有趣的现象是，一些低光度的GRB表现出一定程度上不太一样的瞬时辐射光谱，如GRB 060218的顺势辐射光谱可以用内秉截断幂律很好的描述，且其峰值能量$E_p$的演化很迅速，从~80 keV 演化到 5 keV。考虑到GRB 060218在很多方面都比较特殊（距离近z=0.033，光度低，有成协超新星，持续时间长，存在热成分），这个爆（以及或许包括其他邻近低光度的GRB）可能有不同于高光度的GRB的辐射机制。
+另外，一个有趣的现象是，一些低光度的GRB表现出一定程度上不太一样的瞬时辐射光谱，如GRB 060218的瞬时辐射光谱可以用内秉（intrinsic）截断幂律很好的描述，且其峰值能量$E_p$的演化很迅速，从~80 keV 演化到 5 keV。考虑到GRB 060218在很多方面都比较特殊（距离近z=0.033，光度低，有成协超新星，持续时间长，存在热成分），这个爆（以及或许包括其他邻近低光度的GRB）可能有不同于高光度的GRB的辐射机制。
 
 #### 6.2.2 Spectral evolution
 
@@ -795,3 +795,18 @@ GRB的time-resolved能谱分析能给我们提供更多关于瞬时辐射的线�
 
 - 关于GRB脉冲中的光谱演化，一般有两种类型，第一种的演化模式为“hard-to-soft”演化，即$E_p$从脉冲一开始就开始下降。第二种演化表现出一种“tracking”行为，光谱硬度跟踪脉冲强度，即脉冲的上升期，光谱的$E_p$也在变大。观测上，这两种行为可以在一个爆中观测到。考虑到光谱不同成反的叠加效应，有观点认为所有的脉冲都符合“hard-to-soft”模式。
 - 相当一部分LAT的GRB表现出GeV辐射的开始晚于MeV辐射的开始，如图21的GRB 080916C和图22的GRB 090902B，这当然也可能与谱指数的演化或者某些谱成分但尚不清楚原因。
+
+### 6.3 Broad-band prompt emission
+
+在瞬时辐射阶段，可能还存在在现有探测器能段之外的辐射。
+
+在高能段，目前Fermi/LAT的观测显示大多数GRB在100MeV以上没有显著的辐射，它们的能谱也基本符合Band函数。另一方面，偶尔也有少数爆（e.g. GRB 090902B and GRB 090510, Abdo et al.,2009a; Ackermann et al., 2010; Zhang et al., 2011）的瞬时能谱中含有一个延伸到高能的上升成分，表明可能有高于LAT能段的辐射存在。
+
+在低能段，只有少数GRB（具有前兆辐射的，或者持续时间非常长的）具有宽频段（optical to sub-MeV）的光谱，Swift XRT 和 UVOT能够在主爆辐射到达之前完成转向。例子有GRB 060124 (Romano et al., 2006), GRB 060218 (Campana et al., 2006), and GRB 061121 (Page et al., 2007)。另有一些爆，地面的自动望远镜在瞬时辐射阶段进行了光学波段的观测，揭示了一些有趣的特征，如GRB 990123 (Akerlof et al., 1999), GRB 041219A (Blake et al., 2005; Vestrand et al., 2005), GRB 050820 (Vestrand et al., 2006), GRB 080319B (Racusin et al., 2008; Beskin et al., 2010), and GRB 110205A
+(Zheng et al., 2012; Cucchiara et al., 2011a; Gendre et al., 2012).
+
+不过到目前为止，除了GRB 130427A，还没有其他爆同时对瞬时辐射阶段在从光学到GeV波段上加以观测。
+
+瞬时辐射中光学和伽玛射线辐射的关系至少有三种模式：第一种是（光变曲线上）光学峰和伽玛峰之间存在明显偏移，例如GRB 990123中一个光学峰在所有伽玛射线峰的后面，说明这两个成分有不同的物理起源。一般的解释是伽玛辐射来自内部耗散区域（interal dissipation region,like internal shocks or magnetic dissipation），而光学辐射来自早期的减速喷流中外激波的反向激波；第二种是光学和伽玛射线的光变曲线之间存在跟踪（tracking）行为，例如GRB 041219B (Vestrand et al., 2005)和“裸眼”GRB 080319B。但在光谱上，尽管GRB 041219B的光学频段和高能频段是相符合的，GRB080319B的光学流量则显著高于高能流量的低能段延伸。主流的模型包括认为光学由同步辐射产生而伽玛射线由SSC产生，两者产生地不同，或产生自内激波的前向和反向激波。第三种则是前两种的混合，如GRB 050820和GRB 110205A。
+
+![fig26_p81](/home/xlew/git/Astro101/GRB101/grb_review/the physics of gamma-ray and relativistic jets/fig26_81.png)

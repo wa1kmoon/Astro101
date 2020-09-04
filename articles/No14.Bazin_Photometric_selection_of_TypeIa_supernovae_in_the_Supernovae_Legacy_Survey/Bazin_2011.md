@@ -59,3 +59,6 @@ SNLS的观测区域为4个一平方度的天区。每个天区在全年有5-7个
 作者构建了一个效率模型（efficiency model），根据D1的探测效率来估计（using the observation dates on these fields and the information of seeing and background for each exposure）其它天区的探测效率：
 
 ![fig2](./Bazin_fig2.png)
+
+### 2.3. Photometry and calibration
+

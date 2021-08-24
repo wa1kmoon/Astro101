@@ -1,0 +1,73 @@
+var articles = [
+{
+"title":"Off-axis jet scenario for early afterglow emission of low-luminosity gamma-ray burst GRB 190829A",
+
+"type":"observational-GRB",
+
+"comment":"using off-axis jet scenario to explain the observed low-luminousity lightcurve of GRB 190829A",
+
+"arxiv link":"https://arxiv.org/abs/2108.07815",
+
+"local note":"20210125_lx.pdf",
+
+"external links":"",
+
+"abstract":""
+},
+
+{
+"title":"Spectroscopic monitoring of the candidate tidal disruption event in F01004-2237",
+
+"type":"observational-TDE",
+
+"authors":"Giacomo Cannizzaro, et al.",
+
+"comment":"spectroscopic monitoring of F01004-2237 suggests that the changes of luminousity and spectropic features was more likly to be caused by a TDE",
+
+"local pdf":"<a href='./20210125-27/2101.09694.pdf'>2101.09694.pdf</a>",
+
+"local note":"<a href='./20210125-27/20210125-27_liuxing.html'>20210125-27.html</a>"
+},
+
+{
+"title":"FIRST J153350.8+272729: the radio afterglow of a decades-old tidal disruption event",
+
+"type":"observational-TDE",
+
+"authors":"Vikram Ravi, et al.",
+
+"comment":"archival dicovered radio afterglow of possible TDE event",
+
+"local pdf":"<a href='./20210211-12/2102.05795.pdf'>2102.05795.pdf</a>",
+
+"local note":"<a href='./20210211-12/20210211-12_liuxing.html'>20210211-12.html</a>"
+},
+
+{
+"title":"Periodic Fast Radio Bursts from ULX-Like Binaries",
+
+"type":"theoretical-FRB",
+
+"authors":"Navin Sridhar, et al.",
+
+"comment":"another channel for generating periodic FRB",
+
+"local pdf":"<a href='./20210211-12/2102.06138.pdf'>2102.06138.pdf</a>",
+
+"local note":"<a href='./20210211-12/20210211-12_liuxing.html'>20210211-12.html</a>"
+},
+
+{
+"title":"SN 2017hpa: A carbon-rich type Ia supernova",
+
+"type":"observational-Ia-SN",
+
+"authors":"Anirban Dutta, et al.",
+
+"comment":"normal supernova observational article, including photometry and spectrometry",
+
+"local pdf":"<a href='./20210215-17/2102.08121.pdf'>2102.08121.pdf</a>",
+
+"local note":"<a href='./20210215-17/20210215-17_liuxing.html'>20210215-17.html</a>"
+}
+];

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Revealing the cosmic reionisation history with fast radio bursts in the era of Square Kilometre Array",
+        "type": "theory-FRB",
+        "comment": "利用FRB研究宇宙再电离演化",
+        "article link": "https://arxiv.org/abs/2101.08798",
+        "local note": "20210125_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Spectroscopic monitoring of the candidate tidal disruption event in F01004-2237",
+        "type": "observation-TDE",
+        "comment": "超亮红外星系F01004-2237 在2015年的光谱与在2000年的光谱相比发生了改变, 较有可能的解释是该变化由发生在2010年的TDE事件导致",
+        "article link": "https://arxiv.org/abs/2101.09694",
+        "local note": "20210125_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Off-axis jet scenario for early afterglow emission of low-luminosity gamma-ray burst GRB 190829A",
+        "type": "observation-GRB",
+        "comment": "GRB 190829A 各向同性能量相对典型长爆来说很低, 作者提出偏轴模型来解释观测特征",
+        "article link": "https://arxiv.org/abs/2101.10581",
+        "local note": "20210125_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The fast evolving type Ib Supernova SN 2015dj in NGC 7371",
+        "type": "observation-IbSN",
+        "comment": "讨论Ib型 SN2015dj 直到发现后170天的光学波段演化",
+        "article link": "https://arxiv.org/abs/2101.09430",
+        "local note": "20210125_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Exploring the diversity of double detonation explosions for type Ia supernovae: Effects of the post-explosion helium shell composition",
+        "type": "theory-IaSN",
+        "comment": "考虑不同的核质量和壳层质量，以及一系列不同的壳层化学成分，可以模拟出不同的双爆轰情形下的超新星光变",
+        "article link": "https://arxiv.org/abs/2101.09792",
+        "local note": "20210125_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

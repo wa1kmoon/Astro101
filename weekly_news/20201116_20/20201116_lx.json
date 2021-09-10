@@ -1,0 +1,42 @@
+[
+    {
+        "title": "What determines the structure of short gamma-ray burst jets?",
+        "type": "theory-GRB_jet",
+        "comment": "给出了在不同初始结构、持续时间、亮度以及ejection time history下短暴的数值模拟结果。并计算经过周围物质相互作用后在$10^{11}$cm之外的喷流最终结构",
+        "article link": "https://arxiv.org/abs/2011.06729",
+        "local note": "20201116_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The Search for Fast Transients with CZTI",
+        "type": "observation-fast_transient",
+        "comment": "介绍了用于在CZTI数据中搜寻暂现源以及计算上限的算法",
+        "article link": "https://arxiv.org/abs/2011.07067",
+        "local note": "20201116_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Core-Collapse Supernove Burst Neutrinos in DUNE",
+        "type": "instrument-DUNE_SN",
+        "comment": "DUNE将对以后的银河系内核塌缩型超新星产生的中微子爆发中的electron-neutrino-flavor component 敏感",
+        "article link": "https://arxiv.org/abs/2011.06969",
+        "local note": "20201116_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Can we constrain the extragalactic magnetic field from very high energy observations of GRB 190114C?",
+        "type": "theory-GRB",
+        "comment": "GRB的γ-ray信号能反映河外磁场的强度和结构的影响",
+        "article link": "https://arxiv.org/abs/2002.06918",
+        "local note": "20201116_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

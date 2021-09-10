@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Type Ic supernovae from the (intermediate) Palomar Transient Factory",
+        "type": "statistic-IcSN",
+        "comment": "分析了44个非宽线的Type Ic型超新星的光变曲线, 通过光变曲线研究它们的爆炸参数。",
+        "article link": "https://arxiv.org/abs/2010.08392",
+        "local note": "20201019_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Type Ic supernovae from the (intermediate) Palomar Transient Factory",
+        "type": "observation",
+        "comment": "GRB190114C的光谱呈现了由非热谱到包含准热和余辉的双成分谱的转变,基于光谱的sub-GeV截断以及热成分的情况，作者限制了瞬时辐射的区域以及洛伦兹因子",
+        "article link": "https://arxiv.org/abs/1905.11844",
+        "local note": "20201019_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Type Ic supernovae from the (intermediate) Palomar Transient Factory",
+        "type": "observation-Optical_transient",
+        "comment": "认为AT2020blt是一个被高能卫星错过的典型（$Γ_0≳100$）的正轴GRB",
+        "article link": "https://arxiv.org/abs/2006.10761",
+        "local note": "20201019_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

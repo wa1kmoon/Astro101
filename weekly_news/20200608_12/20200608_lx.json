@@ -1,0 +1,182 @@
+[
+    {
+        "title": "The FRB-SGR Connection",
+        "type": "theory-FRB&SGR",
+        "comment": "",
+        "article link": "https://arxiv.org/abs/2006.03468",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Variability in Short Gamma-ray Bursts: Gravitationally Unstable Tidal Tails",
+        "type": "theory-GRB",
+        "comment": "短爆,并合抛射物潮汐尾巴中因引力不稳定性形成的knots引起的变化",
+        "article link": "https://arxiv.org/abs/2006.03174",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The synchrotron maser emission from relativistic magnetized shocks: Dependence on the pre-shock temperature",
+        "type": "theory-FRB_shocks",
+        "comment": "通过二维模拟，研究了在相对论性电子-介子垂直激波中的先导波的性质",
+        "article link": "https://arxiv.org/abs/2006.03081",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Pair separation in parallel electric field of a magnetar magnetosphere and narrow spectra of fast radio bursts",
+        "type": "theory-FRB",
+        "comment": "提出了一个解释FRB窄光谱的机制：电子-介子对在与磁星磁层平行的电场中会被分离，同时发出相干曲率辐射",
+        "article link": "https://arxiv.org/abs/2006.03270",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A measurement of the Hubble constant from Type II supernovae",
+        "type": "statistic-IISN",
+        "comment": "使用7个已知宿主距离的II型超新星,测出 $H_0 = 75.8^{+5.2}_{−4.9} km s^{−1} Mpc^{−1}$",
+        "article link": "https://arxiv.org/abs/2006.03412",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Bayesian Time-Resolved Spectroscopy of GRB Pulses: α-Intensity Correlation",
+        "type": "statistic-GRB",
+        "comment": "拟合了GBM在前9年中探测到的单脉冲长爆（样本包含38个）的光谱,发现低能幂律谱指数α和流量存在关联",
+        "article link": "https://arxiv.org/abs/2006.03797",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Plasmoid ejection by Alfvén waves and the fast radio bursts from SGR 1935+2154",
+        "type": "simulation-FRB",
+        "comment": "",
+        "article link": "https://arxiv.org/abs/2006.04649",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "FRB 200428: an Impact between an Asteroid and a Magnetar?",
+        "type": "theory-FRB",
+        "comment": "提出了SGR 1935+2154产生FRB的另一种机制：小行星与磁星的相互作用",
+        "article link": "https://arxiv.org/abs/2006.04601",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Future Simulations of Tidal Disruption Events",
+        "type": "review-FRB_simulation",
+        "comment": "总结了TDE方面的有希望用模拟方法解决的关键问题，讨论了目前数值方法的发展情况",
+        "article link": "https://arxiv.org/abs/2006.03693",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Demonstration of Extremely Low Latency γ-ray, X-Ray & UV Follow-Up of a Millisecond Radio Transient",
+        "type": "observation-radio_transient",
+        "comment": "记录了对一次潜在FRB的快速反应观测,证明Swift有能力对未来的FRB作出低延迟的跟踪观测。15-20分钟应该不成问题，5-10分钟应该也能偶尔达到。",
+        "article link": "https://arxiv.org/abs/2006.04550",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Optical Observations Reveal Strong Evidence for High Energy Neutrino Progenitor",
+        "type": "observation-neutrino&blazar",
+        "comment": "TXS 0506+056很有可能与Ice-Cube-170922A有联系,发布了对TXS 0506+056长达16年的光变观测数据",
+        "article link": "https://arxiv.org/abs/2006.04918",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Reverse Shocks in Short Gamma-Ray Bursts -- The case of GRB 160821B and prospects as gravitational-wave counterparts",
+        "type": "observation-GRB",
+        "comment": "GRB 160821B 的余辉就需要用早期逆向激波的模型来解释射电波段的观测",
+        "article link": "https://arxiv.org/abs/2006.05893",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The slow heartbeats of an ultra-luminous X-ray source in NGC 3621",
+        "type": "observation-UL_X-ray",
+        "comment": "探索了4XMM J111816.0-324910背后的致密星的性质（寻找典型中子星的特征，尝试估计质量），但还是不能给出明确的答案",
+        "article link": "https://arxiv.org/abs/2006.05384",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Towards an automatic processing of CCD images with CPCS 2.0",
+        "type": "tool-image_process",
+        "comment": "一个还在开发中的在线CCD图像处理和测光工具CPCS 2.0，基于OPTICON H2020项目,http://gsaweb.ast.cam.ac.uk/followup",
+        "article link": "https://arxiv.org/abs/2006.05160",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The variable radio counterpart of Swift J1858.6-0814",
+        "type": "observation-X-ray_binary",
+        "comment": "报道了对该目标详细的射电观测,其变化性可能来自于沿致密喷流传播的吸积流本身的变化性，也可能来自于吸积盘中的质量吸积率的波动。",
+        "article link": "https://arxiv.org/abs/2006.06425",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Variable X-ray Source Close to the Magnetar SGR 1935+2154",
+        "type": "observation-X_ray_transient",
+        "comment": "分析了SGR 1935+2154附近一个X射线暂现源的观测数据,讨论了该X射线暂现源的可能起源,比较有可能的是磁星风星云或外流.",
+        "article link": "https://arxiv.org/abs/2006.06407",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Tidal disruption events in the first billion years of a galaxy",
+        "type": "theory-TDE",
+        "comment": "针对大质量黑洞(MBH)的吸积和TDE事件的产生提出了新的物理模型，并依此在多星系并合的情景下进行了宇宙学模拟.",
+        "article link": "https://arxiv.org/abs/2006.06565",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "THESEUS−BTA cosmological tests using Multimessenger Gamma-Ray Bursts observations",
+        "type": "theory-GRB",
+        "comment": "介绍了利用GRB的多波段观测来检验标准宇宙学模型.",
+        "article link": "https://arxiv.org/abs/2006.06488",
+        "local note": "20200608_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

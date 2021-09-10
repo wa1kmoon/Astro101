@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Understanding Gamma-ray Burst Jet Structures from Afterglow Light Curves",
+        "type": "theory-GRB_jet",
+        "comment": "讨论喷流的结构(能量和速度随角度的分布)如何影响余辉光变曲线",
+        "article link": "https://arxiv.org/abs/2108.01079",
+        "local note": "20210804_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Characterizing the FRB host galaxy population and its connection to transients in the local and extragalactic Universe",
+        "type": "statistic-FRB_host",
+        "comment": "文章分析了16个精确定位的FRB结合起来,分析它们的宿主星系性质.",
+        "article link": "https://arxiv.org/abs/2108.01282",
+        "local note": "20210804_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Does a long-lived remnant neutron star exist after short gamma-ray burst GRB 160821B?",
+        "type": "theory-sGRB",
+        "comment": "GRB 160821B 被认为伴随有一个千新星, 文章通过拟合余辉光变曲线和光谱, 发现一个非热的PWM成分可以参与数据拟合并符合得较好, 进而认为可能存在稳定大质量中子星",
+        "article link": "https://arxiv.org/abs/2108.01349",
+        "local note": "20210804_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Discovering Supernovae at Epoch of Reionization with Nancy Grace Roman Space Telescope",
+        "type": "instrument-Nancy_Roman",
+        "comment": "Nancy Grace Roman Space Telescope上的近红外宽大视场设备将致力于发现罕见的高红移超新星",
+        "article link": "https://arxiv.org/abs/2108.01801",
+        "local note": "20210804_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

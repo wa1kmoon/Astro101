@@ -1,0 +1,12 @@
+[
+    {
+        "title": "The Konus-Wind catalog of gamma-ray bursts with known redshifts. II. Waiting mode bursts simultaneously detected by Swift/BAT",
+        "type": "statistic-GRB",
+        "comment": "分析2005年1月到2018年末期间，KW(waiting mode)和BAT(triggered mode)同时探测到的有可靠红移估计的GRBs",
+        "article link": "https://arxiv.org/abs/2012.14849",
+        "local note": "20210104_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

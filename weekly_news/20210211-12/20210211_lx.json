@@ -1,0 +1,22 @@
+[
+    {
+        "title": "FIRST J153350.8+272729: the radio afterglow of a decades-old tidal disruption event",
+        "type": "observation-TDE",
+        "comment": "变暗的射电暂现源 FIRST J153350.8+272729:作者认为该射电源的对应体为TDE事件,第二个首先在射电波段被发现的TDE候选体",
+        "article link": "https://arxiv.org/abs/2102.05795",
+        "local note": "20210211_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Periodic Fast Radio Bursts from ULX-Like Binaries",
+        "type": "theory-FRB",
+        "comment": "提出FRB可能源于于吸积中的黑洞或中子星系统中短暂存在的相对论性外流",
+        "article link": "https://arxiv.org/abs/2102.06138",
+        "local note": "20210211_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

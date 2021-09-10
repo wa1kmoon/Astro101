@@ -1,0 +1,73 @@
+[
+{
+"title":"Simulating the outcome of binary neutron star merger in common envelope jets supernovae",
+
+"type":"simulation-SN",
+
+"comment":"模拟了在一个红超巨星(RSG)内双中子星并合的演化产物.",
+
+"article link":"https://arxiv.org/abs/2108.10806",
+
+"local note":"20210825_lx.pdf",
+
+"external links":"",
+
+"abstract":"",
+
+"index":""
+},
+
+{
+"title":"A theoretical model of an off-axis GRB jet",
+
+"type":"theoretical-GRB",
+
+"comment":"偏轴高帽喷流产生的余辉的演化及其与周围介质的相互作用的模型",
+
+"article link":"https://arxiv.org/abs/2108.10797",
+
+"local note":"20210825_lx.pdf",
+
+"external links":"",
+
+"abstract":"",
+
+"index":""
+},
+
+{
+"title":"A VLA Survey of Late-time Radio Emission from Superluminous Supernovae and the Host Galaxies",
+
+"type":"statistical-SLSN",
+
+"comment":"在3GHz上对23个SLSN以及宿主星系做了射电搜寻, 结果只在一个SLSN和5个宿主星系中探测到了射电辐射",
+
+"article link":"https://arxiv.org/abs/2108.10445",
+
+"local note":"20210825_lx.pdf",
+
+"external links":"",
+
+"abstract":"",
+
+"index":""
+},
+
+{
+"title":"Chromatic periodic activity down to 120 megahertz in a fast radio burst",
+
+"type":"observational-FRB",
+
+"comment":"在高频段和低频段上对周期FRB20180916B做了观测,发现其低频段(120MHz)的相对高频段具色差的活动性.",
+
+"article link":"https://www.nature.com/articles/s41586-021-03724-8",
+
+"local note":"20210825_lx.pdf",
+
+"external links":"",
+
+"abstract":"",
+
+"index":""
+}
+]

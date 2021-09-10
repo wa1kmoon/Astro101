@@ -1,0 +1,172 @@
+[
+    {
+        "title": "Multi-Waveband Synchrotron Polarization of Gamma-Ray Burst Afterglows",
+        "type": "theory-GRB",
+        "comment": "研究了GRB余辉的多波段同步辐射的线偏振情况",
+        "article link": "https://arxiv.org/abs/2005.03710",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Titanium and Iron in the Cassiopeia A Supernova Remnant",
+        "type": "theory-SNR",
+        "comment": "使用三维超新星爆发模型的热力学轨迹(thermodynamic trajectories)，讨论了SN内部44Ti和56Ni的产生以及超新星“对流引擎”模型所期望形成的SN后的结构",
+        "article link": "https://arxiv.org/abs/2005.03777",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Enhancing Gravitational-Wave Science with Machine Learning",
+        "type": "method-GW",
+        "comment": "回顾了机器学习在分析地基引力波探测器的数据中的应用",
+        "article link": "https://arxiv.org/abs/2005.03745",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Implications of a \"Fast Radio Burst\" from a Galactic Magnetar",
+        "type": "observation-FRB",
+        "comment": "SGR 1935+2154, X射线耀发和探测到的射电爆发的性质与现有的同步辐射微波激射激波模型的预测一致",
+        "article link": "https://arxiv.org/abs/2005.05283",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Fast Radio Bursts from reconnection events in magnetar magnetospheres",
+        "type": "theory-FRB",
+        "comment": "SGR 1935+2154支持了FRB是在磁星的磁层中产生的",
+        "article link": "https://arxiv.org/abs/2005.05093",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "GW190412 as a Third-Generation Black Hole Merger from a Super Star Cluster",
+        "type": "theory-GW",
+        "comment": "探索了GW190412所起源的双黑洞并合事件实际上已经经历了重复的黑洞并合过程的可能性",
+        "article link": "https://arxiv.org/abs/2005.04239",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Astrophysical implications of GW190412 as a remnant of a previous black-hole merger",
+        "type": "theory-GW",
+        "comment": "将GW190412看作黑洞并合的残骸的话有希望对观测到的特征作出解释",
+        "article link": "https://arxiv.org/abs/2005.04243",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A high-energy neutrino coincident with a tidal disruption event",
+        "type": "observation-neutrino&TDE",
+        "comment": "提出了具有射电辐射的潮汐瓦解事件(AT2019dsg)和另一个高能中微子事件的联系",
+        "article link": "https://arxiv.org/abs/2005.05340",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Radio observations of two intermittent pulsars: PSRs J1832+0029 and J1841-0500",
+        "type": "observation-pulsars",
+        "comment": "使用Parkes 64米射电望远镜对两个间歇脉冲星进行了长期观测",
+        "article link": "https://arxiv.org/abs/2005.05558",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Polarization behavior of periodic optical outbursts in blazar OJ287",
+        "type": "observation-blazar",
+        "comment": "分析了分别在1983.0年,2007.8年，2015.8年达到峰值的三个主要的准周期光学爆发的偏振行为，以此来理解它们光学辐射的机制:一系列混合的“基本同步辐射耀发",
+        "article link": "https://arxiv.org/abs/2005.05517",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The Spectacular Ultraviolet Flash From the Type Ia Supernova 2019yvq",
+        "type": "observation-SN",
+        "comment": "对SN2019yvq的详尽观测，展示了其在紫外波段和光学波段的一次早期辐射闪耀",
+        "article link": "https://arxiv.org/abs/2005.05972",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A concordance scenario for the observation of a neutrino from the Tidal Disruption Event AT2019dsg",
+        "type": "theory-neutrino&TDE",
+        "comment": "考虑到AT2019dsg是在X射线波段观测到的最亮的几个TDE事件之一，将中微子的产生与X射线联系起来",
+        "article link": "https://arxiv.org/abs/2005.06097",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "INTEGRAL discovery of a burst with associated radio emission from the magnetar SGR 1935+2154",
+        "type": "observation-SGR",
+        "comment": "报导了在4月28日和5月3日用INTERAL卫星对SGR 1935+2154处于爆发活跃期的观测情况",
+        "article link": "https://arxiv.org/abs/2005.06335",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Zwicky Transient Facility constraints on the optical emission from the nearby repeating FRB 180916.J0158+65",
+        "type": "observation-FRB",
+        "comment": "使用ZTD对CHIME望远镜发现的重复FRB 180916.J0158+65这个源的观测结果,没有发现置信度大于3$\\sigma$的光学对应体.",
+        "article link": "https://arxiv.org/abs/2005.06273",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Being careful with GW190412 interpretations",
+        "type": "theory-GW",
+        "comment": "无论用那种图景去解释GW190412都会面临困难.",
+        "article link": "https://arxiv.org/abs/2005.06519",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "See Change: VLT spectroscopy of a sample of high-redshift Type Ia supernova host galaxies",
+        "type": "observation-IaSN-host_galaxy",
+        "comment": "展示了VLT对于'see change'项目目标的光谱，导出了它们的红移，以及诸如星体质量和恒星形成率等的宿主星系的参数",
+        "article link": "https://arxiv.org/abs/2005.07112",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Very Long Baseline Interferometry imaging of the advancing ejecta in the first gamma-ray nova V407 Cyg",
+        "type": "observation-gamma_ray_nova ",
+        "comment": "获取nova事件中参与物质的分辨的射电图像, 从imaga plane中直接确定喷射物的几何性质以及行进速度",
+        "article link": "https://arxiv.org/abs/2005.06473",
+        "local note": "20200511_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

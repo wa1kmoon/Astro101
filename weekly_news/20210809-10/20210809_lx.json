@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Observational effects of banded repeating FRBs",
+        "type": "observation-FRB",
+        "comment": "FRB的banded emission会导致在观测波段的不完整性,使探测到的FRB样本出现偏差",
+        "article link": "https://arxiv.org/abs/2108.04474",
+        "local note": "20210809_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

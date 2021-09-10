@@ -1,0 +1,182 @@
+[
+    {
+        "title": "A catalog of over ten million variable source candidates in ZTF data release 1",
+        "type": "observation-variable_source",
+        "comment": "在ZTF-DR1的约$1.7 \times 10^9$个non-unique光变曲线（约10亿unique源）中找到了超过1千万个变源候选体星表:8个较可靠的短周期候选体,76个dwarf novae候选体",
+        "article link": "https://arxiv.org/abs/2007.01537",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Periodic fast radio bursts from forcedly  precessing neutron stars, anomalous torque, and internal magnetic field  for FRB 180916.J0158+65 and FRB 121102",
+        "type": "theory-FRB",
+        "comment": "这篇文章就CHIME近来发现的重复FRB 180916.J0158+65的周期性行为，探讨了受迫进动的中子星作为周期性FRB起源的可能性",
+        "article link": "https://arxiv.org/abs/2007.01616",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Local starburst conditions and formation of GRB 980425 / SN 1998bw within a collisional ring",
+        "type": "observation-GRB&SN",
+        "comment": "本文讨论了在碰撞气体环中局部星暴条件下 GRB 980425 / SN 1998bw的形成",
+        "article link": "https://arxiv.org/abs/2007.01317",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Distant Fast Radio Burst Associated to its Host Galaxy with the Very Large Array",
+        "type": "observation-FRB",
+        "comment": "9年6月14日，realfast系统发现并定位了一个FRB，其DM高达959 pc/cm3，是迄今为止DM最高的已定位的FRB，且其能量通量的测量值，0.6 Jy ms则几乎低于所有其它FRB",
+        "article link": "https://arxiv.org/abs/2007.02155",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Wind-powered afterglows of gamma-ray bursts:  flares, plateaus and steepdecays",
+        "type": "theory-GRB",
+        "comment": "本文计算了当在由长期活动的中心引擎产生的极端相对论性wind中传播的反向激波占主导时的早期GRB余辉的辐射性质",
+        "article link": "https://arxiv.org/abs/2007.02889",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Triaxially-deformed Freely-precessing Neutron Stars: Continuous electromagnetic and gravitational radiation",
+        "type": "theory-GW",
+        "comment": "本文通过解析和数值方法研究了做为可以持续辐射电磁波和引力波的潜在候选体:三轴形变的自由进动中子星 的动力学演化以及其辐射信号的可能表现，包括脉冲轮廓特征以及连续的引力波的特征",
+        "article link": "https://arxiv.org/abs/2007.02528",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Search for Supernova Light Echoes in NGC 6946 with SITELLE",
+        "type": "theory-GW",
+        "comment": "本文提出了一种新的光谱搜寻方法搜寻超新星的光回声,尝试将其用来寻找NGC 6946中观测到的10颗超新星的光回声,但并未成功",
+        "article link": "https://arxiv.org/abs/2007.02778",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Supernova Triggers for End-Devonian Extinctions?",
+        "type": "theory-SN",
+        "comment": "本文提出一个导致泥盆纪晚期生物灭绝的可能原因：附近的超新星爆发导致被加速的宇宙线释放出作用距离超远的电离辐射，进而导致地球平流层臭氧急剧下降，最后导致大规模生物灭绝",
+        "article link": "https://arxiv.org/abs/2007.01887",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Constraining the X-ray - Infrared spectral index of second-timescale flares from SGR1935+2154 with Palomar Gattini-IR",
+        "type": "theory-SN",
+        "comment": "本文尝试对SGR 1935+2154，也即FRB 200428，在近红外的J波段上进行了观测，以期发现秒时标的耀发辐射",
+        "article link": "https://arxiv.org/abs/2007.02978",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Supersoft X-Ray Phases of Recurrent Novae as an Indicator of their White Dwarf Masses",
+        "type": "theory-novae",
+        "comment": "本文研究了七个详细观测的recurrent新星以及一个recurrent新星候选体的光学/X射线光变曲线,指出Supersoft X-Ray Phases的持续时间可以作为具有特定性状X-ray光变曲线的新星的质量指示器",
+        "article link": "https://arxiv.org/abs/2007.03387",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Search for high energy γ-rays from the direction of the candidate electromagnetic counterpart to the binary black hole merger gravitational-wave event S190521g",
+        "type": "observation-GW",
+        "comment": "本文尝试在LAT的数据中寻找引力波事件的S190521g可能伴随的γ-ray辐射,但未能找到",
+        "article link": "https://arxiv.org/abs/2007.03086",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Discovery of the optical afterglow and host galaxy of short GRB181123B at z=1.754: Implications for Delay Time Distributions",
+        "type": "observation-sGRB",
+        "comment": "发现了Swift短暴 GRB 181123B的光学余辉以及宿主星系",
+        "article link": "https://arxiv.org/abs/2007.03715",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Probing the intergalactic turbulence with fast radio bursts",
+        "type": "theory-FRB",
+        "comment": "通过对不同视线上FRB的湍流的统计分析，作者展示了FRB可以作为研究星系际湍流的独特工具",
+        "article link": "https://arxiv.org/abs/2007.04089",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Probing primordial non-Gaussianity with Fast Radio Bursts",
+        "type": "theory-FRB",
+        "comment": "通过大量FRB观测样本，我们可以分析DM的角关联，进而寻找primordial non-Gaussianity",
+        "article link": "https://arxiv.org/abs/2007.04054",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Gravitational Microlensing Time Delays at High Optical Depth: Image Parities and the Temporal Properties of Fast Radio Bursts",
+        "type": "theory-FRB",
+        "comment": "本文考虑the parity of the macroimage对微引力透镜时间延迟会产生的影响,提出可利用FRB的观测去研究这些现象并限制相关理论模型",
+        "article link": "https://arxiv.org/abs/2007.03919",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Discovery of a transient X-ray source Suzaku J1305-4930 in NGC 4945",
+        "type": "observation-X_ray_source",
+        "comment": "本文介绍了作者在以前的观测中发现的一个X射线暂现源：Suzaku J1305-4930，确定了拟合其光谱的最佳模型",
+        "article link": "https://arxiv.org/abs/2007.04465",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Modeling Synchrotron Self-Compton and Klein-Nishina Effects in Gamma-Ray Burst Afterglows",
+        "type": "theory-GRB",
+        "comment": "本文对GRB余辉中的同步逆康普顿效应的影响做了详细的讨论，将其结果的解析近似纳入了余辉拟合工具$boxfit$（该工具目前只考虑同步辐射)",
+        "article link": "https://arxiv.org/abs/2007.04418",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Gravitational-wave Signature of a First-order Quantum Chromodynamics Phase Transition in Core-Collapse Supernovae",
+        "type": "simulation-CCSN",
+        "comment": "本文利用轴对称流体力学的模拟研究在非旋转的核塌缩型SN中一阶量子色动力学（QCD）相变会对引力波信号产生何种影响",
+        "article link": "https://arxiv.org/abs/2007.04716",
+        "local note": "20200706_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+]

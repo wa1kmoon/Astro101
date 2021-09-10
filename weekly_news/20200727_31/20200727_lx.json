@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Optical spectroscopic classification of 35 hard X-ray sources from the Swift-BAT 70-month catalogue",
+        "type": "observation-Xray_source",
+        "comment": "本文使用一批地面望远镜设备，尝试对Swift/BAT 70个月的目录中的35个未经良好证认的硬X射线源进行候选体证认，并从可见光光谱分析角度进行分类:31个候选体是活动星系核,1个LINER.",
+        "article link": "https://arxiv.org/abs/2007.12609",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The Fate of the Merger Remnant in GW170817 and its Imprint on the Jet Structure",
+        "type": "theory-GRB_jet",
+        "comment": "发现喷流的能量角分布主要决定于喷流的存在时间与并合残骸塌缩时间的比值。",
+        "article link": "https://arxiv.org/abs/2007.12245",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "An Energy Inventory of Tidal Disruption Events",
+        "type": "statistic-TDE",
+        "comment": "本文使用MOSFiT来计算TDE事件的总能量（integrated energy），辐射时标和平均辐射效率。",
+        "article link": "https://arxiv.org/abs/2007.12198",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A targeted search for repeating fast radio bursts associated with gamma-ray bursts",
+        "type": "observation-FRB&GRB",
+        "comment": "尝试使用Arecibo Observatory (AO,300m)和Green Bank Telescope (GBT,100m)在11个疑似产生了磁星的过往GRB的发生地，以及GW170817的区域进行潜在射电爆的搜寻",
+        "article link": "https://arxiv.org/abs/2007.13246",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The gravitational wave background signal from tidal disruption events",
+        "type": "theory-TDE",
+        "comment": "本文计算了两种TDE事件——星系核中SMBH瓦解主序星、球状星团中IMBH瓦解白矮星——中的被瓦解天体发出的引力波背景信号，并估计下一代天基引力波探测器是否能探测到这些信号。",
+        "article link": "https://arxiv.org/abs/2007.13225",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Diverse Jet Structures Consistent with the Off-axis Afterglow of GRB 170817A",
+        "type": "theory-GRB_jet",
+        "comment": "本文使用一种逆向构建喷流结构的方法，即通过给定的偏轴GRB余辉的光变曲线，不加任何函数形式的限制，反推喷流结构的方法，试图确定GRB 170817A的喷流结构",
+        "article link": "https://arxiv.org/abs/2007.13116",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Revisiting AGN as the Source of IceCube's Diffuse Neutrino Flux",
+        "type": "observation-neutrino",
+        "comment": "本文使用IceCube三年的数据来寻找blazars（ 2860 sources in the Fermi 4LAC catalog）和non-blazar AGN（65个，63个包含在4LAC 中）作为中微子源的证据",
+        "article link": "https://arxiv.org/abs/2007.12706",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "On the Energy Sources of the Most Luminous Supernova ASASSN-15lh",
+        "type": "theory-SN",
+        "comment": "作者考虑了ejecta-circumstellar medium interaction加上伴随gamma-rays/X-rays leakage effect的磁星模型以消除理论光变曲线在晚期的超出，修改后的模型可以重现bolometric光变曲线",
+        "article link": "https://arxiv.org/abs/2007.13464",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "PTF11rka: an interacting supernova at the crossroads of stripped-envelope and H-poor super-luminous stellar core collapses",
+        "type": "observation-SN",
+        "comment": "作者对少氢超新星 PTF11rka (z=0.074)的观测数据，包括光变曲线和光谱，进行了讨论分析",
+        "article link": "https://arxiv.org/abs/2007.13144",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Spectroscopic properties of the dwarf nova-type cataclysmic variables observed by LAMOST",
+        "type": "observation-dwarf_nava",
+        "comment": "作者使用LAMOST对76个已知的矮新星拍摄了131张光谱，讨论了它们的光谱性质",
+        "article link": "https://arxiv.org/abs/2007.14016",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "SN 2018zd: An Unusual Stellar Explosion as Part of the Diverse Type II Supernova Landscape",
+        "type": "observation-IInSN",
+        "comment": "本文发表了对SN 2018zd的前450天的观测情况。",
+        "article link": "https://arxiv.org/abs/2007.14348",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Detection of 15 bursts from FRB 180916.J0158+65 with the uGMRT",
+        "type": "observation-FRB",
+        "comment": "作者使用uGMRT对周期为16.35天重复快速射电爆FRB 180916.J0158+65的观测情况, 有两次爆发比较明亮，足够进行亚角秒定位",
+        "article link": "https://arxiv.org/abs/2007.14404",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Dust-scattering halo and giant hard X-ray flare from the Supergiant Fast X-ray Transient IGR J16479-4514 investigated with XMM-Newton and INTEGRAL",
+        "type": "observation-Supergiant_Fast_Xray_Transient",
+        "comment": "本文对IGRJ 16479-4514这个源的XMM-Newton和INTEGRAL观测数据做了分析",
+        "article link": "https://arxiv.org/abs/2007.15329",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Confirmed width-Eiso and width-Liso relations in GRB: comparison with the Amati and Yonetoku relations",
+        "type": "theory-GRB",
+        "comment": "本文主要调查了GRB光谱宽度（作者按不同的最大流量比值定义了六个光谱宽度）与 isotropic energy,$E_{iso}$ 和 isotropic peak luminosity,$L_{iso}$ 之间的相关性",
+        "article link": "https://arxiv.org/abs/2007.15443",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Searching for Electromagnetic Counterparts to  Gravitational-wave Merger Events with the Prototype Gravitational-wave  Optical Transient Observer (GOTO-4)",
+        "type": "observation-GW",
+        "comment": "本文报道了使用GOTO-4（4指的是4个望远镜，GOTO计划会建造更多望远镜）对LVC O3上半期中的29个引力波事件进行的光学跟踪观测结果,这些观测没有发现靠谱的电磁对应体",
+        "article link": "https://arxiv.org/abs/2004.00025v2",
+        "local note": "20200727_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

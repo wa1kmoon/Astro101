@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Simultaneous multi-telescope observations of FRB 121102",
+        "type": "observation-FRB",
+        "comment": "介绍了在2019年9月10日对处于活跃状态的FRB 121102（z~0.2）进行的约3小时的11次探测",
+        "article link": "https://arxiv.org/abs/2006.08662",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Gamma-ray emission revealed at the western edge of SNR G344.7-0.1",
+        "type": "observation-SNR",
+        "comment": "研究了最近用Fermi/LAT在50GeV以上能段探测到的系内伽玛射线源2FHL J1703.4-4145的情况",
+        "article link": "https://arxiv.org/abs/2006.08757",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Evidence of a Type Ia Progenitor for Supernova Remnant 3C 397m",
+        "type": "observation-SNR",
+        "comment": "这篇文章讨论了年轻的超新星遗迹 SNR 3C 397的爆炸起源",
+        "article link": "https://arxiv.org/abs/2006.08681",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Optical studies of two stripped envelope supernovae SN 2015ap (Type Ib) and SN 2016P (Type Ic)",
+        "type": "observation-IcSN",
+        "comment": "本文对Ib型超新星SN 2015ap和Ic型超新星SN 2016P进行了测光和测谱研究",
+        "article link": "https://arxiv.org/abs/2006.09810",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Lyman continuum leakage in faint star-forming galaxies at redshift z=3-3.5 probed by gamma-ray bursts",
+        "type": "observation-GRB",
+        "comment": "文章展示了对z=3.5055的GRB 191004B余辉光谱中的LyC发射的观测情况",
+        "article link": "https://arxiv.org/abs/2006.09377",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Fallback Rates from Partial Tidal Disruption Events",
+        "type": "theory-TDE",
+        "comment": "本文讨论了局部潮汐瓦解事件（partial TDE）的回落率的问题",
+        "article link": "https://arxiv.org/abs/2006.09375",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Combined Limit on the Photon Mass with Nine Localized Fast Radio Bursts",
+        "type": "method-FRB",
+        "comment": "文章提出光子的非零质量假设会产生与频率相关的光色散，导致来自给定暂现源的不同频率光子的到达时间差异.本文使用九个测量了红移的FRBs，推到出$m_γ ≤ 7.1×10^{−51}kg$",
+        "article link": "https://arxiv.org/abs/2006.09680",
+        "local note": "20200617_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+]

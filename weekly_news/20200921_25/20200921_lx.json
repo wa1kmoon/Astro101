@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Directional association of TeV to PeV astrophysical neutrinos with active galaxies hosting compact radio jets",
+        "type": "observation-neutrino",
+        "comment": "使用IceCube最近公布的7年来的数据进一步验证并扩展先前的结论:IceCube探测到的200TeV以上的高能中微子是在射电明亮的AG中心区域几个pc尺度内产生的",
+        "article link": "https://arxiv.org/abs/2009.08914",
+        "local note": "20200921_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Galactic Dust Devil: far-infrared observations of the Tornado Supernova Remnant candidate",
+        "type": "observation-SNR",
+        "comment": "使用Spitzer和Herschel对超新星遗迹'Tornado'进行了观测，展现这个SNR中多个区域存在复杂的尘埃结构",
+        "article link": "https://arxiv.org/abs/2009.08471",
+        "local note": "20200921_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Black Hole Mergers from Hierarchical Triples in Dense Star Clusters",
+        "type": "theory-merger&BH",
+        "comment": "层级性三星系统中第三颗伴星的潮汐作用可以使内部的双星发生大程度偏心震荡(large eccentricity oscillations)，结果发生并合.计算了这种并合情况的动力学以及并合率",
+        "article link": "https://arxiv.org/abs/2009.08468",
+        "local note": "20200921_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Afterglow Synchrotron Radiations follow the Lp,iso−Ep,z−Γ0 relation of Gamma-Ray Bursts? Cases of GRBs 190114C, 130427A, and 180720B",
+        "type": "observation-GRB",
+        "comment": "也许$L_{p,iso} − E_{p,z} − Γ_0$关系在GRB喷流中的同步辐射中是普遍成立的，不论是瞬时阶段还是余辉阶段",
+        "article link": "https://arxiv.org/abs/2010.12501",
+        "local note": "20201027_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The confrontation of the shock-powered synchrotron maser model with the Galactic FRB 200428",
+        "type": "theory-FRB",
+        "comment": "对于FRB 200428 和与之成协的XRB，作者探讨了在XRB是在磁层中产生的假设下，FRB由激波驱动的maser产生的可能性",
+        "article link": "https://arxiv.org/abs/2006.00484",
+        "local note": "20201027_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A search for ultrahigh-energy neutrinos associated with astrophysical sources using the third flight of ANITA",
+        "type": "statistic-neutrino",
+        "comment": "提出了一种方法在ANITA数据中搜寻空间和时间上与一些种类的源（包括blazar,GRB,SN等）成协的高能中微子,一个候选体被认为与SN 2015D相关",
+        "article link": "https://arxiv.org/abs/2010.02869",
+        "local note": "20201027_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

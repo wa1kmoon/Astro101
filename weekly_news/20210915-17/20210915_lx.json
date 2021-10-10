@@ -1,0 +1,132 @@
+[
+    {
+        "title": "The ZTF-BTS Type Ia supernovae luminosity function suggests a single progenitor channel for the explosions",
+        "type": "statistic-IaSN",
+        "comment": "使用ZTF-BTS的源表, 结合Carnegie SN项目构建了Ia型SN的内秉光度函数, 结果表明改类型SN的爆炸途径是单一的, 且明亮的超新星似乎其源于年轻恒星.",
+        "article link": "https://arxiv.org/abs/2109.06219",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A maximum likelihood estimate of the parameters of the FRB population",
+        "type": "statistic-FRB-non_repeating",
+        "comment": "分析了82个非重复的FRB, 结果支持comoving FRB发生率不随红移变化, 且FRB的脉冲散射增宽不随红移迅速增加.",
+        "article link": "https://arxiv.org/abs/2109.06785",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Deep Hubble Space Telescope Observations of GW170817: Complete Light Curves and the Properties of the Galaxy Merger of NGC 4993",
+        "type": "observation-GW-170817",
+        "comment": "HST对GW170817位置的长期跟踪观测",
+        "article link": "https://arxiv.org/abs/2109.06211",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Gamma-Ray Burst detection prospects for next generation ground-based VHE facilities",
+        "type": "instrument-GRB",
+        "comment": "根据LAT GRB表的数据, 分析了将要安装在南半球的SWGO的GRB探测前景.",
+        "article link": "https://arxiv.org/abs/2109.06676",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Optical Observations and Modeling of the Superluminous Supernova 2018lfe",
+        "type": "observation-SLSN",
+        "comment": "对超亮超新星2018lfe的光学观测和磁星模型拟合",
+        "article link": "https://arxiv.org/abs/2109.06970",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Exploring the sky localization and early warning capabilities of third generation gravitational wave detectors in three-detector network configurations",
+        "type": "theory-GW_detector",
+        "comment": "探讨由三个Einstein Telescope或Cosmic Explorer组成的引力波探测网络的定位和早期警报能力.",
+        "article link": "https://arxiv.org/abs/2109.07389",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Local Environments of Low-Redshift Supernovae",
+        "type": "statistic-SN",
+        "comment": "研究了各类型超新星的周边环境,如不同超新星在宿主星系中的位置与星系中恒星形成率或恒星质量分布的关系.",
+        "article link": "https://arxiv.org/abs/2109.07453",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Investigating the Nature of the Luminous Ambiguous Nuclear Transient ASASSN-17jz ",
+        "type": "observation-transient",
+        "comment": "讨论了暂现源ASASSN-17jz的起源: AGN吸积盘附近的IIn型SN",
+        "article link": "https://arxiv.org/abs/2109.07480",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The CHIME FRB population do not track the star formation history of the universe",
+        "type": "statistic-FRB",
+        "comment": "结合CHIME/FRB的目录, 指出FRB的起源并非仅与恒星形成成协, 还来自于延迟于恒星形成的现象",
+        "article link": "https://arxiv.org/abs/2109.07558",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "The Low-Energy Spectral Index of Gamma-Ray Burst Prompt Emission from Internal Shocks",
+        "type": "theory-GRB",
+        "comment": "如果考虑内激波中磁场的演化, 可以得到与观测相符的低能光子指数(~-1)",
+        "article link": "https://arxiv.org/abs/2109.07681",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A semi-analytic afterglow with thermal electrons and synchrotron self-Compton emission",
+        "type": "theory-GRB",
+        "comment": "文章考虑了包含热电子成分的电子分布的GRB余辉辐射",
+        "article link": "https://arxiv.org/abs/2109.07687",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A kilonova from an ultra-quick merger of a neutron star binary",
+        "type": "observation-GRB&kilonova",
+        "comment": "文章根据发现的热成分,温度下降,以及光学余辉的快速衰减认为GRB060505是双中子星并合来源, 并产生了kilonova",
+        "article link": "https://arxiv.org/abs/2109.07694",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "SN 2018bsz: significant dust formation in a nearby superluminous supernova",
+        "type": "observation-SN-SLSN",
+        "comment": "文章发现在爆发200天后, 超亮超新星SN 2018bsz的抛射物内形成了大量尘埃, 超亮超新星可能是宇宙早期尘埃的重要来源.",
+        "article link": "https://arxiv.org/abs/2109.07942",
+        "local note": "20210915_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

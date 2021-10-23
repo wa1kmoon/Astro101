@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Highly luminous supernovae associated with gamma-ray bursts II. The Luminous Blue Bump in the Afterglow of GRB 140506A",
+        "type": "observation-GRB&SN",
+        "comment": "GRB 140506A的余辉光变的一个平台可能反映了一个特殊的GRB成协超新星的存在: 更亮, 颜色更蓝.",
+        "article link": "https://arxiv.org/abs/2110.00110",
+        "local note": "20211004_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Evidence of X-ray plateaus driven by the magnetar spindown winds in gamma-ray burst afterglows",
+        "type": "theory-GRB",
+        "comment": "从历史数据中找出了三个GRB, 它们的X射线光变曲线与磁星自旋减慢引擎模型相符合.",
+        "article link": "https://arxiv.org/abs/2110.00727",
+        "local note": "20211004_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]

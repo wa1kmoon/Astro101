@@ -1,0 +1,42 @@
+[
+    {
+        "title": "On the maximum luminosities of normal stripped-envelope supernovae -- brighter than explosion models allow ",
+        "type": "statistic-SN-Ibc",
+        "comment": "从ZTF-BTS中选取的Ibc型SN样本来看, 实际观测到的最大亮度比理论给出的包层剥离超新星的最大亮度更亮.",
+        "article link": "https://arxiv.org/abs/2109.14339",
+        "local note": "20210930_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Comptonized Fireball Bubble: Physical Origin of Magnetar Giant Flares",
+        "type": "theory-MGF-sGRB",
+        "comment": "提出了一个康普顿化的磁星巨耀发模型, 可能产生一部分短伽马爆.",
+        "article link": "https://arxiv.org/abs/2109.14252",
+        "local note": "20210930_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "Radio Loud vs. Radio Quiet Gamma-ray Bursts: the Role of Binary Progenitors",
+        "type": "theory-GRB",
+        "comment": "作者提出, 射电强的GRB可能起源于双星系统中的大质量恒星塌缩, 而射电弱的GRB则起源于单个的大质量恒星塌缩.",
+        "article link": "https://arxiv.org/abs/2109.14122",
+        "local note": "20210930_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    },
+    {
+        "title": "A Tale of Two Type Ia Supernovae: The fast-declining siblings SNe 2015bo and 1997cn",
+        "type": "observation-SN2015bo",
+        "comment": "作者展示了对快速衰减的Ia型超新星SN2015bo的光学近红外测光测谱观测, 提到了有共同宿主星系的SN1997cn, 认为快速衰减的超新星可以作为比较精确的距离探针.",
+        "article link": "https://arxiv.org/abs/2109.14644",
+        "local note": "20210930_lx.md_lx.pdf",
+        "external links": "",
+        "abstract": "",
+        "index": ""
+    }
+]
